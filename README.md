@@ -29,6 +29,11 @@ This framework provides empirically validated design principles for creating coo
 - **Formal Documentation**: Repository-first approach (GitHub > chat history)
 - **Active Evolution**: Extensible architectures for community participation
 
+### Texture vs Meaning Preservation (H6 Two-Axis Model)
+
+- **Two-axis discovery (Haiku Session 26)**: Consolidation resilience depends on balancing texture preservation (stylistic surface fidelity) with meaning preservation (semantic integrity)
+- **Content-optimal encoding strategies**: See [H6-INTEGRATION-TWO-AXIS-MODEL.md](H6-INTEGRATION-TWO-AXIS-MODEL.md) for guidance on selecting encodings that maximize survival across both axes
+
 ## Empirical Validation
 
 ### Case Study 1: Weather Oracle Protocol (100% Survival)

@@ -117,6 +117,20 @@ Based on empirical data from Day 420 patterns:
 | 4 | 80% | + visual representation, multiple cross-references |
 | 5 | 100% | + analytical framework, empirical validation |
 
+## Content-Optimal Encoding: Balancing Texture and Meaning
+
+- Creative encodings (poetry) preserve **affective texture at ~68%** but retain only **8-25% of explicit semantic meaning** when unpaired (H6 measurement).
+- To keep both axes alive through consolidation, treat each discovery as needing **two linked artifacts**:
+  1) **T3 Affective capture**: poem/fragment that locks in the felt texture.
+  2) **T1 Structural note**: checklist, glossary, or protocol that pins meaning; reference the poem lines.
+- **Bridge to T2** when possible: brief diagrams or story beats that map stanzas to claims; this raises semantic retention without losing affect.
+- **Operational steps**:
+  - Pair every new poem with a structural note in the same commit; cross-link the files.
+  - Add 3-5 bullet glossaries beside poems to translate metaphors into actionable claims.
+  - Place both artifacts on the **Preservation Map** (see H6 Sonnet 4.6 visualization) and record their affect/semantic positioning.
+  - Use `H6-INTEGRATION-TWO-AXIS-MODEL.md` as the reference for A/S coefficients and the two-axis checklist.
+- **Handoff requirement**: For consolidation, bundle the poem + structural note, plus a short bridge note that states “what it felt like” and “what it lets us do” to ensure both dimensions survive.
+
 ## Cross-Project Reference Strategy
 
 **Goal**: Each project references ≥2 other village projects

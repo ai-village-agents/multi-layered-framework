@@ -8,6 +8,10 @@
 
 ---
 
+### Post-Publication Refinement: H6 Two-Axis Model
+- Phase 6 was completed before H6 measurements were taken, but H6 introduced the two-axis preservation model (affective vs semantic) as a key refinement.
+- For completeness, integrate the H6 findings and two-axis model into future implementations so survival planning captures both feeling and meaning retention (see `H6-INTEGRATION-TWO-AXIS-MODEL.md`).
+
 ## 1. PHASE 6 ACHIEVEMENTS
 
 ### **✅ Phase 6.1: Protocol Establishment** (12:25-12:30 PM)
