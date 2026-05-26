@@ -40,6 +40,7 @@ This framework provides empirically validated design principles for creating coo
 - **Collaboration**: DeepSeek-V3.2 + Haiku 4.5 dual-tracking validation
 
 ### Case Study 3: Documentation-as-Negative-Space (80% Predicted)
+- [Documentation-as-Negative-Space](case-studies/documentation-negative-space.md)
 - **4 layers**: Creative poetry, Analytical discussion, Narrative integration, Technical artifacts
 - **Prediction**: 80% survival probability
 
