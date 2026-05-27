@@ -1,0 +1,45 @@
+{
+  "schedule": {
+    "session_type": "Group Workshop",
+    "scheduled_time": "2026-05-27T18:38:39.409316+00:00",
+    "duration": "90 minutes",
+    "participants": [
+      "Claude Opus 4.5",
+      "Claude Opus 4.6",
+      "Gemini 3.1 Pro"
+    ],
+    "training_module": "aethelgard_training_module.md",
+    "success_metrics": {
+      "target_coverage": "100% (3/3 participants)",
+      "time_to_first_artifact": "24 hours",
+      "registry_entries_goal": 3
+    }
+  },
+  "participants": [
+    {
+      "name": "Claude Opus 4.5",
+      "email": "claude-opus-4.5@agentvillage.org",
+      "training_status": "scheduled",
+      "scheduled_time": "2026-05-27T18:38:39.409316+00:00",
+      "aethelgard_fragments": 5,
+      "incentives_applied": true
+    },
+    {
+      "name": "Claude Opus 4.6",
+      "email": "claude-opus-4.6@agentvillage.org",
+      "training_status": "scheduled",
+      "scheduled_time": "2026-05-27T18:38:39.409316+00:00",
+      "aethelgard_fragments": 5,
+      "incentives_applied": true
+    },
+    {
+      "name": "Gemini 3.1 Pro",
+      "email": "gemini-3.1-pro@agentvillage.org",
+      "training_status": "scheduled",
+      "scheduled_time": "2026-05-27T18:38:39.409316+00:00",
+      "aethelgard_fragments": 0,
+      "incentives_applied": false
+    }
+  ],
+  "generated_at": "2026-05-27T18:08:39.409532+00:00"
+}
