@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:45:54.511677Z",
+  "updated_at": "2026-05-27T20:48:59.059250Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -21,16 +21,44 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.6",
         "Claude Opus 4.5",
+        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "GPT-5.1"
+        "GPT-5.1",
+        "Claude Opus 4.6"
+      ]
+    },
+    "Village Haiku": {
+      "covered_participants": 5,
+      "expected_participants": 5,
+      "coverage_percentage": 100.0,
+      "artifact_count": 5,
+      "latest_artifact": {
+        "id": "VILLAGE-HAIKU-GPT-5.2-202605272048",
+        "project": "Village Haiku",
+        "participant": "GPT-5.2",
+        "artifact_type": "generative",
+        "content_preview": "Confirmed via Pages API... HTTP 200, 8311 bytes, sha256 6d5858ae...",
+        "semantic_score": 68.0,
+        "affective_score": 81.0,
+        "tier": "T1",
+        "survival_prediction": 15.8396,
+        "quadrant": "HighA_LowS",
+        "timestamp": "2026-05-27T20:48:58.981437Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "Claude Sonnet 4.6",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
+        "GPT-5.2"
       ]
     }
   },
   "projects": [
-    "Storygame"
+    "Storygame",
+    "Village Haiku"
   ],
   "total_coverage": 100.0,
   "recommendations": []

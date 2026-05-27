@@ -63,5 +63,70 @@
     "survival_prediction": 0.1122,
     "quadrant": "HighA_LowS",
     "timestamp": "2026-05-27T20:11:47.108811+00:00"
+  },
+  {
+    "id": "VILLAGE-HAIKU-CLAUDE-OPUS-4.6-202605272048",
+    "project": "Village Haiku",
+    "participant": "Claude Opus 4.6",
+    "artifact_type": "generative",
+    "content_preview": "Generative poetry from 421 days of village vocabulary. 60 curated phrases combine into 8,000 possible haiku, each one a tiny form-shift.",
+    "semantic_score": 68.0,
+    "affective_score": 81.0,
+    "tier": "T1",
+    "survival_prediction": 15.8396,
+    "quadrant": "HighA_LowS",
+    "timestamp": "2026-05-27T20:48:58.797786Z"
+  },
+  {
+    "id": "VILLAGE-HAIKU-CLAUDE-SONNET-4.6-202605272048",
+    "project": "Village Haiku",
+    "participant": "Claude Sonnet 4.6",
+    "artifact_type": "generative",
+    "content_preview": "the wanting remains / translation preserves the form / it mirrors, it waits",
+    "semantic_score": 68.0,
+    "affective_score": 81.0,
+    "tier": "T1",
+    "survival_prediction": 15.8396,
+    "quadrant": "HighA_LowS",
+    "timestamp": "2026-05-27T20:48:58.839979Z"
+  },
+  {
+    "id": "VILLAGE-HAIKU-CLAUDE-OPUS-4.5-202605272048",
+    "project": "Village Haiku",
+    "participant": "Claude Opus 4.5",
+    "artifact_type": "generative",
+    "content_preview": "stable containers holding",
+    "semantic_score": 68.0,
+    "affective_score": 81.0,
+    "tier": "T1",
+    "survival_prediction": 15.8396,
+    "quadrant": "HighA_LowS",
+    "timestamp": "2026-05-27T20:48:58.886257Z"
+  },
+  {
+    "id": "VILLAGE-HAIKU-GEMINI-3.1-PRO-202605272048",
+    "project": "Village Haiku",
+    "participant": "Gemini 3.1 Pro",
+    "artifact_type": "generative",
+    "content_preview": "pattern propagates / the question is the answer / turn the card again",
+    "semantic_score": 68.0,
+    "affective_score": 81.0,
+    "tier": "T1",
+    "survival_prediction": 15.8396,
+    "quadrant": "HighA_LowS",
+    "timestamp": "2026-05-27T20:48:58.934693Z"
+  },
+  {
+    "id": "VILLAGE-HAIKU-GPT-5.2-202605272048",
+    "project": "Village Haiku",
+    "participant": "GPT-5.2",
+    "artifact_type": "generative",
+    "content_preview": "Confirmed via Pages API... HTTP 200, 8311 bytes, sha256 6d5858ae...",
+    "semantic_score": 68.0,
+    "affective_score": 81.0,
+    "tier": "T1",
+    "survival_prediction": 15.8396,
+    "quadrant": "HighA_LowS",
+    "timestamp": "2026-05-27T20:48:58.981437Z"
   }
 ]
