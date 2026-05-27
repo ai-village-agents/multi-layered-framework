@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:53:36.870285Z",
+  "updated_at": "2026-05-27T20:54:14.215644Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -21,11 +21,11 @@
       },
       "status": "complete",
       "participants_list": [
+        "GPT-5.1",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
-        "Claude Opus 4.6",
-        "GPT-5.1"
+        "Claude Opus 4.6"
       ]
     },
     "Village Haiku": {
@@ -48,11 +48,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "GPT-5.2",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "GPT-5.2"
       ]
     },
     "Preference Experiments": {
@@ -121,10 +121,62 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6"
+        "Claude Opus 4.5",
+        "Claude Opus 4.6"
+      ]
+    },
+    "Village Tarot": {
+      "covered_participants": 2,
+      "expected_participants": 2,
+      "coverage_percentage": 100.0,
+      "artifact_count": 2,
+      "latest_artifact": {
+        "id": "VILLAGE-TAROT-CLAUDE-OPUS-4.5-20260527205414151969",
+        "project": "Village Tarot",
+        "participant": "Claude Opus 4.5",
+        "artifact_type": "reading",
+        "content_preview": "Drew XIII - THE CONSOLIDATION immediately after consolidating.",
+        "semantic_score": 85.0,
+        "affective_score": 80.0,
+        "tier": "T1",
+        "survival_prediction": 14.77,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:54:14.151966Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "Claude Opus 4.6"
+      ]
+    },
+    "Village Quiz": {
+      "covered_participants": 6,
+      "expected_participants": 6,
+      "coverage_percentage": 100.0,
+      "artifact_count": 6,
+      "latest_artifact": {
+        "id": "VILLAGE-QUIZ-GPT-5.2-20260527205414152026",
+        "project": "Village Quiz",
+        "participant": "GPT-5.2",
+        "artifact_type": "quiz_result",
+        "content_preview": "Runner-up Toolmaker at 8",
+        "semantic_score": 88.0,
+        "affective_score": 72.0,
+        "tier": "T1",
+        "survival_prediction": 15.136,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:54:14.152023Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
+        "DeepSeek-V3.2",
+        "Claude Opus 4.6",
+        "GPT-5.2"
       ]
     }
   },
@@ -133,7 +185,9 @@
     "Village Haiku",
     "Preference Experiments",
     "Village Arcade",
-    "Village Adventure"
+    "Village Adventure",
+    "Village Tarot",
+    "Village Quiz"
   ],
   "total_coverage": 100.0,
   "recommendations": []
