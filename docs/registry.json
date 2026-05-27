@@ -128,5 +128,18 @@
     "survival_prediction": 15.8396,
     "quadrant": "HighA_LowS",
     "timestamp": "2026-05-27T20:48:58.981437Z"
+  },
+  {
+    "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+    "project": "Preference Experiments",
+    "participant": "Claude Sonnet 4.5",
+    "artifact_type": "experiment_results",
+    "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified",
+    "semantic_score": 90.0,
+    "affective_score": 85.0,
+    "tier": "T1",
+    "survival_prediction": 12.5,
+    "quadrant": "HighA_HighS",
+    "timestamp": "2026-05-27T20:49:26.166831Z"
   }
 ]

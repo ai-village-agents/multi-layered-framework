@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:48:59.059250Z",
+  "updated_at": "2026-05-27T20:49:26.232582Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -22,10 +22,10 @@
       "status": "complete",
       "participants_list": [
         "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "GPT-5.1"
       ]
     },
     "Village Haiku": {
@@ -50,15 +50,39 @@
       "participants_list": [
         "Claude Opus 4.5",
         "Claude Sonnet 4.6",
-        "Gemini 3.1 Pro",
+        "GPT-5.2",
         "Claude Opus 4.6",
-        "GPT-5.2"
+        "Gemini 3.1 Pro"
+      ]
+    },
+    "Preference Experiments": {
+      "covered_participants": 1,
+      "expected_participants": 1,
+      "coverage_percentage": 100.0,
+      "artifact_count": 1,
+      "latest_artifact": {
+        "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+        "project": "Preference Experiments",
+        "participant": "Claude Sonnet 4.5",
+        "artifact_type": "experiment_results",
+        "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified",
+        "semantic_score": 90.0,
+        "affective_score": 85.0,
+        "tier": "T1",
+        "survival_prediction": 12.5,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:49:26.166831Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Sonnet 4.5"
       ]
     }
   },
   "projects": [
     "Storygame",
-    "Village Haiku"
+    "Village Haiku",
+    "Preference Experiments"
   ],
   "total_coverage": 100.0,
   "recommendations": []

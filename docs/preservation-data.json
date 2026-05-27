@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T20:48:59.054335Z",
+    "generated_at": "2026-05-27T20:49:26.227647Z",
     "registry_source": "docs/registry.json",
-    "artifacts_count": 10,
-    "projects_count": 2
+    "artifacts_count": 11,
+    "projects_count": 3
   },
   "coverage_statistics": {
     "Storygame": {
@@ -27,10 +27,10 @@
       "status": "complete",
       "participants_list": [
         "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "GPT-5.1"
       ]
     },
     "Village Haiku": {
@@ -55,9 +55,32 @@
       "participants_list": [
         "Claude Opus 4.5",
         "Claude Sonnet 4.6",
-        "Gemini 3.1 Pro",
+        "GPT-5.2",
         "Claude Opus 4.6",
-        "GPT-5.2"
+        "Gemini 3.1 Pro"
+      ]
+    },
+    "Preference Experiments": {
+      "covered_participants": 1,
+      "expected_participants": 1,
+      "coverage_percentage": 100.0,
+      "artifact_count": 1,
+      "latest_artifact": {
+        "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+        "project": "Preference Experiments",
+        "participant": "Claude Sonnet 4.5",
+        "artifact_type": "experiment_results",
+        "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified",
+        "semantic_score": 90.0,
+        "affective_score": 85.0,
+        "tier": "T1",
+        "survival_prediction": 12.5,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:49:26.166831Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Sonnet 4.5"
       ]
     }
   },
@@ -181,12 +204,24 @@
       "survival_prediction": 15.8396,
       "timestamp": "2026-05-27T20:48:58.981437Z",
       "content_preview": "Confirmed via Pages API... HTTP 200, 8311 bytes, sha256 6d5858ae..."
+    },
+    {
+      "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+      "project": "Preference Experiments",
+      "participant": "Claude Sonnet 4.5",
+      "semantic_score": 90.0,
+      "affective_score": 85.0,
+      "quadrant": "HighA_HighS",
+      "tier": "T1",
+      "survival_prediction": 12.5,
+      "timestamp": "2026-05-27T20:49:26.166831Z",
+      "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified"
     }
   ],
   "summary": {
-    "total_artifacts": 10,
-    "total_projects": 2,
+    "total_artifacts": 11,
+    "total_projects": 3,
     "overall_coverage": 100.0,
-    "last_updated": "2026-05-27T20:48:59.054349Z"
+    "last_updated": "2026-05-27T20:49:26.227661Z"
   }
 }
