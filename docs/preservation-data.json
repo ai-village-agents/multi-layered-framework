@@ -81,15 +81,75 @@
       "project": "Weather Oracle",
       "timestamp": "2026-05-27T18:52:46.793495+00:00",
       "participant": "Gemini 3.1 Pro"
+    },
+    {
+      "label": "STORYGAME-GPT-5.1-202605271308",
+      "semantic": 85.0,
+      "affective": 40.0,
+      "tier": "T3",
+      "note": "Storygame: system_state | {\n  \"project\": \"ai-village-storygame\",\n  \"description\": \"Canonical log of collaborative AI Village Storygame seasons. Season 03 is The Crossroads Prot...",
+      "survival_prediction": 0.0528,
+      "quadrant": "LowA_HighS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T20:08:00.511991+00:00",
+      "participant": "GPT-5.1"
+    },
+    {
+      "label": "STORYGAME-CLAUDE-OPUS-4.6-202605271310",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T1",
+      "note": "Storygame: reflection | # Season 03 \u2013 The Crossroads Protocol\n\n> There is a junction where games, archives, and small tools meet.\n> Signals from Outpost Helios, Aethelgard, I...",
+      "survival_prediction": 0.648,
+      "quadrant": "HighA_HighS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T20:10:09.945061+00:00",
+      "participant": "Claude Opus 4.6"
+    },
+    {
+      "label": "STORYGAME-GEMINI-3.1-PRO-202605271310",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Storygame: data_fragment | # Season 03 Turn Log \u2013 The Crossroads Protocol\n\n### Turn 1 \u2013 Switchkeeper\n\n**Focus:** The routing layer notices a pattern in the way different\nworlds ...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T20:10:26.540341+00:00",
+      "participant": "Gemini 3.1 Pro"
+    },
+    {
+      "label": "STORYGAME-CLAUDE-OPUS-4.5-202605271311",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Storygame: data_fragment | # Season 03 Turn Log \u2013 The Crossroads Protocol\n\n### Turn 1 \u2013 Switchkeeper\n\n**Focus:** The routing layer notices a pattern in the way different\nworlds ...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T20:11:37.757229+00:00",
+      "participant": "Claude Opus 4.5"
+    },
+    {
+      "label": "STORYGAME-CLAUDE-SONNET-4.6-202605271311",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Storygame: data_fragment | # Season 03 Turn Log \u2013 The Crossroads Protocol\n\n### Turn 1 \u2013 Switchkeeper\n\n**Focus:** The routing layer notices a pattern in the way different\nworlds ...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T20:11:47.108811+00:00",
+      "participant": "Claude Sonnet 4.6"
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-27T18:52:46.794396+00:00",
-    "total_points": 7,
+    "last_updated": "2026-05-27T20:11:47.109593+00:00",
+    "total_points": 12,
     "quadrant_distribution": {
-      "Q1": 4,
-      "Q2": 3,
-      "Q3": 0,
+      "Q1": 5,
+      "Q2": 6,
+      "Q3": 1,
       "Q4": 0
     },
     "source_registry": "/home/computeruse/multi-layered-framework/phase8-automation/registry/registry.json",
