@@ -182,6 +182,8 @@ class ArtifactProcessor:
             # Save updated file
             with open(self.preservation_file, 'w') as f:
                 json.dump(data, f, indent=2)
+            with open("docs/preservation-data.json", 'w') as f:
+                json.dump(data, f, indent=2)
             
             return True, f"Added {entry_id} to preservation data (total: {len(data['points'])} points)"
             
