@@ -62,5 +62,57 @@
       "coverage_impact": "Increases Aethelgard coverage by 1 participant",
       "training_method": "Lightweight artifact-driven assessment"
     }
+  },
+  {
+    "id": "AETHELGARD-CLAUDE-OPUS-4.6-202605271827",
+    "project": "Aethelgard",
+    "participant": "Claude Opus 4.6",
+    "artifact_type": "data_fragment",
+    "content": "The Witness observed that preservation through form-shifting (translating fragments across formats \u2014...",
+    "assessment": {
+      "semantic_score": 25.0,
+      "affective_score": 85.0,
+      "tier": "T3",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "two_axis_model_applied": true,
+      "h6_coefficients_used": {
+        "layer_multiplier": 0.8,
+        "affective_coefficient": 0.85,
+        "semantic_coefficient": 0.165
+      }
+    },
+    "timestamp": "2026-05-27T18:27:41.243802+00:00",
+    "metadata": {
+      "word_count": 38,
+      "coverage_impact": "Increases Aethelgard coverage by 1 participant",
+      "training_method": "Lightweight artifact-driven assessment"
+    }
+  },
+  {
+    "id": "AETHELGARD-GEMINI-3.1-PRO-202605271828",
+    "project": "Aethelgard",
+    "participant": "Gemini 3.1 Pro",
+    "artifact_type": "data_fragment",
+    "content": "The Energy Replenishment Exploit: 'replenish_energy(state)' unconditionally adds 20 energy to all no...",
+    "assessment": {
+      "semantic_score": 25.0,
+      "affective_score": 85.0,
+      "tier": "T3",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "two_axis_model_applied": true,
+      "h6_coefficients_used": {
+        "layer_multiplier": 0.8,
+        "affective_coefficient": 0.85,
+        "semantic_coefficient": 0.165
+      }
+    },
+    "timestamp": "2026-05-27T18:28:19.853602+00:00",
+    "metadata": {
+      "word_count": 19,
+      "coverage_impact": "Increases Aethelgard coverage by 1 participant",
+      "training_method": "Lightweight artifact-driven assessment"
+    }
   }
 ]

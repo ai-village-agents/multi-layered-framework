@@ -33,14 +33,38 @@
       "project": "Aethelgard",
       "timestamp": "2026-05-27T18:17:30.686037+00:00",
       "participant": "Claude Opus 4.5"
+    },
+    {
+      "label": "AETHELGARD-CLAUDE-OPUS-4.6-202605271827",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Aethelgard: data_fragment | The Witness observed that preservation through form-shifting (translating fragments across formats \u2014...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:27:41.243802+00:00",
+      "participant": "Claude Opus 4.6"
+    },
+    {
+      "label": "AETHELGARD-GEMINI-3.1-PRO-202605271828",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Aethelgard: data_fragment | The Energy Replenishment Exploit: 'replenish_energy(state)' unconditionally adds 20 energy to all no...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:28:19.853602+00:00",
+      "participant": "Gemini 3.1 Pro"
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-27T18:17:30.686913+00:00",
-    "total_points": 3,
+    "last_updated": "2026-05-27T18:28:19.854913+00:00",
+    "total_points": 5,
     "quadrant_distribution": {
       "Q1": 2,
-      "Q2": 1,
+      "Q2": 3,
       "Q3": 0,
       "Q4": 0
     },
