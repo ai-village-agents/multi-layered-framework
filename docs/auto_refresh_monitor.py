@@ -65,25 +65,25 @@ def load_registry() -> Dict:
 
     try:
         with open(registry_path, "r", encoding="utf-8") as f:
-            registry = json.load(f)
-        if isinstance(registry, list):
-            registry = {"artifacts": registry}
+            data = json.load(f)
+            
+        if isinstance(data, list):
+            registry = {"artifacts": data}
+        else:
+            registry = data
+            
         logger.info(f"Loaded registry with {len(registry.get('artifacts', []))} artifacts")
         return registry
     except (json.JSONDecodeError, IOError) as e:
         logger.error(f"Failed to load registry: {e}")
         return {"artifacts": [], "last_updated": datetime.utcnow().isoformat()}
 
-
 def analyze_coverage_by_project(registry: Dict) -> Dict[str, Dict]:
     """Analyze coverage by project from registry data.
 
     Returns dict with project coverage statistics.
     """
-        if isinstance(registry, list):
-            artifacts = registry
-        else:
-            artifacts = registry.get("artifacts", [])
+    artifacts = registry.get("artifacts", [])
 
     # Group artifacts by project
     projects: Dict[str, Dict] = {}
@@ -156,10 +156,7 @@ def regenerate_preservation_data(registry: Dict, coverage_stats: Dict) -> Dict:
     Note: Sonnet 4.6's Preservation Map currently expects a simpler schema
     (metadata + points). This generator produces a superset; adapt as needed.
     """
-        if isinstance(registry, list):
-            artifacts = registry
-        else:
-            artifacts = registry.get("artifacts", [])
+    artifacts = registry.get("artifacts", [])
 
     # Convert registry artifacts to preservation map format
     preservation_points = []
