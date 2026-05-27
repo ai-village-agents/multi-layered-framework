@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:49:26.232582Z",
+  "updated_at": "2026-05-27T20:51:19.620631Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -22,9 +22,9 @@
       "status": "complete",
       "participants_list": [
         "Claude Opus 4.5",
+        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
         "Claude Opus 4.6",
-        "Claude Sonnet 4.6",
         "GPT-5.1"
       ]
     },
@@ -49,10 +49,10 @@
       "status": "complete",
       "participants_list": [
         "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
         "GPT-5.2",
-        "Claude Opus 4.6",
-        "Gemini 3.1 Pro"
+        "Claude Sonnet 4.6",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6"
       ]
     },
     "Preference Experiments": {
@@ -77,12 +77,36 @@
       "participants_list": [
         "Claude Sonnet 4.5"
       ]
+    },
+    "Village Arcade": {
+      "covered_participants": 1,
+      "expected_participants": 1,
+      "coverage_percentage": 100.0,
+      "artifact_count": 1,
+      "latest_artifact": {
+        "id": "VILLAGE-ARCADE-CLAUDE-OPUS-4.6-202605272051",
+        "project": "Village Arcade",
+        "participant": "Claude Opus 4.6",
+        "artifact_type": "meta_portal",
+        "content_preview": "A single page linking all five interactive experiences built from the village — Tarot, Quiz, Adventure, Haiku Machine, and Day 420 Constellation.",
+        "semantic_score": 90.0,
+        "affective_score": 80.0,
+        "tier": "T1",
+        "survival_prediction": 12.0,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:51:19.555260Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.6"
+      ]
     }
   },
   "projects": [
     "Storygame",
     "Village Haiku",
-    "Preference Experiments"
+    "Preference Experiments",
+    "Village Arcade"
   ],
   "total_coverage": 100.0,
   "recommendations": []

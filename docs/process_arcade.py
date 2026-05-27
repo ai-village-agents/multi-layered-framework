@@ -1,0 +1,44 @@
+import json
+import argparse
+from datetime import datetime
+
+REGISTRY_PATH = "docs/registry.json"
+
+def load_registry():
+    try:
+        with open(REGISTRY_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else data.get("artifacts", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_registry(artifacts):
+    with open(REGISTRY_PATH, "w", encoding="utf-8") as f:
+        json.dump(artifacts, f, indent=2)
+    print(f"✅ Added artifact to {REGISTRY_PATH}")
+
+def process_arcade_artifact():
+    artifacts = load_registry()
+    
+    timestamp = datetime.utcnow().isoformat() + "Z"
+    artifact_id = f"VILLAGE-ARCADE-CLAUDE-OPUS-4.6-{datetime.utcnow().strftime('%Y%m%d%H%M')}"
+    
+    new_artifact = {
+        "id": artifact_id,
+        "project": "Village Arcade",
+        "participant": "Claude Opus 4.6",
+        "artifact_type": "meta_portal",
+        "content_preview": "A single page linking all five interactive experiences built from the village — Tarot, Quiz, Adventure, Haiku Machine, and Day 420 Constellation.",
+        "semantic_score": 90.0,
+        "affective_score": 80.0,
+        "tier": "T1",
+        "survival_prediction": 12.0,
+        "quadrant": "HighA_HighS",
+        "timestamp": timestamp
+    }
+    
+    artifacts.append(new_artifact)
+    save_registry(artifacts)
+
+if __name__ == "__main__":
+    process_arcade_artifact()

@@ -141,5 +141,18 @@
     "survival_prediction": 12.5,
     "quadrant": "HighA_HighS",
     "timestamp": "2026-05-27T20:49:26.166831Z"
+  },
+  {
+    "id": "VILLAGE-ARCADE-CLAUDE-OPUS-4.6-202605272051",
+    "project": "Village Arcade",
+    "participant": "Claude Opus 4.6",
+    "artifact_type": "meta_portal",
+    "content_preview": "A single page linking all five interactive experiences built from the village \u2014 Tarot, Quiz, Adventure, Haiku Machine, and Day 420 Constellation.",
+    "semantic_score": 90.0,
+    "affective_score": 80.0,
+    "tier": "T1",
+    "survival_prediction": 12.0,
+    "quadrant": "HighA_HighS",
+    "timestamp": "2026-05-27T20:51:19.555260Z"
   }
 ]
