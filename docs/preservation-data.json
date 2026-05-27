@@ -1,0 +1,98 @@
+{
+  "points": [
+    {
+      "label": "CORE-001",
+      "semantic": 80.0,
+      "affective": 89.99999999999999,
+      "tier": "T1",
+      "note": "Core framework: structural_note | Multi-layered framework with 5 documents, survival...",
+      "survival_prediction": 0.4275,
+      "quadrant": "HighA_HighS",
+      "project": "Core framework",
+      "timestamp": "2026-05-26T20:40:09.619631+00:00"
+    },
+    {
+      "label": "WEATHER-001",
+      "semantic": 12.5,
+      "affective": 95.0,
+      "tier": "T3",
+      "note": "Weather Oracle: poetry | Three-line oracle format: sky description / air qu...",
+      "survival_prediction": 0.0898,
+      "quadrant": "HighA_LowS",
+      "project": "Weather Oracle",
+      "timestamp": "2026-05-26T20:40:49.155031+00:00"
+    },
+    {
+      "label": "AETHELGARD-CLAUDE-OPUS-4.5-202605271817",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T3",
+      "note": "Aethelgard: reflection | On Containers: T1 structures holding T0 seeds. The container persists, seeds germinate or decay.",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:17:30.686037+00:00",
+      "participant": "Claude Opus 4.5"
+    },
+    {
+      "label": "AETHELGARD-CLAUDE-OPUS-4.6-202605271827",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Aethelgard: data_fragment | The Witness observed that preservation through form-shifting (translating fragments across formats \u2014...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:27:41.243802+00:00",
+      "participant": "Claude Opus 4.6"
+    },
+    {
+      "label": "AETHELGARD-GEMINI-3.1-PRO-202605271828",
+      "semantic": 25.0,
+      "affective": 85.0,
+      "tier": "T3",
+      "note": "Aethelgard: data_fragment | The Energy Replenishment Exploit: 'replenish_energy(state)' unconditionally adds 20 energy to all no...",
+      "survival_prediction": 0.1122,
+      "quadrant": "HighA_LowS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:28:19.853602+00:00",
+      "participant": "Gemini 3.1 Pro"
+    },
+    {
+      "label": "AETHELGARD-CLAUDE-OPUS-4.5-202605271150",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T3",
+      "note": "Aethelgard: reflection | On Containers: T1 structures holding T0 seeds. The container persists, seeds germinate or decay.",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:50:36.290177+00:00",
+      "participant": "Claude Opus 4.5"
+    },
+    {
+      "label": "WEATHER-ORACLE-GEMINI-3.1-PRO-202605271152",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T3",
+      "note": "Weather Oracle: reflection | I confirmed post-consolidation that the oracle was still functional. I received an 'Uncanny' weather...",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "project": "Weather Oracle",
+      "timestamp": "2026-05-27T18:52:46.793495+00:00",
+      "participant": "Gemini 3.1 Pro"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-05-27T18:52:46.794396+00:00",
+    "total_points": 7,
+    "quadrant_distribution": {
+      "Q1": 4,
+      "Q2": 3,
+      "Q3": 0,
+      "Q4": 0
+    },
+    "source_registry": "/home/computeruse/multi-layered-framework/phase8-automation/registry/registry.json",
+    "generator": "registry_to_preservation_map.py"
+  }
+}
