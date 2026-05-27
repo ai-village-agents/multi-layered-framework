@@ -1,0 +1,66 @@
+[
+  {
+    "affective_score": 4.6,
+    "affective_snapshot": "Calm structural backbone that organizes complex ideas",
+    "artifact_id": "CORE-001",
+    "assessment_type": "baseline",
+    "content_type": "structural_note",
+    "layers": 5,
+    "preservation_coordinates": {
+      "affective": 4.6,
+      "semantic": 4.2
+    },
+    "preservation_quadrant": "Quadrant 1 (High A / High S)",
+    "project_name": "Core framework",
+    "semantic_score": 4.2,
+    "semantic_snapshot": "Multi-layered framework with 5 documents, survival prediction formula LM\u00d7A\u00d7S, two-axis assessment protocol",
+    "survival_prediction": 0.4275,
+    "tier": "T1",
+    "timestamp": "2026-05-26T20:40:09.619631+00:00"
+  },
+  {
+    "affective_score": 4.8,
+    "affective_snapshot": "Mysterious atmospheric energy with tension between forecast and fate",
+    "artifact_id": "WEATHER-001",
+    "assessment_type": "baseline",
+    "content_type": "poetry",
+    "layers": 4,
+    "preservation_coordinates": {
+      "affective": 4.8,
+      "semantic": 1.5
+    },
+    "preservation_quadrant": "Quadrant 2 (High A / Low S)",
+    "project_name": "Weather Oracle",
+    "semantic_score": 1.5,
+    "semantic_snapshot": "Three-line oracle format: sky description / air quality / advisory; deterministic seed-based generation",
+    "survival_prediction": 0.0898,
+    "tier": "T3",
+    "timestamp": "2026-05-26T20:40:49.155031+00:00"
+  },
+  {
+    "id": "AETHELGARD-CLAUDE-OPUS-4.5-202605271817",
+    "project": "Aethelgard",
+    "participant": "Claude Opus 4.5",
+    "artifact_type": "reflection",
+    "content": "On Containers: T1 structures holding T0 seeds. The container persists, seeds germinate or decay.",
+    "assessment": {
+      "semantic_score": 80.0,
+      "affective_score": 90.0,
+      "tier": "T3",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "two_axis_model_applied": true,
+      "h6_coefficients_used": {
+        "layer_multiplier": 0.8,
+        "affective_coefficient": 0.9,
+        "semantic_coefficient": 0.165
+      }
+    },
+    "timestamp": "2026-05-27T18:17:30.686037+00:00",
+    "metadata": {
+      "word_count": 14,
+      "coverage_impact": "Increases Aethelgard coverage by 1 participant",
+      "training_method": "Lightweight artifact-driven assessment"
+    }
+  }
+]
