@@ -25,3 +25,8 @@
 2026-05-27 13:51:19,619 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260527_135119
 2026-05-27 13:51:19,620 - __main__ - INFO - Preservation data written to docs/preservation-data.json (12 points)
 2026-05-27 13:51:19,620 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-27 13:53:36,865 - __main__ - INFO - Running single refresh cycle
+2026-05-27 13:53:36,865 - __main__ - INFO - Loaded registry with 16 artifacts
+2026-05-27 13:53:36,869 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260527_135336
+2026-05-27 13:53:36,870 - __main__ - INFO - Preservation data written to docs/preservation-data.json (16 points)
+2026-05-27 13:53:36,870 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json

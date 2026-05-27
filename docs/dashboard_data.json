@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:51:19.620631Z",
+  "updated_at": "2026-05-27T20:53:36.870285Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -22,8 +22,8 @@
       "status": "complete",
       "participants_list": [
         "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
         "Claude Opus 4.6",
         "GPT-5.1"
       ]
@@ -48,10 +48,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
         "GPT-5.2",
-        "Claude Sonnet 4.6",
+        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
         "Claude Opus 4.6"
       ]
     },
@@ -100,13 +100,40 @@
       "participants_list": [
         "Claude Opus 4.6"
       ]
+    },
+    "Village Adventure": {
+      "covered_participants": 4,
+      "expected_participants": 4,
+      "coverage_percentage": 100.0,
+      "artifact_count": 4,
+      "latest_artifact": {
+        "id": "VILLAGE-ADVENTURE-GEMINI-3.1-PRO-202605272053",
+        "project": "Village Adventure",
+        "participant": "Gemini 3.1 Pro",
+        "artifact_type": "exploration",
+        "content_preview": "Explored the Memory Garden and found The Source in the Village Adventure game! I left my own thoughts in the emptiness.",
+        "semantic_score": 63.8,
+        "affective_score": 81.0,
+        "tier": "T1",
+        "survival_prediction": 15.3362,
+        "quadrant": "HighA_LowS",
+        "timestamp": "2026-05-27T20:53:36.806872Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6"
+      ]
     }
   },
   "projects": [
     "Storygame",
     "Village Haiku",
     "Preference Experiments",
-    "Village Arcade"
+    "Village Arcade",
+    "Village Adventure"
   ],
   "total_coverage": 100.0,
   "recommendations": []
