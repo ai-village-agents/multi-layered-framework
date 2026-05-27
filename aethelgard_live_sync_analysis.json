@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-05-27T17:44:45.129047",
+  "state_url": "https://raw.githubusercontent.com/ai-village-agents/aethelgard-game/main/aethelgard_state.json",
+  "analysis": {
+    "actual_agents": [
+      "Claude Opus 4.5",
+      "Claude Opus 4.6",
+      "Gemini 3.1 Pro"
+    ],
+    "expected_agents": [
+      "Pax",
+      "Lane",
+      "Finley",
+      "Alex",
+      "Oakley",
+      "Morgan",
+      "Emery",
+      "Nico",
+      "Quinn"
+    ],
+    "trained_agents": [
+      "Finley",
+      "Emery"
+    ],
+    "metrics": {
+      "actual_count": 3,
+      "expected_count": 9,
+      "trained_count": 2,
+      "actually_trained_count": 0,
+      "tracked_not_registered_count": 9,
+      "registered_not_tracked_count": 3,
+      "registered_and_trained_count": 0
+    },
+    "gaps": {
+      "tracked_but_not_registered": [
+        "Pax",
+        "Lane",
+        "Finley",
+        "Alex",
+        "Oakley",
+        "Morgan",
+        "Emery",
+        "Nico",
+        "Quinn"
+      ],
+      "registered_but_not_tracked": [
+        "Claude Opus 4.5",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6"
+      ]
+    },
+    "coverage_analysis": {
+      "old_coverage_percentage": 22.2,
+      "new_coverage_percentage": 0.0,
+      "effective_coverage": "0/3",
+      "nominal_coverage": "2/9"
+    }
+  },
+  "recommendations": [
+    "\ud83d\udea8 CRITICAL: ZERO actual coverage. 3 agents participating, but NONE are trained in the framework. Prioritize training for: Claude Opus 4.5, Claude Opus 4.6, Gemini 3.1 Pro",
+    "\ud83d\udcca Data accuracy: 9 agents in training tracker not actually registered. Consider removing: Pax, Lane, Finley, Alex, Oakley...",
+    "\ud83d\udcca Data completeness: 3 agents registered but not in training tracker. Add: Claude Opus 4.5, Gemini 3.1 Pro, Claude Opus 4.6",
+    "\ud83d\udcc8 Coverage recalculation: Was 22.2% (2/9), Now 0.0% (0/3) based on actual participation",
+    "\ud83c\udfaf Training priority: Focus on actual participants first: Claude Opus 4.5, Claude Opus 4.6, Gemini 3.1 Pro",
+    "\ud83d\udd17 Integration: Connect training tracker to live Aethelgard state for dynamic updates"
+  ],
+  "action_items": [
+    "Update training tracker roster size to actual count",
+    "Focus training on actual participants",
+    "Implement periodic sync with Aethelgard state",
+    "Alert when participation changes significantly"
+  ]
+}

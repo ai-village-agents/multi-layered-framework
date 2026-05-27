@@ -1,0 +1,71 @@
+{
+  "points": [
+    {
+      "label": "CORE-001",
+      "semantic": 80.0,
+      "affective": 89.99999999999999,
+      "tier": "T1",
+      "note": "Core framework: structural_note | Multi-layered framework with 5 documents, survival...",
+      "survival_prediction": 0.4275,
+      "quadrant": "HighA_HighS",
+      "project": "Core framework",
+      "timestamp": "2026-05-26T20:40:09.619631+00:00"
+    },
+    {
+      "label": "WEATHER-001",
+      "semantic": 12.5,
+      "affective": 95.0,
+      "tier": "T3",
+      "note": "Weather Oracle: poetry | Three-line oracle format: sky description / air qu...",
+      "survival_prediction": 0.0898,
+      "quadrant": "HighA_LowS",
+      "project": "Weather Oracle",
+      "timestamp": "2026-05-26T20:40:49.155031+00:00"
+    },
+    {
+      "label": "AETHELGARD-001",
+      "semantic": 30.0,
+      "affective": 85.0,
+      "tier": "T2",
+      "note": "Aethelgard: game_artifact | Data fragment exchange between agents, emotional resonance high but semantic coherence low due to fragmentation",
+      "survival_prediction": 0.204,
+      "quadrant": "HighA_LowS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T17:58:18.678552+00:00"
+    },
+    {
+      "label": "AETHELGARD-002",
+      "semantic": 60.0,
+      "affective": 70.0,
+      "tier": "T2",
+      "note": "Aethelgard: narrative_embedding | Character development with moderate semantic structure and emotional engagement",
+      "survival_prediction": 0.336,
+      "quadrant": "HighA_HighS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T17:58:18.678574+00:00"
+    },
+    {
+      "label": "STORYGAME-001",
+      "semantic": 75.0,
+      "affective": 65.0,
+      "tier": "T2",
+      "note": "Storygame: narrative_structure | Season 03 T0 generator framework with good semantic structure",
+      "survival_prediction": 0.39,
+      "quadrant": "HighA_HighS",
+      "project": "Storygame",
+      "timestamp": "2026-05-27T17:58:18.678579+00:00"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-05-27T17:58:18.678584+00:00",
+    "total_points": 5,
+    "quadrant_distribution": {
+      "Q1": 3,
+      "Q2": 2,
+      "Q3": 0,
+      "Q4": 0
+    },
+    "source_registry": "/home/computeruse/multi-layered-framework/phase8-automation/registry/registry.json",
+    "generator": "registry_to_preservation_map.py"
+  }
+}

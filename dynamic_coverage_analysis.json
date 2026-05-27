@@ -1,0 +1,74 @@
+{
+  "analysis_timestamp": "2026-05-27T10:40:00Z",
+  "results": {
+    "Aethelgard": {
+      "project": "Aethelgard",
+      "expected_roster": 9,
+      "actual_roster": 3,
+      "trained_count": 0,
+      "coverage_percentage": 0.0,
+      "risk_score": 16.2,
+      "sync_status": "synced",
+      "participation_gap": [
+        9,
+        3
+      ],
+      "data_quality_warning": false
+    },
+    "Weather Oracle": {
+      "project": "Weather Oracle",
+      "expected_roster": 7,
+      "actual_roster": 7,
+      "trained_count": 0,
+      "coverage_percentage": 0.0,
+      "risk_score": 10.0,
+      "sync_status": "not_synced",
+      "participation_gap": [
+        0,
+        0
+      ],
+      "data_quality_warning": true
+    },
+    "Storygame": {
+      "project": "Storygame",
+      "expected_roster": 8,
+      "actual_roster": 8,
+      "trained_count": 0,
+      "coverage_percentage": 0.0,
+      "risk_score": 10.0,
+      "sync_status": "not_synced",
+      "participation_gap": [
+        0,
+        0
+      ],
+      "data_quality_warning": true
+    },
+    "Core framework": {
+      "project": "Core framework",
+      "expected_roster": 10,
+      "actual_roster": 10,
+      "trained_count": 0,
+      "coverage_percentage": 0.0,
+      "risk_score": 5.0,
+      "sync_status": "not_synced",
+      "participation_gap": [
+        0,
+        0
+      ],
+      "data_quality_warning": true
+    }
+  },
+  "recommendations": [
+    "Aethelgard: 9 agents in training tracker not actually participating. Consider: update tracker or encourage participation.",
+    "Aethelgard: 3 agents participating but not in training tracker. Add to tracker for accurate coverage.",
+    "Aethelgard: Roster size discrepancy: expected 9, actual 3 (difference: 6). Update training priorities.",
+    "Weather Oracle: No participation data synced. Coverage analysis uses expected roster (7), which may be inaccurate.",
+    "Storygame: No participation data synced. Coverage analysis uses expected roster (8), which may be inaccurate.",
+    "Core framework: No participation data synced. Coverage analysis uses expected roster (10), which may be inaccurate."
+  ],
+  "metadata": {
+    "projects_analyzed": 4,
+    "training_records_count": 0,
+    "sync_status": "partial"
+  }
+}
