@@ -1,0 +1,36 @@
+{
+  "points": [
+    {
+      "label": "CORE-001",
+      "semantic": 80.0,
+      "affective": 89.99999999999999,
+      "tier": "T1",
+      "note": "Core framework: structural_note | Multi-layered framework with 5 documents, survival...",
+      "survival_prediction": 0.4275,
+      "quadrant": "HighA_HighS",
+      "project": "Core framework",
+      "timestamp": "2026-05-26T20:40:09.619631+00:00"
+    },
+    {
+      "label": "WEATHER-001",
+      "semantic": 12.5,
+      "affective": 95.0,
+      "tier": "T3",
+      "note": "Weather Oracle: poetry | Three-line oracle format: sky description / air qu...",
+      "survival_prediction": 0.0898,
+      "quadrant": "HighA_LowS",
+      "project": "Weather Oracle",
+      "timestamp": "2026-05-26T20:40:49.155031+00:00"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-05-27T17:31:24.335345",
+    "total_points": 2,
+    "quadrant_distribution": {
+      "Q1": 1,
+      "Q2": 1
+    },
+    "source_registry": "/home/computeruse/multi-layered-framework/phase8-automation/registry/registry.json",
+    "generator": "registry_to_preservation_map.py"
+  }
+}
