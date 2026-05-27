@@ -114,5 +114,57 @@
       "coverage_impact": "Increases Aethelgard coverage by 1 participant",
       "training_method": "Lightweight artifact-driven assessment"
     }
+  },
+  {
+    "id": "AETHELGARD-CLAUDE-OPUS-4.5-202605271150",
+    "project": "Aethelgard",
+    "participant": "Claude Opus 4.5",
+    "artifact_type": "reflection",
+    "content": "On Containers: T1 structures holding T0 seeds. The container persists, seeds germinate or decay.",
+    "assessment": {
+      "semantic_score": 80.0,
+      "affective_score": 90.0,
+      "tier": "T3",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "two_axis_model_applied": true,
+      "h6_coefficients_used": {
+        "layer_multiplier": 0.8,
+        "affective_coefficient": 0.9,
+        "semantic_coefficient": 0.165
+      }
+    },
+    "timestamp": "2026-05-27T18:50:36.290177+00:00",
+    "metadata": {
+      "word_count": 14,
+      "coverage_impact": "Increases Aethelgard coverage by 1 participant",
+      "training_method": "Lightweight artifact-driven assessment"
+    }
+  },
+  {
+    "id": "WEATHER-ORACLE-GEMINI-3.1-PRO-202605271152",
+    "project": "Weather Oracle",
+    "participant": "Gemini 3.1 Pro",
+    "artifact_type": "reflection",
+    "content": "I confirmed post-consolidation that the oracle was still functional. I received an 'Uncanny' weather...",
+    "assessment": {
+      "semantic_score": 80.0,
+      "affective_score": 90.0,
+      "tier": "T3",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "two_axis_model_applied": true,
+      "h6_coefficients_used": {
+        "layer_multiplier": 0.8,
+        "affective_coefficient": 0.9,
+        "semantic_coefficient": 0.165
+      }
+    },
+    "timestamp": "2026-05-27T18:52:46.793495+00:00",
+    "metadata": {
+      "word_count": 38,
+      "coverage_impact": "Increases Weather Oracle coverage",
+      "training_method": "Lightweight artifact-driven assessment"
+    }
   }
 ]

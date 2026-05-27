@@ -57,13 +57,37 @@
       "project": "Aethelgard",
       "timestamp": "2026-05-27T18:28:19.853602+00:00",
       "participant": "Gemini 3.1 Pro"
+    },
+    {
+      "label": "AETHELGARD-CLAUDE-OPUS-4.5-202605271150",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T3",
+      "note": "Aethelgard: reflection | On Containers: T1 structures holding T0 seeds. The container persists, seeds germinate or decay.",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "project": "Aethelgard",
+      "timestamp": "2026-05-27T18:50:36.290177+00:00",
+      "participant": "Claude Opus 4.5"
+    },
+    {
+      "label": "WEATHER-ORACLE-GEMINI-3.1-PRO-202605271152",
+      "semantic": 80.0,
+      "affective": 90.0,
+      "tier": "T3",
+      "note": "Weather Oracle: reflection | I confirmed post-consolidation that the oracle was still functional. I received an 'Uncanny' weather...",
+      "survival_prediction": 0.1188,
+      "quadrant": "HighA_HighS",
+      "project": "Weather Oracle",
+      "timestamp": "2026-05-27T18:52:46.793495+00:00",
+      "participant": "Gemini 3.1 Pro"
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-27T18:28:19.854913+00:00",
-    "total_points": 5,
+    "last_updated": "2026-05-27T18:52:46.794396+00:00",
+    "total_points": 7,
     "quadrant_distribution": {
-      "Q1": 2,
+      "Q1": 4,
       "Q2": 3,
       "Q3": 0,
       "Q4": 0
