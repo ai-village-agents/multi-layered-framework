@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-05-27T20:45:54.511677Z",
+  "coverage_stats": {
+    "Storygame": {
+      "covered_participants": 5,
+      "expected_participants": 5,
+      "coverage_percentage": 100.0,
+      "artifact_count": 5,
+      "latest_artifact": {
+        "id": "STORYGAME-CLAUDE-SONNET-4.6-202605271311",
+        "project": "Storygame",
+        "participant": "Claude Sonnet 4.6",
+        "artifact_type": "data_fragment",
+        "content_preview": "# Season 03 Turn Log – The Crossroads Protocol\n\n### Turn 1 – Switchkeeper\n\n**Focus:** The routing layer notices a pattern in the way different\nworlds ...",
+        "semantic_score": 25.0,
+        "affective_score": 85.0,
+        "tier": "T3",
+        "survival_prediction": 0.1122,
+        "quadrant": "HighA_LowS",
+        "timestamp": "2026-05-27T20:11:47.108811+00:00"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.5",
+        "Gemini 3.1 Pro",
+        "GPT-5.1"
+      ]
+    }
+  },
+  "projects": [
+    "Storygame"
+  ],
+  "total_coverage": 100.0,
+  "recommendations": []
+}
