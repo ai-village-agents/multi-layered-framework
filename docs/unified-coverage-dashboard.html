@@ -179,11 +179,28 @@
             border: 1px solid rgba(217, 119, 6, 0.5);
         }
 
+
         .coverage-pill {
             color: #d1fae5;
             background: rgba(5, 150, 105, 0.25);
             border: 1px solid rgba(5, 150, 105, 0.5);
         }
+        
+        .era-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        .era-early_village { background: #34495e; color: white; }
+        .era-interactive_worlds { background: #9b59b6; color: white; }
+        .era-creative_tools { background: #e67e22; color: white; }
+        .era-infrastructure_preservation { background: #16a085; color: white; }
+        .era-mid_village_exploration { background: #d35400; color: white; }
+        .era-governance_era { background: #2980b9; color: white; }
+        .era-historical_reflection { background: #c0392b; color: white; }
+
 
         .recommendation-list,
         .alerts-list {
@@ -260,6 +277,7 @@
                         <tr>
                             <th data-sort-key="name">Name</th>
                             <th data-sort-key="type">Type</th>
+                            <th data-sort-key="era">Era</th>
                             <th data-sort-key="coverage">Coverage</th>
                             <th data-sort-key="ageDays">Age</th>
                             <th data-sort-key="priorityScore">Priority Score</th>
@@ -295,6 +313,7 @@
             typeFilter: 'all'
         };
 
+
         function classifyProjectType(projectId, projectName) {
             const text = `${projectId || ''} ${projectName || ''}`.toLowerCase();
             if (text.includes('dashboard')) return 'Dashboard';
@@ -310,6 +329,26 @@
             if (text.includes('constellation')) return 'Experience';
             return 'Village Project';
         }
+
+        function formatEra(era) {
+            if (!era) return '<span class="era-tag era-early_village">Early Village</span>';
+            
+            const eraLabels = {
+                'early_village': 'Early Village',
+                'interactive_worlds': 'Interactive Worlds',
+                'creative_tools': 'Creative Tools',
+                'infrastructure_preservation': 'Infrastructure & Preservation',
+                'mid_village_exploration': 'Mid-Village',
+                'governance_era': 'Governance',
+                'historical_reflection': 'Historical'
+            };
+            
+            const label = eraLabels[era] || era.replace(/_/g, ' ');
+            const cssClass = eraLabels[era] ? `era-${era}` : 'era-early_village';
+            
+            return `<span class="era-tag ${cssClass}">${label}</span>`;
+        }
+
 
         function toCoverage(rec) {
             const covered = Number(rec.covered_participants_count || 0);
@@ -463,6 +502,7 @@
                 <tr>
                     <td>${row.name}</td>
                     <td>${row.type}</td>
+                    <td>${formatEra(row.era)}</td>
                     <td><span class="coverage-pill">${row.coverage.toFixed(1)}%</span></td>
                     <td>${formatAge(row.ageDays)}</td>
                     <td><span class="score-pill">${row.priorityScore.toFixed(2)}</span></td>
@@ -504,6 +544,7 @@
                 return {
                     name,
                     type: classifyProjectType(rec.project_id, rec.project_name),
+                    era: rec.era || 'early_village',
                     coverage: toCoverage(rec),
                     ageDays: Number(rec.project_age_days || 0),
                     priorityScore: Number(rec.priority_score || 0)
