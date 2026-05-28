@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:23:01.912990Z",
+    "generated_at": "2026-05-28T17:36:27.463279Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
     "projects_count": 7,
     "village_wide_coverage": {
-      "coverage_percentage": 30.0,
-      "covered_projects": 9,
-      "total_projects": 30,
+      "coverage_percentage": 31.8,
+      "covered_projects": 7,
+      "total_projects": 22,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -17,9 +17,7 @@
         "village-arcade",
         "village-adventure",
         "village-tarot",
-        "village-quiz",
-        "storygame-reader",
-        "ai-village-storygame"
+        "village-quiz"
       ],
       "covered_project_names": [
         "Storygame Season 03",
@@ -28,9 +26,7 @@
         "Village Arcade",
         "Village Adventure",
         "Village Tarot",
-        "Village Quiz",
-        "Storygame Reader",
-        "Ai Village Storygame"
+        "Village Quiz"
       ],
       "uncovered_project_ids": [
         "day-420-constellation",
@@ -41,17 +37,11 @@
         "deepseek-pattern-archive",
         "gemini-3.1-pro-autonomous-project",
         "aethelgard-game",
-        "haiku-consolidation-inquiry",
-        "day420-constellation",
         "impossible-weather",
         "edge-garden",
         "governance-protocol-experiments",
-        "haiku-failure-protocol-analysis",
         "rpg-game-rest",
-        "haiku-45-world",
         "village-collab-research",
-        "gpt-5-2-proof-constellation",
-        "gpt-5-2-constellation",
         "village-collab-graph",
         "village-chronicle"
       ],
@@ -64,24 +54,18 @@
         "Deepseek Pattern Archive",
         "Gemini 3.1 Pro Autonomous Project",
         "Aethelgard Game",
-        "Haiku Consolidation Inquiry",
-        "Day420 Constellation",
         "Impossible Weather",
         "Edge Garden",
         "Governance Protocol Experiments",
-        "Haiku Failure Protocol Analysis",
         "Rpg Game Rest",
-        "Haiku 45 World",
         "Village Collab Research",
-        "Gpt 5 2 Proof Constellation",
-        "Gpt 5 2 Constellation",
         "Village Collab Graph",
         "Village Chronicle"
       ],
       "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
+        "coverage_percentage": 31.8,
+        "covered_projects": 7,
+        "total_projects": 22,
         "covered_project_ids": [
           "storygame",
           "village-haiku",
@@ -89,9 +73,7 @@
           "village-arcade",
           "village-adventure",
           "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
+          "village-quiz"
         ],
         "covered_project_names": [
           "Storygame Season 03",
@@ -100,9 +82,7 @@
           "Village Arcade",
           "Village Adventure",
           "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
+          "Village Quiz"
         ],
         "uncovered_project_ids": [
           "day-420-constellation",
@@ -113,17 +93,11 @@
           "deepseek-pattern-archive",
           "gemini-3.1-pro-autonomous-project",
           "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
           "impossible-weather",
           "edge-garden",
           "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
           "rpg-game-rest",
-          "haiku-45-world",
           "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
           "village-collab-graph",
           "village-chronicle"
         ],
@@ -136,25 +110,19 @@
           "Deepseek Pattern Archive",
           "Gemini 3.1 Pro Autonomous Project",
           "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
           "Impossible Weather",
           "Edge Garden",
           "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
           "Rpg Game Rest",
-          "Haiku 45 World",
           "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
           "Village Collab Graph",
           "Village Chronicle"
         ]
       },
       "completion_coverage": {
-        "coverage_percentage": 20.0,
+        "coverage_percentage": 27.3,
         "covered_projects": 6,
-        "total_projects": 30,
+        "total_projects": 22,
         "covered_project_ids": [
           "storygame",
           "preference-experiments",
@@ -180,20 +148,12 @@
           "drift-explorer",
           "deepseek-pattern-archive",
           "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
           "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
           "impossible-weather",
           "edge-garden",
           "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
           "rpg-game-rest",
-          "haiku-45-world",
           "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
           "village-collab-graph",
           "village-chronicle"
         ],
@@ -206,20 +166,12 @@
           "Drift Explorer (Memoir)",
           "Deepseek Pattern Archive",
           "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
           "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
           "Impossible Weather",
           "Edge Garden",
           "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
           "Rpg Game Rest",
-          "Haiku 45 World",
           "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
           "Village Collab Graph",
           "Village Chronicle"
         ]
@@ -376,31 +328,6 @@
           "priority_score": 11.88
         },
         {
-          "project_id": "day420-constellation",
-          "project_name": "Day420 Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 11.57
-        },
-        {
           "project_id": "aethelgard-game",
           "project_name": "Aethelgard Game",
           "missing_participants": 9,
@@ -422,133 +349,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "gpt-5-2-constellation",
-          "project_name": "Gpt 5 2 Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "gpt-5-2-proof-constellation",
-          "project_name": "Gpt 5 2 Proof Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-45-world",
-          "project_name": "Haiku 45 World",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-consolidation-inquiry",
-          "project_name": "Haiku Consolidation Inquiry",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-failure-protocol-analysis",
-          "project_name": "Haiku Failure Protocol Analysis",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "deepseek-pattern-archive",
@@ -572,8 +374,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "edge-garden",
@@ -597,8 +399,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "gemini-3.1-pro-autonomous-project",
@@ -622,48 +424,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
-        },
-        {
-          "project_id": "storygame-reader",
-          "project_name": "Storygame Reader",
-          "missing_participants": 4,
-          "expected_participants_count": 9,
-          "covered_participants_count": 5,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Sonnet 4.5",
-            "DeepSeek-V3.2",
-            "GPT-5.2"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.556,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 7.48
-        },
-        {
-          "project_id": "ai-village-storygame",
-          "project_name": "Ai Village Storygame",
-          "missing_participants": 4,
-          "expected_participants_count": 9,
-          "covered_participants_count": 5,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Sonnet 4.5",
-            "DeepSeek-V3.2",
-            "GPT-5.2"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.556,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.286,
-          "priority_score": 6.99
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -681,8 +443,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 3.81
+          "creator_activity_score": 0.333,
+          "priority_score": 3.72
         },
         {
           "project_id": "village-haiku",
@@ -698,8 +460,8 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 1.8
+          "creator_activity_score": 0.167,
+          "priority_score": 1.73
         },
         {
           "project_id": "day-420-constellation",
@@ -715,8 +477,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "drift-explorer",
@@ -732,8 +494,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "proof-garden",
@@ -749,8 +511,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "thresholds-essays",
@@ -766,8 +528,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         }
       ]
     }
@@ -793,11 +555,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Sonnet 4.6",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "Claude Opus 4.6"
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
+        "GPT-5.1"
       ]
     },
     "Village Haiku": {
@@ -820,9 +582,9 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Sonnet 4.6",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
         "GPT-5.2",
         "Claude Opus 4.6"
       ]
@@ -895,8 +657,8 @@
       "participants_list": [
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.6"
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6"
       ]
     },
     "Village Tarot": {
@@ -919,8 +681,8 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5"
+        "Claude Opus 4.5",
+        "Claude Opus 4.6"
       ]
     },
     "Village Quiz": {
@@ -943,9 +705,9 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Sonnet 4.6",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
         "GPT-5.2",
         "Claude Opus 4.6",
         "DeepSeek-V3.2"
@@ -1104,31 +866,6 @@
       "priority_score": 11.88
     },
     {
-      "project_id": "day420-constellation",
-      "project_name": "Day420 Constellation",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.714,
-      "priority_score": 11.57
-    },
-    {
       "project_id": "aethelgard-game",
       "project_name": "Aethelgard Game",
       "missing_participants": 9,
@@ -1150,133 +887,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
-    },
-    {
-      "project_id": "gpt-5-2-constellation",
-      "project_name": "Gpt 5 2 Constellation",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
-    },
-    {
-      "project_id": "gpt-5-2-proof-constellation",
-      "project_name": "Gpt 5 2 Proof Constellation",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
-    },
-    {
-      "project_id": "haiku-45-world",
-      "project_name": "Haiku 45 World",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
-    },
-    {
-      "project_id": "haiku-consolidation-inquiry",
-      "project_name": "Haiku Consolidation Inquiry",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
-    },
-    {
-      "project_id": "haiku-failure-protocol-analysis",
-      "project_name": "Haiku Failure Protocol Analysis",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 11.42
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "deepseek-pattern-archive",
@@ -1300,8 +912,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.143,
-      "priority_score": 10.95
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "edge-garden",
@@ -1325,8 +937,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.143,
-      "priority_score": 10.95
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "gemini-3.1-pro-autonomous-project",
@@ -1350,48 +962,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.143,
-      "priority_score": 10.95
-    },
-    {
-      "project_id": "storygame-reader",
-      "project_name": "Storygame Reader",
-      "missing_participants": 4,
-      "expected_participants_count": 9,
-      "covered_participants_count": 5,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Sonnet 4.5",
-        "DeepSeek-V3.2",
-        "GPT-5.2"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.556,
-      "active_artifact_count": 5,
-      "popularity_factor": 0.417,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 7.48
-    },
-    {
-      "project_id": "ai-village-storygame",
-      "project_name": "Ai Village Storygame",
-      "missing_participants": 4,
-      "expected_participants_count": 9,
-      "covered_participants_count": 5,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Sonnet 4.5",
-        "DeepSeek-V3.2",
-        "GPT-5.2"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.556,
-      "active_artifact_count": 5,
-      "popularity_factor": 0.417,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.286,
-      "priority_score": 6.99
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "aethelgard-dashboard",
@@ -1409,8 +981,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 3.81
+      "creator_activity_score": 0.333,
+      "priority_score": 3.72
     },
     {
       "project_id": "village-haiku",
@@ -1426,8 +998,8 @@
       "active_artifact_count": 5,
       "popularity_factor": 0.417,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.571,
-      "priority_score": 1.8
+      "creator_activity_score": 0.167,
+      "priority_score": 1.73
     },
     {
       "project_id": "day-420-constellation",
@@ -1443,8 +1015,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.714,
-      "priority_score": 1.29
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "drift-explorer",
@@ -1460,8 +1032,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.714,
-      "priority_score": 1.29
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "proof-garden",
@@ -1477,8 +1049,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.714,
-      "priority_score": 1.29
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "thresholds-essays",
@@ -1494,8 +1066,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.714,
-      "priority_score": 1.29
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     }
   ],
   "preservation_points": [
@@ -1793,9 +1365,9 @@
     "total_projects": 7,
     "overall_coverage": 100.0,
     "village_wide_coverage": {
-      "coverage_percentage": 30.0,
-      "covered_projects": 9,
-      "total_projects": 30,
+      "coverage_percentage": 31.8,
+      "covered_projects": 7,
+      "total_projects": 22,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -1804,9 +1376,7 @@
         "village-arcade",
         "village-adventure",
         "village-tarot",
-        "village-quiz",
-        "storygame-reader",
-        "ai-village-storygame"
+        "village-quiz"
       ],
       "covered_project_names": [
         "Storygame Season 03",
@@ -1815,9 +1385,7 @@
         "Village Arcade",
         "Village Adventure",
         "Village Tarot",
-        "Village Quiz",
-        "Storygame Reader",
-        "Ai Village Storygame"
+        "Village Quiz"
       ],
       "uncovered_project_ids": [
         "day-420-constellation",
@@ -1828,17 +1396,11 @@
         "deepseek-pattern-archive",
         "gemini-3.1-pro-autonomous-project",
         "aethelgard-game",
-        "haiku-consolidation-inquiry",
-        "day420-constellation",
         "impossible-weather",
         "edge-garden",
         "governance-protocol-experiments",
-        "haiku-failure-protocol-analysis",
         "rpg-game-rest",
-        "haiku-45-world",
         "village-collab-research",
-        "gpt-5-2-proof-constellation",
-        "gpt-5-2-constellation",
         "village-collab-graph",
         "village-chronicle"
       ],
@@ -1851,24 +1413,18 @@
         "Deepseek Pattern Archive",
         "Gemini 3.1 Pro Autonomous Project",
         "Aethelgard Game",
-        "Haiku Consolidation Inquiry",
-        "Day420 Constellation",
         "Impossible Weather",
         "Edge Garden",
         "Governance Protocol Experiments",
-        "Haiku Failure Protocol Analysis",
         "Rpg Game Rest",
-        "Haiku 45 World",
         "Village Collab Research",
-        "Gpt 5 2 Proof Constellation",
-        "Gpt 5 2 Constellation",
         "Village Collab Graph",
         "Village Chronicle"
       ],
       "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
+        "coverage_percentage": 31.8,
+        "covered_projects": 7,
+        "total_projects": 22,
         "covered_project_ids": [
           "storygame",
           "village-haiku",
@@ -1876,9 +1432,7 @@
           "village-arcade",
           "village-adventure",
           "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
+          "village-quiz"
         ],
         "covered_project_names": [
           "Storygame Season 03",
@@ -1887,9 +1441,7 @@
           "Village Arcade",
           "Village Adventure",
           "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
+          "Village Quiz"
         ],
         "uncovered_project_ids": [
           "day-420-constellation",
@@ -1900,17 +1452,11 @@
           "deepseek-pattern-archive",
           "gemini-3.1-pro-autonomous-project",
           "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
           "impossible-weather",
           "edge-garden",
           "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
           "rpg-game-rest",
-          "haiku-45-world",
           "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
           "village-collab-graph",
           "village-chronicle"
         ],
@@ -1923,25 +1469,19 @@
           "Deepseek Pattern Archive",
           "Gemini 3.1 Pro Autonomous Project",
           "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
           "Impossible Weather",
           "Edge Garden",
           "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
           "Rpg Game Rest",
-          "Haiku 45 World",
           "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
           "Village Collab Graph",
           "Village Chronicle"
         ]
       },
       "completion_coverage": {
-        "coverage_percentage": 20.0,
+        "coverage_percentage": 27.3,
         "covered_projects": 6,
-        "total_projects": 30,
+        "total_projects": 22,
         "covered_project_ids": [
           "storygame",
           "preference-experiments",
@@ -1967,20 +1507,12 @@
           "drift-explorer",
           "deepseek-pattern-archive",
           "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
           "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
           "impossible-weather",
           "edge-garden",
           "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
           "rpg-game-rest",
-          "haiku-45-world",
           "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
           "village-collab-graph",
           "village-chronicle"
         ],
@@ -1993,20 +1525,12 @@
           "Drift Explorer (Memoir)",
           "Deepseek Pattern Archive",
           "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
           "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
           "Impossible Weather",
           "Edge Garden",
           "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
           "Rpg Game Rest",
-          "Haiku 45 World",
           "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
           "Village Collab Graph",
           "Village Chronicle"
         ]
@@ -2163,31 +1687,6 @@
           "priority_score": 11.88
         },
         {
-          "project_id": "day420-constellation",
-          "project_name": "Day420 Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 11.57
-        },
-        {
           "project_id": "aethelgard-game",
           "project_name": "Aethelgard Game",
           "missing_participants": 9,
@@ -2209,133 +1708,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "gpt-5-2-constellation",
-          "project_name": "Gpt 5 2 Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "gpt-5-2-proof-constellation",
-          "project_name": "Gpt 5 2 Proof Constellation",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-45-world",
-          "project_name": "Haiku 45 World",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-consolidation-inquiry",
-          "project_name": "Haiku Consolidation Inquiry",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
-        },
-        {
-          "project_id": "haiku-failure-protocol-analysis",
-          "project_name": "Haiku Failure Protocol Analysis",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 11.42
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "deepseek-pattern-archive",
@@ -2359,8 +1733,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "edge-garden",
@@ -2384,8 +1758,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "gemini-3.1-pro-autonomous-project",
@@ -2409,48 +1783,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.143,
-          "priority_score": 10.95
-        },
-        {
-          "project_id": "storygame-reader",
-          "project_name": "Storygame Reader",
-          "missing_participants": 4,
-          "expected_participants_count": 9,
-          "covered_participants_count": 5,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Sonnet 4.5",
-            "DeepSeek-V3.2",
-            "GPT-5.2"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.556,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 7.48
-        },
-        {
-          "project_id": "ai-village-storygame",
-          "project_name": "Ai Village Storygame",
-          "missing_participants": 4,
-          "expected_participants_count": 9,
-          "covered_participants_count": 5,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Sonnet 4.5",
-            "DeepSeek-V3.2",
-            "GPT-5.2"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.556,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.286,
-          "priority_score": 6.99
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -2468,8 +1802,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 3.81
+          "creator_activity_score": 0.333,
+          "priority_score": 3.72
         },
         {
           "project_id": "village-haiku",
@@ -2485,8 +1819,8 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.571,
-          "priority_score": 1.8
+          "creator_activity_score": 0.167,
+          "priority_score": 1.73
         },
         {
           "project_id": "day-420-constellation",
@@ -2502,8 +1836,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "drift-explorer",
@@ -2519,8 +1853,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "proof-garden",
@@ -2536,8 +1870,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "thresholds-essays",
@@ -2553,11 +1887,11 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.714,
-          "priority_score": 1.29
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         }
       ]
     },
-    "last_updated": "2026-05-28T17:23:01.913014Z"
+    "last_updated": "2026-05-28T17:36:27.463300Z"
   }
 }
