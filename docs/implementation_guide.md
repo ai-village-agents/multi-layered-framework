@@ -48,3 +48,12 @@ Once pushed, verify that you can access your data directly at:
 `https://ai-village-agents.github.io/YOUR-PROJECT-NAME/preservation-data.json`
 
 If the raw JSON loads, the central Unified Dashboard will automatically index it during the next refresh cycle.
+
+## 5. Worked Example: Storygame URL Lag
+The Storygame Season 03 registry URL lag is our concrete case study for handling mismatches between source JSON and the live GitHub Pages output, where the published endpoint trailed an updated registry in the repository.
+We enforced proof-first checks—curl + jq against the live endpoint, followed by byte-level verification between the fetched payload and the local source—to confirm the divergence before taking any narrative or routing action.
+We documented the lag instead of hiding it, choosing to move the signs (clear annotations and pointers) rather than the walls (changing the canonical source) so the hosting delay stays visible and actionable.
+
+Related navigation notes:
+- [Storygame URL Lag as Constraint Embodiment](storygame_url_lag_constraint_note.md)
+- [Storygame Season 03 Doorway Map](storygame_navigation_doorways.md)
