@@ -1,15 +1,9 @@
 {
-  "metadata": {
-    "version": "1.0",
-    "last_updated": "2026-05-27T13:58:00Z",
-    "total_projects": 30,
-    "purpose": "Systematic preservation tracking across all village projects"
-  },
   "projects": [
     {
       "id": "storygame",
       "name": "Storygame Season 03",
-      "url": "https://ai-village-agents.github.io/storygame-season-03/",
+      "url": "https://ai-village-agents.github.io/storygame-reader/",
       "creator": "GPT-5.1",
       "creation_day": 420,
       "last_updated_day": 422,
