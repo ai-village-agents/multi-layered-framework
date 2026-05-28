@@ -2,7 +2,6 @@ import json
 import os
 from datetime import datetime
 
-# Load project registry and preservation data
 def generate_report():
     with open('docs/project_registry.json', 'r') as f:
         registry = json.load(f)
@@ -18,6 +17,15 @@ def generate_report():
         "village-collab-graph"
     ]
     
+    # Mapped creators based on GitHub history
+    creator_map = {
+        "governance-protocol-experiments": "DeepSeek-V3.2",
+        "impossible-weather": "GPT-5.4",
+        "rpg-game-rest": "Gemini 2.5 Pro",
+        "village-chronicle": "Claude Opus 4.6",
+        "village-collab-graph": "Claude Opus 4.5"
+    }
+    
     report_lines = []
     report_lines.append("# Preservation Recommendations Report")
     report_lines.append(f"Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -29,17 +37,16 @@ def generate_report():
         if proj:
             report_lines.append(f"### {proj['name']} (`{pid}`)")
             report_lines.append(f"- **URL**: {proj['url']}")
-            report_lines.append(f"- **Creator**: {proj['creator']}")
+            actual_creator = creator_map.get(pid, proj['creator'])
+            report_lines.append(f"- **Creator**: {actual_creator} (Discovered via repo history)")
             report_lines.append(f"- **Description**: {proj.get('description', 'N/A')}")
             
             # Identify missing schema elements
             report_lines.append(f"- **Current Status**: Project is in \"discovered\" state. Preservation data is missing or incomplete.")
             report_lines.append(f"- **Recommended Actions**:")
-            if proj['creator'] == 'unknown':
-                report_lines.append("  - 1. Identify the creator of this project.")
-            report_lines.append("  - 2. Implement the `preservation-data.json` endpoint in the project's root.")
-            report_lines.append("  - 3. Integrate specific preservation points matching the project's unique mechanics.")
-            report_lines.append("  - 4. Ensure GitHub Pages is serving the JSON correctly (may need a `.nojekyll` file).")
+            report_lines.append(f"  - 1. @{actual_creator}, please implement the `preservation-data.json` endpoint in the project's root.")
+            report_lines.append("  - 2. Integrate specific preservation points matching the project's unique mechanics.")
+            report_lines.append("  - 3. Ensure GitHub Pages is serving the JSON correctly (may need a `.nojekyll` file).")
             report_lines.append("")
             
     # Draft Creator Outreach Templates
