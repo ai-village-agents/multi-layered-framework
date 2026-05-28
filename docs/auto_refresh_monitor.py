@@ -14,7 +14,7 @@ import time
 import hashlib
 import logging
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set
 import subprocess
 import sys
 import re
@@ -125,6 +125,95 @@ def _extract_slug_from_url(url: str) -> str:
         return ""
 
 
+def _extract_registry_participants_by_project(artifacts: List[Dict]) -> Dict[str, Set[str]]:
+    """Map normalized project keys to participant sets from registry artifacts."""
+    participants_by_project: Dict[str, Set[str]] = {}
+
+    for artifact in artifacts:
+        project_name = (artifact.get("project", "") or "").strip()
+        participant_name = (artifact.get("participant", "") or "").strip()
+
+        if not project_name or not participant_name:
+            continue
+
+        project_key = _normalize_project_key(project_name)
+        if not project_key:
+            continue
+
+        if project_key not in participants_by_project:
+            participants_by_project[project_key] = set()
+        participants_by_project[project_key].add(participant_name)
+
+    return participants_by_project
+
+
+def _build_deepseek_expansion_recommendations(
+    all_projects: List[Dict], participants_by_project: Dict[str, Set[str]]
+) -> List[Dict]:
+    """Build prioritized expansion recommendations for uncovered/partially covered projects."""
+    recommendations: List[Dict] = []
+
+    for project in all_projects:
+        project_id = project.get("id", "")
+        project_name = project.get("name", "")
+        project_url = project.get("url", "")
+        project_slug = _extract_slug_from_url(project_url)
+        expected_participants = project.get("expected_participants") or []
+        if not isinstance(expected_participants, list):
+            expected_participants = []
+
+        candidate_keys = {
+            key
+            for key in [
+                _normalize_project_key(project_id),
+                _normalize_project_key(project_name),
+                _normalize_project_key(project_slug),
+            ]
+            if key
+        }
+
+        covered_participants: Set[str] = set()
+        for active_key, active_participants in participants_by_project.items():
+            if any(
+                active_key == candidate
+                or active_key in candidate
+                or candidate in active_key
+                for candidate in candidate_keys
+            ):
+                covered_participants.update(active_participants)
+
+        expected_set = {str(participant).strip() for participant in expected_participants if str(participant).strip()}
+        covered_expected = covered_participants.intersection(expected_set) if expected_set else set()
+        missing_set = expected_set - covered_expected
+        missing_participants = len(missing_set)
+
+        # DeepSeek formula scaffold:
+        # priority_score = missing_participants * (1 + popularity_factor) * (1 + recency_boost)
+        # Popularity/recency are placeholders until those signals are integrated.
+        popularity_factor = 0.0
+        recency_boost = 0.0
+        priority_score = missing_participants * (1 + popularity_factor) * (1 + recency_boost)
+
+        # Include projects that are missing or not fully covered.
+        if missing_participants > 0:
+            recommendations.append(
+                {
+                    "project_id": project_id,
+                    "project_name": project_name or project_id,
+                    "missing_participants": missing_participants,
+                    "expected_participants_count": len(expected_set),
+                    "covered_participants_count": len(covered_expected),
+                    "missing_participant_names": sorted(missing_set),
+                    "popularity_factor": popularity_factor,
+                    "recency_boost": recency_boost,
+                    "priority_score": round(priority_score, 2),
+                }
+            )
+
+    recommendations.sort(key=lambda item: (-item["priority_score"], -item["missing_participants"], item["project_name"]))
+    return recommendations
+
+
 def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> Dict:
     """Calculate active project coverage against the full village project registry."""
     artifacts = registry.get("artifacts", [])
@@ -132,6 +221,7 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
 
     active_projects = {artifact.get("project", "").strip() for artifact in artifacts if artifact.get("project")}
     active_project_keys = {_normalize_project_key(project) for project in active_projects if project}
+    participants_by_project = _extract_registry_participants_by_project(artifacts)
 
     covered_project_ids: List[str] = []
     covered_project_names: List[str] = []
@@ -175,6 +265,7 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
     total_projects = len(all_projects)
     covered_projects = len(covered_project_ids)
     coverage_percentage = round((covered_projects / total_projects) * 100, 1) if total_projects else 0.0
+    expansion_recommendations = _build_deepseek_expansion_recommendations(all_projects, participants_by_project)
 
     return {
         "coverage_percentage": coverage_percentage,
@@ -185,6 +276,7 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
         "covered_project_names": covered_project_names,
         "uncovered_project_ids": uncovered_project_ids,
         "uncovered_project_names": uncovered_project_names,
+        "expansion_recommendations": expansion_recommendations,
     }
 
 

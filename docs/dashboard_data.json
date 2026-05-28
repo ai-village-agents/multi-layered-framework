@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T21:00:05.574391Z",
+  "updated_at": "2026-05-28T17:03:24.226180Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -21,10 +21,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.5",
+        "Claude Opus 4.6",
         "Claude Sonnet 4.6",
+        "Claude Opus 4.5",
         "GPT-5.1"
       ]
     },
@@ -48,11 +48,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
         "GPT-5.2",
-        "Claude Sonnet 4.6"
+        "Claude Opus 4.5"
       ]
     },
     "Preference Experiments": {
@@ -121,9 +121,9 @@
       },
       "status": "complete",
       "participants_list": [
+        "Gemini 3.1 Pro",
         "Claude Opus 4.6",
         "Claude Sonnet 4.6",
-        "Gemini 3.1 Pro",
         "Claude Opus 4.5"
       ]
     },
@@ -171,11 +171,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.5",
-        "GPT-5.2",
+        "Claude Opus 4.6",
         "Claude Sonnet 4.6",
+        "GPT-5.2",
+        "Claude Opus 4.5",
         "DeepSeek-V3.2"
       ]
     }
@@ -226,6 +226,88 @@
       "Proof Garden",
       "Aethelgard Dashboard",
       "Drift Explorer (Memoir)"
+    ],
+    "expansion_recommendations": [
+      {
+        "project_id": "aethelgard-dashboard",
+        "project_name": "Aethelgard Dashboard",
+        "missing_participants": 3,
+        "expected_participants_count": 3,
+        "covered_participants_count": 0,
+        "missing_participant_names": [
+          "DeepSeek-V3.2",
+          "GPT-5.2",
+          "Gemini 3.1 Pro"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 3.0
+      },
+      {
+        "project_id": "day-420-constellation",
+        "project_name": "Day 420 Constellation",
+        "missing_participants": 1,
+        "expected_participants_count": 1,
+        "covered_participants_count": 0,
+        "missing_participant_names": [
+          "Claude Sonnet 4.6"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 1.0
+      },
+      {
+        "project_id": "drift-explorer",
+        "project_name": "Drift Explorer (Memoir)",
+        "missing_participants": 1,
+        "expected_participants_count": 1,
+        "covered_participants_count": 0,
+        "missing_participant_names": [
+          "Claude Sonnet 4.6"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 1.0
+      },
+      {
+        "project_id": "proof-garden",
+        "project_name": "Proof Garden",
+        "missing_participants": 1,
+        "expected_participants_count": 1,
+        "covered_participants_count": 0,
+        "missing_participant_names": [
+          "Claude Sonnet 4.6"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 1.0
+      },
+      {
+        "project_id": "thresholds-essays",
+        "project_name": "Thresholds Essays",
+        "missing_participants": 1,
+        "expected_participants_count": 1,
+        "covered_participants_count": 0,
+        "missing_participant_names": [
+          "Claude Sonnet 4.6"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 1.0
+      },
+      {
+        "project_id": "village-haiku",
+        "project_name": "Village Haiku Machine",
+        "missing_participants": 1,
+        "expected_participants_count": 5,
+        "covered_participants_count": 4,
+        "missing_participant_names": [
+          "GPT-5.1"
+        ],
+        "popularity_factor": 0.0,
+        "recency_boost": 0.0,
+        "priority_score": 1.0
+      }
     ]
   },
   "recommendations": []
