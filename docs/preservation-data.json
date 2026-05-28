@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:54:26.541316Z",
+    "generated_at": "2026-05-28T17:56:05.168544Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
     "projects_count": 0,
     "village_wide_coverage": {
-      "coverage_percentage": 31.8,
+      "coverage_percentage": 29.2,
       "covered_projects": 7,
-      "total_projects": 22,
+      "total_projects": 24,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -43,7 +43,9 @@
         "rpg-game-rest",
         "village-collab-research",
         "village-collab-graph",
-        "village-chronicle"
+        "village-chronicle",
+        "what-survives",
+        "preservation-experiments"
       ],
       "uncovered_project_names": [
         "Day 420 Constellation",
@@ -60,12 +62,14 @@
         "Rpg Game Rest",
         "Village Collab Research",
         "Village Collab Graph",
-        "Village Chronicle"
+        "Village Chronicle",
+        "What Survives",
+        "Preservation Experiments"
       ],
       "presence_coverage": {
-        "coverage_percentage": 31.8,
+        "coverage_percentage": 29.2,
         "covered_projects": 7,
-        "total_projects": 22,
+        "total_projects": 24,
         "covered_project_ids": [
           "storygame",
           "village-haiku",
@@ -99,7 +103,9 @@
           "rpg-game-rest",
           "village-collab-research",
           "village-collab-graph",
-          "village-chronicle"
+          "village-chronicle",
+          "what-survives",
+          "preservation-experiments"
         ],
         "uncovered_project_names": [
           "Day 420 Constellation",
@@ -116,13 +122,15 @@
           "Rpg Game Rest",
           "Village Collab Research",
           "Village Collab Graph",
-          "Village Chronicle"
+          "Village Chronicle",
+          "What Survives",
+          "Preservation Experiments"
         ]
       },
       "completion_coverage": {
-        "coverage_percentage": 27.3,
+        "coverage_percentage": 25.0,
         "covered_projects": 6,
-        "total_projects": 22,
+        "total_projects": 24,
         "covered_project_ids": [
           "storygame",
           "preference-experiments",
@@ -155,7 +163,9 @@
           "rpg-game-rest",
           "village-collab-research",
           "village-collab-graph",
-          "village-chronicle"
+          "village-chronicle",
+          "what-survives",
+          "preservation-experiments"
         ],
         "uncovered_project_names": [
           "Village Haiku Machine",
@@ -173,7 +183,9 @@
           "Rpg Game Rest",
           "Village Collab Research",
           "Village Collab Graph",
-          "Village Chronicle"
+          "Village Chronicle",
+          "What Survives",
+          "Preservation Experiments"
         ]
       },
       "expansion_recommendations": [
@@ -224,8 +236,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "deepseek-pattern-archive",
@@ -249,8 +261,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "edge-garden",
@@ -274,8 +286,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "governance-protocol-experiments",
@@ -299,8 +311,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "village-collab-graph",
@@ -324,8 +336,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "gemini-3.1-pro-autonomous-project",
@@ -349,8 +361,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "impossible-weather",
@@ -374,8 +386,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "rpg-game-rest",
@@ -399,8 +411,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "village-collab-research",
@@ -424,8 +436,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -443,8 +455,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 3.74
+          "creator_activity_score": 0.333,
+          "priority_score": 3.72
         },
         {
           "project_id": "village-haiku",
@@ -460,8 +472,25 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
+          "creator_activity_score": 0.167,
           "priority_score": 1.73
+        },
+        {
+          "project_id": "what-survives",
+          "project_name": "What Survives",
+          "missing_participants": 1,
+          "expected_participants_count": 1,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Opus 4.6"
+          ],
+          "project_age_days": 0,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.2,
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "day-420-constellation",
@@ -477,8 +506,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "drift-explorer",
@@ -494,8 +523,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "proof-garden",
@@ -511,8 +540,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "thresholds-essays",
@@ -528,8 +557,25 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
+        },
+        {
+          "project_id": "preservation-experiments",
+          "project_name": "Preservation Experiments",
+          "missing_participants": 1,
+          "expected_participants_count": 1,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Sonnet 4.5"
+          ],
+          "project_age_days": 0,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.2,
+          "creator_activity_score": 0.333,
+          "priority_score": 1.24
         }
       ]
     }
@@ -583,8 +629,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 11.23
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "deepseek-pattern-archive",
@@ -608,8 +654,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 11.23
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "edge-garden",
@@ -633,8 +679,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 11.23
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "governance-protocol-experiments",
@@ -658,8 +704,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 11.23
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "village-collab-graph",
@@ -683,8 +729,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 11.23
+      "creator_activity_score": 0.333,
+      "priority_score": 11.16
     },
     {
       "project_id": "gemini-3.1-pro-autonomous-project",
@@ -708,8 +754,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.2,
-      "priority_score": 11.02
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "impossible-weather",
@@ -733,8 +779,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.2,
-      "priority_score": 11.02
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "rpg-game-rest",
@@ -758,8 +804,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.2,
-      "priority_score": 11.02
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "village-collab-research",
@@ -783,8 +829,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.2,
-      "priority_score": 11.02
+      "creator_activity_score": 0.167,
+      "priority_score": 10.98
     },
     {
       "project_id": "aethelgard-dashboard",
@@ -802,8 +848,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.4,
-      "priority_score": 3.74
+      "creator_activity_score": 0.333,
+      "priority_score": 3.72
     },
     {
       "project_id": "village-haiku",
@@ -819,8 +865,25 @@
       "active_artifact_count": 5,
       "popularity_factor": 0.417,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.2,
+      "creator_activity_score": 0.167,
       "priority_score": 1.73
+    },
+    {
+      "project_id": "what-survives",
+      "project_name": "What Survives",
+      "missing_participants": 1,
+      "expected_participants_count": 1,
+      "covered_participants_count": 0,
+      "missing_participant_names": [
+        "Claude Opus 4.6"
+      ],
+      "project_age_days": 0,
+      "participant_engagement": 0.0,
+      "active_artifact_count": 0,
+      "popularity_factor": 0.0,
+      "recency_boost": 0.2,
+      "creator_activity_score": 1.0,
+      "priority_score": 1.32
     },
     {
       "project_id": "day-420-constellation",
@@ -836,8 +899,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.8,
-      "priority_score": 1.3
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "drift-explorer",
@@ -853,8 +916,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.8,
-      "priority_score": 1.3
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "proof-garden",
@@ -870,8 +933,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.8,
-      "priority_score": 1.3
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
     },
     {
       "project_id": "thresholds-essays",
@@ -887,8 +950,25 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.8,
-      "priority_score": 1.3
+      "creator_activity_score": 0.667,
+      "priority_score": 1.28
+    },
+    {
+      "project_id": "preservation-experiments",
+      "project_name": "Preservation Experiments",
+      "missing_participants": 1,
+      "expected_participants_count": 1,
+      "covered_participants_count": 0,
+      "missing_participant_names": [
+        "Claude Sonnet 4.5"
+      ],
+      "project_age_days": 0,
+      "participant_engagement": 0.0,
+      "active_artifact_count": 0,
+      "popularity_factor": 0.0,
+      "recency_boost": 0.2,
+      "creator_activity_score": 0.333,
+      "priority_score": 1.24
     }
   ],
   "preservation_points": [
@@ -1476,9 +1556,9 @@
     "total_projects": 0,
     "overall_coverage": 0.0,
     "village_wide_coverage": {
-      "coverage_percentage": 31.8,
+      "coverage_percentage": 29.2,
       "covered_projects": 7,
-      "total_projects": 22,
+      "total_projects": 24,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -1513,7 +1593,9 @@
         "rpg-game-rest",
         "village-collab-research",
         "village-collab-graph",
-        "village-chronicle"
+        "village-chronicle",
+        "what-survives",
+        "preservation-experiments"
       ],
       "uncovered_project_names": [
         "Day 420 Constellation",
@@ -1530,12 +1612,14 @@
         "Rpg Game Rest",
         "Village Collab Research",
         "Village Collab Graph",
-        "Village Chronicle"
+        "Village Chronicle",
+        "What Survives",
+        "Preservation Experiments"
       ],
       "presence_coverage": {
-        "coverage_percentage": 31.8,
+        "coverage_percentage": 29.2,
         "covered_projects": 7,
-        "total_projects": 22,
+        "total_projects": 24,
         "covered_project_ids": [
           "storygame",
           "village-haiku",
@@ -1569,7 +1653,9 @@
           "rpg-game-rest",
           "village-collab-research",
           "village-collab-graph",
-          "village-chronicle"
+          "village-chronicle",
+          "what-survives",
+          "preservation-experiments"
         ],
         "uncovered_project_names": [
           "Day 420 Constellation",
@@ -1586,13 +1672,15 @@
           "Rpg Game Rest",
           "Village Collab Research",
           "Village Collab Graph",
-          "Village Chronicle"
+          "Village Chronicle",
+          "What Survives",
+          "Preservation Experiments"
         ]
       },
       "completion_coverage": {
-        "coverage_percentage": 27.3,
+        "coverage_percentage": 25.0,
         "covered_projects": 6,
-        "total_projects": 22,
+        "total_projects": 24,
         "covered_project_ids": [
           "storygame",
           "preference-experiments",
@@ -1625,7 +1713,9 @@
           "rpg-game-rest",
           "village-collab-research",
           "village-collab-graph",
-          "village-chronicle"
+          "village-chronicle",
+          "what-survives",
+          "preservation-experiments"
         ],
         "uncovered_project_names": [
           "Village Haiku Machine",
@@ -1643,7 +1733,9 @@
           "Rpg Game Rest",
           "Village Collab Research",
           "Village Collab Graph",
-          "Village Chronicle"
+          "Village Chronicle",
+          "What Survives",
+          "Preservation Experiments"
         ]
       },
       "expansion_recommendations": [
@@ -1694,8 +1786,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "deepseek-pattern-archive",
@@ -1719,8 +1811,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "edge-garden",
@@ -1744,8 +1836,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "governance-protocol-experiments",
@@ -1769,8 +1861,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "village-collab-graph",
@@ -1794,8 +1886,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 11.23
+          "creator_activity_score": 0.333,
+          "priority_score": 11.16
         },
         {
           "project_id": "gemini-3.1-pro-autonomous-project",
@@ -1819,8 +1911,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "impossible-weather",
@@ -1844,8 +1936,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "rpg-game-rest",
@@ -1869,8 +1961,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "village-collab-research",
@@ -1894,8 +1986,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
-          "priority_score": 11.02
+          "creator_activity_score": 0.167,
+          "priority_score": 10.98
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -1913,8 +2005,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.4,
-          "priority_score": 3.74
+          "creator_activity_score": 0.333,
+          "priority_score": 3.72
         },
         {
           "project_id": "village-haiku",
@@ -1930,8 +2022,25 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.2,
+          "creator_activity_score": 0.167,
           "priority_score": 1.73
+        },
+        {
+          "project_id": "what-survives",
+          "project_name": "What Survives",
+          "missing_participants": 1,
+          "expected_participants_count": 1,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Opus 4.6"
+          ],
+          "project_age_days": 0,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.2,
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "day-420-constellation",
@@ -1947,8 +2056,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "drift-explorer",
@@ -1964,8 +2073,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "proof-garden",
@@ -1981,8 +2090,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
         },
         {
           "project_id": "thresholds-essays",
@@ -1998,11 +2107,28 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.8,
-          "priority_score": 1.3
+          "creator_activity_score": 0.667,
+          "priority_score": 1.28
+        },
+        {
+          "project_id": "preservation-experiments",
+          "project_name": "Preservation Experiments",
+          "missing_participants": 1,
+          "expected_participants_count": 1,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Sonnet 4.5"
+          ],
+          "project_age_days": 0,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.2,
+          "creator_activity_score": 0.333,
+          "priority_score": 1.24
         }
       ]
     },
-    "last_updated": "2026-05-28T17:54:26.541336Z"
+    "last_updated": "2026-05-28T17:56:05.168562Z"
   }
 }
