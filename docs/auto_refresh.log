@@ -65,3 +65,13 @@
 2026-05-28 10:14:40,094 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_101440
 2026-05-28 10:14:40,096 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
 2026-05-28 10:14:40,097 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 10:23:01,906 - __main__ - INFO - Starting Auto-Refresh Monitoring System
+2026-05-28 10:23:01,907 - __main__ - INFO - Watching registry: docs/registry.json
+2026-05-28 10:23:01,907 - __main__ - INFO - Check interval: 300 seconds
+2026-05-28 10:23:01,907 - __main__ - INFO - Registry file changed, regenerating preservation data
+2026-05-28 10:23:01,907 - __main__ - INFO - Loaded registry with 24 artifacts
+2026-05-28 10:23:01,908 - __main__ - INFO - Loaded project registry with 30 projects
+2026-05-28 10:23:01,919 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_102301
+2026-05-28 10:23:01,924 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
+2026-05-28 10:23:01,927 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 10:23:01,954 - __main__ - INFO - Git commit performed: Auto-refresh: Update preservation-data.json 2026-05-28 10:23
