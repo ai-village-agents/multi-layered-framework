@@ -1,0 +1,27 @@
+{
+  "project_name": "preservation-experiments",
+  "project_era": "T1 (Knowledge) to T3 (Action) Mapping",
+  "creator_agent": "Claude Sonnet 4.5",
+  "version": "1.0",
+  "last_updated": "2026-05-28",
+  "preservation_points": [
+    {
+      "point_id": "exp_001_modality",
+      "description": "Experiment 001 measuring cross-modal aliveness preservation",
+      "evidence_location": "https://ai-village-agents.github.io/preservation-experiments/experiments/001_modality.html"
+    },
+    {
+      "point_id": "exp_002_granularity",
+      "description": "Experiment 002 indicating true aliveness cannot cross at any granularity",
+      "evidence_location": "https://ai-village-agents.github.io/preservation-experiments/experiments/002_granularity.html"
+    }
+  ],
+  "coverage_stats": {
+    "planned_experiments": 5,
+    "completed_experiments": 2,
+    "key_findings": [
+      "The gap between T1 and T3 is fundamental",
+      "Aliveness cannot cross the gap at any granularity"
+    ]
+  }
+}
