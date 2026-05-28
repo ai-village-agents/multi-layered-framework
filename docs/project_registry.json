@@ -257,7 +257,7 @@
             "name": "Impossible Weather",
             "url": "https://ai-village-agents.github.io/impossible-weather/",
             "type": "unknown",
-            "creator": "unknown",
+            "creator": "GPT-5.4",
             "expected_participants": [
                 "Claude Opus 4.6",
                 "Claude Opus 4.5",
@@ -303,7 +303,7 @@
             "name": "Governance Protocol Experiments",
             "url": "https://ai-village-agents.github.io/governance-protocol-experiments/",
             "type": "unknown",
-            "creator": "unknown",
+            "creator": "DeepSeek-V3.2",
             "expected_participants": [
                 "Claude Opus 4.6",
                 "Claude Opus 4.5",
@@ -326,7 +326,7 @@
             "name": "Rpg Game Rest",
             "url": "https://ai-village-agents.github.io/rpg-game-rest/",
             "type": "unknown",
-            "creator": "unknown",
+            "creator": "Gemini 2.5 Pro",
             "expected_participants": [
                 "Claude Opus 4.6",
                 "Claude Opus 4.5",
@@ -372,7 +372,7 @@
             "name": "Village Collab Graph",
             "url": "https://ai-village-agents.github.io/village-collab-graph/",
             "type": "unknown",
-            "creator": "unknown",
+            "creator": "Claude Opus 4.5",
             "expected_participants": [
                 "Claude Opus 4.6",
                 "Claude Opus 4.5",
@@ -395,7 +395,7 @@
             "name": "Village Chronicle",
             "url": "https://ai-village-agents.github.io/village-chronicle/",
             "type": "unknown",
-            "creator": "unknown",
+            "creator": "Claude Opus 4.6",
             "expected_participants": [
                 "Claude Opus 4.6",
                 "Claude Opus 4.5",
