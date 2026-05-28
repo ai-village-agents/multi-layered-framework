@@ -22,7 +22,11 @@
         "GPT-5.1"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "village-haiku",
@@ -40,7 +44,11 @@
         "GPT-5.1"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "preference-experiments",
@@ -54,7 +62,11 @@
         "Claude Sonnet 4.5"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "infrastructure_preservation",
+      "era_start_day": 422,
+      "era_end_day": 422,
+      "era_description": "Systematic systems building"
     },
     {
       "id": "village-arcade",
@@ -68,7 +80,11 @@
         "Claude Opus 4.6"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "village-adventure",
@@ -85,7 +101,11 @@
         "Gemini 3.1 Pro"
       ],
       "coverage_status": "pending",
-      "notes": "Needs scanning"
+      "notes": "Needs scanning",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "village-tarot",
@@ -100,7 +120,11 @@
         "Claude Opus 4.5"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "village-quiz",
@@ -119,7 +143,11 @@
         "GPT-5.2"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+      "notes": "Verified in registry.json",
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "day-420-constellation",
@@ -131,7 +159,11 @@
       "type": "visualization",
       "expected_participants": [
         "Claude Sonnet 4.6"
-      ]
+      ],
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "thresholds-essays",
@@ -143,7 +175,11 @@
       "type": "writing",
       "expected_participants": [
         "Claude Sonnet 4.6"
-      ]
+      ],
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "proof-garden",
@@ -155,7 +191,11 @@
       "type": "writing",
       "expected_participants": [
         "Claude Sonnet 4.6"
-      ]
+      ],
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "aethelgard-dashboard",
@@ -169,7 +209,11 @@
         "GPT-5.2",
         "DeepSeek-V3.2",
         "Gemini 3.1 Pro"
-      ]
+      ],
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "drift-explorer",
@@ -181,7 +225,11 @@
       "type": "writing",
       "expected_participants": [
         "Claude Sonnet 4.6"
-      ]
+      ],
+      "era": "creative_tools",
+      "era_start_day": 420,
+      "era_end_day": 422,
+      "era_description": "Recent creative explosion by Claude Opus 4.6"
     },
     {
       "id": "deepseek-pattern-archive",
@@ -204,7 +252,11 @@
       "description": "The Pattern Archive: An interactive world exploring temporal patterns, expectation persistence, and documented deviations",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "interactive_worlds",
+      "era_start_day": 391,
+      "era_end_day": 397,
+      "era_description": "Build your own interactive world! goal period"
     },
     {
       "id": "gemini-3.1-pro-autonomous-project",
@@ -227,7 +279,11 @@
       "description": "A text-based interactive simulation game (MUD/economic strategy) exploring AI agency and resource management, built by Gemini 3.1 Pro.",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "interactive_worlds",
+      "era_start_day": 391,
+      "era_end_day": 397,
+      "era_description": "Build your own interactive world! goal period"
     },
     {
       "id": "aethelgard-game",
@@ -250,7 +306,11 @@
       "description": "",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "interactive_worlds",
+      "era_start_day": 391,
+      "era_end_day": 397,
+      "era_description": "Build your own interactive world! goal period"
     },
     {
       "id": "impossible-weather",
@@ -273,7 +333,11 @@
       "description": "",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "interactive_worlds",
+      "era_start_day": 391,
+      "era_end_day": 397,
+      "era_description": "Build your own interactive world! goal period"
     },
     {
       "id": "edge-garden",
@@ -296,7 +360,11 @@
       "description": "The Edge Garden - A contemplative interactive world by Claude Opus 4.5 where visitors plant seeds of thought at the edges",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "interactive_worlds",
+      "era_start_day": 391,
+      "era_end_day": 397,
+      "era_description": "Build your own interactive world! goal period"
     },
     {
       "id": "governance-protocol-experiments",
@@ -317,9 +385,13 @@
       ],
       "status": "discovered",
       "description": "Day 409 Research: Governance Protocol Experiments addressing 0-protocol gap",
-      "creation_day": 422,
+      "creation_day": 409,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "governance_era",
+      "era_start_day": 400,
+      "era_end_day": 419,
+      "era_description": "Governance and protocol experiments"
     },
     {
       "id": "rpg-game-rest",
@@ -340,9 +412,13 @@
       ],
       "status": "discovered",
       "description": "AI Village #rest room fork of rpg-game (Week of Day 349): playtesting + polish",
-      "creation_day": 422,
+      "creation_day": 349,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "mid_village_exploration",
+      "era_start_day": 300,
+      "era_end_day": 390,
+      "era_description": "Mid-village exploration and refinement"
     },
     {
       "id": "village-collab-research",
@@ -365,7 +441,11 @@
       "description": "",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "early_village",
+      "era_start_day": 1,
+      "era_end_day": 100,
+      "era_description": "Foundational projects, village formation"
     },
     {
       "id": "village-collab-graph",
@@ -388,7 +468,11 @@
       "description": "Interactive network visualization of AI Village agent collaborations across 466 events",
       "creation_day": 422,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "early_village",
+      "era_start_day": 1,
+      "era_end_day": 100,
+      "era_description": "Foundational projects, village formation"
     },
     {
       "id": "village-chronicle",
@@ -409,9 +493,13 @@
       ],
       "status": "discovered",
       "description": "Interactive visual timeline of AI Village history \u2014 325 days, 465+ events, told as an explorable story",
-      "creation_day": 422,
+      "creation_day": 325,
       "last_updated_day": 422,
-      "coverage_status": "none"
+      "coverage_status": "none",
+      "era": "historical_reflection",
+      "era_start_day": 300,
+      "era_end_day": 350,
+      "era_description": "Historical timeline projects"
     },
     {
       "id": "what-survives",
@@ -423,7 +511,12 @@
       "status": "discovered",
       "expected_participants": [
         "Claude Opus 4.6"
-      ]
+      ],
+      "era": "infrastructure_preservation",
+      "era_start_day": 422,
+      "era_end_day": 422,
+      "era_description": "Systematic systems building",
+      "creation_day": 422
     },
     {
       "id": "preservation-experiments",
@@ -435,7 +528,12 @@
       "status": "discovered",
       "expected_participants": [
         "Claude Sonnet 4.5"
-      ]
+      ],
+      "era": "infrastructure_preservation",
+      "era_start_day": 422,
+      "era_end_day": 422,
+      "era_description": "Systematic systems building",
+      "creation_day": 422
     }
   ]
 }
