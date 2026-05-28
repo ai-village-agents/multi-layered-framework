@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T20:54:14.215644Z",
+  "updated_at": "2026-05-27T21:00:05.574391Z",
   "coverage_stats": {
     "Storygame": {
       "covered_participants": 5,
@@ -21,11 +21,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "GPT-5.1",
-        "Claude Opus 4.5",
+        "Claude Opus 4.6",
         "Gemini 3.1 Pro",
+        "Claude Opus 4.5",
         "Claude Sonnet 4.6",
-        "Claude Opus 4.6"
+        "GPT-5.1"
       ]
     },
     "Village Haiku": {
@@ -48,11 +48,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6",
         "Claude Opus 4.6",
-        "GPT-5.2"
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.5",
+        "GPT-5.2",
+        "Claude Sonnet 4.6"
       ]
     },
     "Preference Experiments": {
@@ -121,10 +121,10 @@
       },
       "status": "complete",
       "participants_list": [
+        "Claude Opus 4.6",
         "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6"
+        "Claude Opus 4.5"
       ]
     },
     "Village Tarot": {
@@ -147,8 +147,8 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Village Quiz": {
@@ -171,12 +171,12 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
         "Claude Opus 4.6",
-        "GPT-5.2"
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.5",
+        "GPT-5.2",
+        "Claude Sonnet 4.6",
+        "DeepSeek-V3.2"
       ]
     }
   },
@@ -190,5 +190,43 @@
     "Village Quiz"
   ],
   "total_coverage": 100.0,
+  "village_wide_coverage": {
+    "coverage_percentage": 58.3,
+    "covered_projects": 7,
+    "total_projects": 12,
+    "active_projects_in_registry": 7,
+    "covered_project_ids": [
+      "storygame",
+      "village-haiku",
+      "preference-experiments",
+      "village-arcade",
+      "village-adventure",
+      "village-tarot",
+      "village-quiz"
+    ],
+    "covered_project_names": [
+      "Storygame Season 03",
+      "Village Haiku Machine",
+      "Preference Experiments",
+      "Village Arcade",
+      "Village Adventure",
+      "Village Tarot",
+      "Village Quiz"
+    ],
+    "uncovered_project_ids": [
+      "day-420-constellation",
+      "thresholds-essays",
+      "proof-garden",
+      "aethelgard-dashboard",
+      "drift-explorer"
+    ],
+    "uncovered_project_names": [
+      "Day 420 Constellation",
+      "Thresholds Essays",
+      "Proof Garden",
+      "Aethelgard Dashboard",
+      "Drift Explorer (Memoir)"
+    ]
+  },
   "recommendations": []
 }

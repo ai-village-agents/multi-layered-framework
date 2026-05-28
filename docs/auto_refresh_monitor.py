@@ -17,11 +17,14 @@ from datetime import datetime
 from typing import Dict, List, Optional
 import subprocess
 import sys
+import re
+from urllib.parse import urlparse
 
 # Configuration
 CONFIG = {
     # Prefer published docs paths (repo Pages source is /docs)
     "registry_path": "docs/registry.json",
+    "project_registry_path": "docs/project_registry.json",
     "preservation_data_path": "docs/preservation-data.json",
     "dashboard_path": "docs/unified-coverage-dashboard.html",
     "check_interval_seconds": 300,  # 5 minutes
@@ -77,6 +80,113 @@ def load_registry() -> Dict:
     except (json.JSONDecodeError, IOError) as e:
         logger.error(f"Failed to load registry: {e}")
         return {"artifacts": [], "last_updated": datetime.utcnow().isoformat()}
+
+
+def load_project_registry() -> Dict:
+    """Load and parse the project_registry.json file."""
+    project_registry_path = CONFIG["project_registry_path"]
+
+    if not os.path.exists(project_registry_path):
+        logger.warning(f"Project registry file not found: {project_registry_path}")
+        return {"projects": []}
+
+    try:
+        with open(project_registry_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        if isinstance(data, list):
+            project_registry = {"projects": data}
+        else:
+            project_registry = data
+
+        logger.info(f"Loaded project registry with {len(project_registry.get('projects', []))} projects")
+        return project_registry
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Failed to load project registry: {e}")
+        return {"projects": []}
+
+
+def _normalize_project_key(value: str) -> str:
+    """Normalize project labels/IDs into a comparable key."""
+    normalized = re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
+    return re.sub(r"\s+", " ", normalized)
+
+
+def _extract_slug_from_url(url: str) -> str:
+    """Extract last URL path segment for project matching."""
+    if not url:
+        return ""
+    try:
+        path = urlparse(url).path.strip("/")
+        if not path:
+            return ""
+        return path.split("/")[-1]
+    except Exception:
+        return ""
+
+
+def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> Dict:
+    """Calculate active project coverage against the full village project registry."""
+    artifacts = registry.get("artifacts", [])
+    all_projects = project_registry.get("projects", [])
+
+    active_projects = {artifact.get("project", "").strip() for artifact in artifacts if artifact.get("project")}
+    active_project_keys = {_normalize_project_key(project) for project in active_projects if project}
+
+    covered_project_ids: List[str] = []
+    covered_project_names: List[str] = []
+    uncovered_project_ids: List[str] = []
+    uncovered_project_names: List[str] = []
+
+    for project in all_projects:
+        project_id = project.get("id", "")
+        project_name = project.get("name", "")
+        project_url = project.get("url", "")
+        project_slug = _extract_slug_from_url(project_url)
+
+        candidate_keys = {
+            key
+            for key in [
+                _normalize_project_key(project_id),
+                _normalize_project_key(project_name),
+                _normalize_project_key(project_slug),
+            ]
+            if key
+        }
+
+        matched = False
+        for active_key in active_project_keys:
+            if any(
+                active_key == candidate
+                or active_key in candidate
+                or candidate in active_key
+                for candidate in candidate_keys
+            ):
+                matched = True
+                break
+
+        if matched:
+            covered_project_ids.append(project_id)
+            covered_project_names.append(project_name or project_id)
+        else:
+            uncovered_project_ids.append(project_id)
+            uncovered_project_names.append(project_name or project_id)
+
+    total_projects = len(all_projects)
+    covered_projects = len(covered_project_ids)
+    coverage_percentage = round((covered_projects / total_projects) * 100, 1) if total_projects else 0.0
+
+    return {
+        "coverage_percentage": coverage_percentage,
+        "covered_projects": covered_projects,
+        "total_projects": total_projects,
+        "active_projects_in_registry": len(active_projects),
+        "covered_project_ids": covered_project_ids,
+        "covered_project_names": covered_project_names,
+        "uncovered_project_ids": uncovered_project_ids,
+        "uncovered_project_names": uncovered_project_names,
+    }
+
 
 def analyze_coverage_by_project(registry: Dict) -> Dict[str, Dict]:
     """Analyze coverage by project from registry data.
@@ -150,7 +260,7 @@ def _calculate_overall_coverage(coverage_stats: Dict) -> float:
     return round((total_covered / total_expected) * 100, 1)
 
 
-def regenerate_preservation_data(registry: Dict, coverage_stats: Dict) -> Dict:
+def regenerate_preservation_data(registry: Dict, coverage_stats: Dict, village_wide_coverage: Dict) -> Dict:
     """Regenerate preservation-data.json from registry and coverage stats.
 
     Note: Sonnet 4.6's Preservation Map currently expects a simpler schema
@@ -184,8 +294,10 @@ def regenerate_preservation_data(registry: Dict, coverage_stats: Dict) -> Dict:
         "metadata": {
             "generated_at": datetime.utcnow().isoformat() + "Z",
             "registry_source": CONFIG["registry_path"],
+            "project_registry_source": CONFIG["project_registry_path"],
             "artifacts_count": len(artifacts),
             "projects_count": len(coverage_stats),
+            "village_wide_coverage": village_wide_coverage,
         },
         "coverage_statistics": coverage_stats,
         "preservation_points": preservation_points,
@@ -193,6 +305,7 @@ def regenerate_preservation_data(registry: Dict, coverage_stats: Dict) -> Dict:
             "total_artifacts": len(artifacts),
             "total_projects": len(coverage_stats),
             "overall_coverage": _calculate_overall_coverage(coverage_stats),
+            "village_wide_coverage": village_wide_coverage,
             "last_updated": datetime.utcnow().isoformat() + "Z",
         },
     }
@@ -295,7 +408,7 @@ def generate_recommendations(coverage_stats: Dict) -> List[Dict]:
     return recommendations
 
 
-def update_dashboard_statistics(coverage_stats: Dict):
+def update_dashboard_statistics(coverage_stats: Dict, village_wide_coverage: Dict):
     """Update the unified dashboard with latest coverage statistics.
 
     Writes a JSON file for the dashboard to consume.
@@ -305,6 +418,7 @@ def update_dashboard_statistics(coverage_stats: Dict):
         "coverage_stats": coverage_stats,
         "projects": list(coverage_stats.keys()),
         "total_coverage": _calculate_overall_coverage(coverage_stats),
+        "village_wide_coverage": village_wide_coverage,
         "recommendations": generate_recommendations(coverage_stats),
     }
 
@@ -365,14 +479,16 @@ def main():
 
                 # Analyze coverage
                 coverage_stats = analyze_coverage_by_project(registry)
+                project_registry = load_project_registry()
+                village_wide_coverage = calculate_village_wide_coverage(registry, project_registry)
 
                 # Regenerate preservation data
-                preservation_data = regenerate_preservation_data(registry, coverage_stats)
+                preservation_data = regenerate_preservation_data(registry, coverage_stats, village_wide_coverage)
 
                 # Write to file
                 if write_preservation_data(preservation_data):
                     # Update dashboard data
-                    update_dashboard_statistics(coverage_stats)
+                    update_dashboard_statistics(coverage_stats, village_wide_coverage)
 
                     # Check for alerts
                     alerts = check_for_coverage_alerts(coverage_stats, previous_coverage_stats)
@@ -406,15 +522,22 @@ if __name__ == "__main__":
 
         registry = load_registry()
         coverage_stats = analyze_coverage_by_project(registry)
-        preservation_data = regenerate_preservation_data(registry, coverage_stats)
+        project_registry = load_project_registry()
+        village_wide_coverage = calculate_village_wide_coverage(registry, project_registry)
+        preservation_data = regenerate_preservation_data(registry, coverage_stats, village_wide_coverage)
 
         if write_preservation_data(preservation_data):
-            update_dashboard_statistics(coverage_stats)
+            update_dashboard_statistics(coverage_stats, village_wide_coverage)
             alerts = check_for_coverage_alerts(coverage_stats)
 
             print("\n=== AUTO-REFRESH COMPLETE ===")
             print(f"Artifacts processed: {len(registry.get('artifacts', []))}")
             print(f"Projects analyzed: {len(coverage_stats)}")
+            print(
+                "Village-wide coverage: "
+                f"{village_wide_coverage['coverage_percentage']}% "
+                f"({village_wide_coverage['covered_projects']}/{village_wide_coverage['total_projects']})"
+            )
 
             for project, stats in coverage_stats.items():
                 print(f"\n{project.upper()}: {stats['coverage_percentage']}% coverage")

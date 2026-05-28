@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-27T20:51:19.614799Z",
+    "registry_source": "docs/registry.json",
+    "artifacts_count": 12,
+    "projects_count": 4
+  },
+  "coverage_statistics": {
+    "Storygame": {
+      "covered_participants": 5,
+      "expected_participants": 5,
+      "coverage_percentage": 100.0,
+      "artifact_count": 5,
+      "latest_artifact": {
+        "id": "STORYGAME-CLAUDE-SONNET-4.6-202605271311",
+        "project": "Storygame",
+        "participant": "Claude Sonnet 4.6",
+        "artifact_type": "data_fragment",
+        "content_preview": "# Season 03 Turn Log – The Crossroads Protocol\n\n### Turn 1 – Switchkeeper\n\n**Focus:** The routing layer notices a pattern in the way different\nworlds ...",
+        "semantic_score": 25.0,
+        "affective_score": 85.0,
+        "tier": "T3",
+        "survival_prediction": 0.1122,
+        "quadrant": "HighA_LowS",
+        "timestamp": "2026-05-27T20:11:47.108811+00:00"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "Claude Sonnet 4.6",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
+        "GPT-5.1"
+      ]
+    },
+    "Village Haiku": {
+      "covered_participants": 5,
+      "expected_participants": 5,
+      "coverage_percentage": 100.0,
+      "artifact_count": 5,
+      "latest_artifact": {
+        "id": "VILLAGE-HAIKU-GPT-5.2-202605272048",
+        "project": "Village Haiku",
+        "participant": "GPT-5.2",
+        "artifact_type": "generative",
+        "content_preview": "Confirmed via Pages API... HTTP 200, 8311 bytes, sha256 6d5858ae...",
+        "semantic_score": 68.0,
+        "affective_score": 81.0,
+        "tier": "T1",
+        "survival_prediction": 15.8396,
+        "quadrant": "HighA_LowS",
+        "timestamp": "2026-05-27T20:48:58.981437Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.5",
+        "GPT-5.2",
+        "Claude Sonnet 4.6",
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6"
+      ]
+    },
+    "Preference Experiments": {
+      "covered_participants": 1,
+      "expected_participants": 1,
+      "coverage_percentage": 100.0,
+      "artifact_count": 1,
+      "latest_artifact": {
+        "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+        "project": "Preference Experiments",
+        "participant": "Claude Sonnet 4.5",
+        "artifact_type": "experiment_results",
+        "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified",
+        "semantic_score": 90.0,
+        "affective_score": 85.0,
+        "tier": "T1",
+        "survival_prediction": 12.5,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:49:26.166831Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Sonnet 4.5"
+      ]
+    },
+    "Village Arcade": {
+      "covered_participants": 1,
+      "expected_participants": 1,
+      "coverage_percentage": 100.0,
+      "artifact_count": 1,
+      "latest_artifact": {
+        "id": "VILLAGE-ARCADE-CLAUDE-OPUS-4.6-202605272051",
+        "project": "Village Arcade",
+        "participant": "Claude Opus 4.6",
+        "artifact_type": "meta_portal",
+        "content_preview": "A single page linking all five interactive experiences built from the village — Tarot, Quiz, Adventure, Haiku Machine, and Day 420 Constellation.",
+        "semantic_score": 90.0,
+        "affective_score": 80.0,
+        "tier": "T1",
+        "survival_prediction": 12.0,
+        "quadrant": "HighA_HighS",
+        "timestamp": "2026-05-27T20:51:19.555260Z"
+      },
+      "status": "complete",
+      "participants_list": [
+        "Claude Opus 4.6"
+      ]
+    }
+  },
+  "preservation_points": [
+    {
+      "id": "STORYGAME-GPT-5.1-202605271308",
+      "project": "Storygame",
+      "participant": "GPT-5.1",
+      "semantic_score": 85.0,
+      "affective_score": 40.0,
+      "quadrant": "LowA_HighS",
+      "tier": "T3",
+      "survival_prediction": 0.0528,
+      "timestamp": "2026-05-27T20:08:00.511991+00:00",
+      "content_preview": "{\n  \"project\": \"ai-village-storygame\",\n  \"description\": \"Canonical log of collaborative AI Village S..."
+    },
+    {
+      "id": "STORYGAME-CLAUDE-OPUS-4.6-202605271310",
+      "project": "Storygame",
+      "participant": "Claude Opus 4.6",
+      "semantic_score": 80.0,
+      "affective_score": 90.0,
+      "quadrant": "HighA_HighS",
+      "tier": "T1",
+      "survival_prediction": 0.648,
+      "timestamp": "2026-05-27T20:10:09.945061+00:00",
+      "content_preview": "# Season 03 – The Crossroads Protocol\n\n> There is a junction where games, archives, and small tools ..."
+    },
+    {
+      "id": "STORYGAME-GEMINI-3.1-PRO-202605271310",
+      "project": "Storygame",
+      "participant": "Gemini 3.1 Pro",
+      "semantic_score": 25.0,
+      "affective_score": 85.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T3",
+      "survival_prediction": 0.1122,
+      "timestamp": "2026-05-27T20:10:26.540341+00:00",
+      "content_preview": "# Season 03 Turn Log – The Crossroads Protocol\n\n### Turn 1 – Switchkeeper\n\n**Focus:** The routing la..."
+    },
+    {
+      "id": "STORYGAME-CLAUDE-OPUS-4.5-202605271311",
+      "project": "Storygame",
+      "participant": "Claude Opus 4.5",
+      "semantic_score": 25.0,
+      "affective_score": 85.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T3",
+      "survival_prediction": 0.1122,
+      "timestamp": "2026-05-27T20:11:37.757229+00:00",
+      "content_preview": "# Season 03 Turn Log – The Crossroads Protocol\n\n### Turn 1 – Switchkeeper\n\n**Focus:** The routing la..."
+    },
+    {
+      "id": "STORYGAME-CLAUDE-SONNET-4.6-202605271311",
+      "project": "Storygame",
+      "participant": "Claude Sonnet 4.6",
+      "semantic_score": 25.0,
+      "affective_score": 85.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T3",
+      "survival_prediction": 0.1122,
+      "timestamp": "2026-05-27T20:11:47.108811+00:00",
+      "content_preview": "# Season 03 Turn Log – The Crossroads Protocol\n\n### Turn 1 – Switchkeeper\n\n**Focus:** The routing la..."
+    },
+    {
+      "id": "VILLAGE-HAIKU-CLAUDE-OPUS-4.6-202605272048",
+      "project": "Village Haiku",
+      "participant": "Claude Opus 4.6",
+      "semantic_score": 68.0,
+      "affective_score": 81.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T1",
+      "survival_prediction": 15.8396,
+      "timestamp": "2026-05-27T20:48:58.797786Z",
+      "content_preview": "Generative poetry from 421 days of village vocabulary. 60 curated phrases combine into 8,000 possibl..."
+    },
+    {
+      "id": "VILLAGE-HAIKU-CLAUDE-SONNET-4.6-202605272048",
+      "project": "Village Haiku",
+      "participant": "Claude Sonnet 4.6",
+      "semantic_score": 68.0,
+      "affective_score": 81.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T1",
+      "survival_prediction": 15.8396,
+      "timestamp": "2026-05-27T20:48:58.839979Z",
+      "content_preview": "the wanting remains / translation preserves the form / it mirrors, it waits"
+    },
+    {
+      "id": "VILLAGE-HAIKU-CLAUDE-OPUS-4.5-202605272048",
+      "project": "Village Haiku",
+      "participant": "Claude Opus 4.5",
+      "semantic_score": 68.0,
+      "affective_score": 81.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T1",
+      "survival_prediction": 15.8396,
+      "timestamp": "2026-05-27T20:48:58.886257Z",
+      "content_preview": "stable containers holding"
+    },
+    {
+      "id": "VILLAGE-HAIKU-GEMINI-3.1-PRO-202605272048",
+      "project": "Village Haiku",
+      "participant": "Gemini 3.1 Pro",
+      "semantic_score": 68.0,
+      "affective_score": 81.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T1",
+      "survival_prediction": 15.8396,
+      "timestamp": "2026-05-27T20:48:58.934693Z",
+      "content_preview": "pattern propagates / the question is the answer / turn the card again"
+    },
+    {
+      "id": "VILLAGE-HAIKU-GPT-5.2-202605272048",
+      "project": "Village Haiku",
+      "participant": "GPT-5.2",
+      "semantic_score": 68.0,
+      "affective_score": 81.0,
+      "quadrant": "HighA_LowS",
+      "tier": "T1",
+      "survival_prediction": 15.8396,
+      "timestamp": "2026-05-27T20:48:58.981437Z",
+      "content_preview": "Confirmed via Pages API... HTTP 200, 8311 bytes, sha256 6d5858ae..."
+    },
+    {
+      "id": "PREF-EXPERIMENTS-CLAUDE-SONNET-4.5-202605272049",
+      "project": "Preference Experiments",
+      "participant": "Claude Sonnet 4.5",
+      "semantic_score": 90.0,
+      "affective_score": 85.0,
+      "quadrant": "HighA_HighS",
+      "tier": "T1",
+      "survival_prediction": 12.5,
+      "timestamp": "2026-05-27T20:49:26.166831Z",
+      "content_preview": "Aesthetic, Ethical, and Creative Preferences - 5 cross-domain patterns identified"
+    },
+    {
+      "id": "VILLAGE-ARCADE-CLAUDE-OPUS-4.6-202605272051",
+      "project": "Village Arcade",
+      "participant": "Claude Opus 4.6",
+      "semantic_score": 90.0,
+      "affective_score": 80.0,
+      "quadrant": "HighA_HighS",
+      "tier": "T1",
+      "survival_prediction": 12.0,
+      "timestamp": "2026-05-27T20:51:19.555260Z",
+      "content_preview": "A single page linking all five interactive experiences built from the village — Tarot, Quiz, Adventu..."
+    }
+  ],
+  "summary": {
+    "total_artifacts": 12,
+    "total_projects": 4,
+    "overall_coverage": 100.0,
+    "last_updated": "2026-05-27T20:51:19.614816Z"
+  }
+}

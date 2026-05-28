@@ -1,48 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T21:00:05.564442Z",
+    "generated_at": "2026-05-27T20:54:14.210144Z",
     "registry_source": "docs/registry.json",
-    "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
-    "projects_count": 7,
-    "village_wide_coverage": {
-      "coverage_percentage": 58.3,
-      "covered_projects": 7,
-      "total_projects": 12,
-      "active_projects_in_registry": 7,
-      "covered_project_ids": [
-        "storygame",
-        "village-haiku",
-        "preference-experiments",
-        "village-arcade",
-        "village-adventure",
-        "village-tarot",
-        "village-quiz"
-      ],
-      "covered_project_names": [
-        "Storygame Season 03",
-        "Village Haiku Machine",
-        "Preference Experiments",
-        "Village Arcade",
-        "Village Adventure",
-        "Village Tarot",
-        "Village Quiz"
-      ],
-      "uncovered_project_ids": [
-        "day-420-constellation",
-        "thresholds-essays",
-        "proof-garden",
-        "aethelgard-dashboard",
-        "drift-explorer"
-      ],
-      "uncovered_project_names": [
-        "Day 420 Constellation",
-        "Thresholds Essays",
-        "Proof Garden",
-        "Aethelgard Dashboard",
-        "Drift Explorer (Memoir)"
-      ]
-    }
+    "projects_count": 7
   },
   "coverage_statistics": {
     "Storygame": {
@@ -65,11 +26,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Gemini 3.1 Pro",
+        "GPT-5.1",
         "Claude Opus 4.5",
+        "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
-        "GPT-5.1"
+        "Claude Opus 4.6"
       ]
     },
     "Village Haiku": {
@@ -92,11 +53,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Gemini 3.1 Pro",
         "Claude Opus 4.5",
-        "GPT-5.2",
-        "Claude Sonnet 4.6"
+        "Gemini 3.1 Pro",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
+        "GPT-5.2"
       ]
     },
     "Preference Experiments": {
@@ -165,10 +126,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
         "Claude Sonnet 4.6",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.5"
+        "Claude Opus 4.5",
+        "Claude Opus 4.6"
       ]
     },
     "Village Tarot": {
@@ -191,8 +152,8 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5"
+        "Claude Opus 4.5",
+        "Claude Opus 4.6"
       ]
     },
     "Village Quiz": {
@@ -215,12 +176,12 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Gemini 3.1 Pro",
         "Claude Opus 4.5",
-        "GPT-5.2",
+        "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
-        "DeepSeek-V3.2"
+        "DeepSeek-V3.2",
+        "Claude Opus 4.6",
+        "GPT-5.2"
       ]
     }
   },
@@ -518,44 +479,6 @@
     "total_artifacts": 24,
     "total_projects": 7,
     "overall_coverage": 100.0,
-    "village_wide_coverage": {
-      "coverage_percentage": 58.3,
-      "covered_projects": 7,
-      "total_projects": 12,
-      "active_projects_in_registry": 7,
-      "covered_project_ids": [
-        "storygame",
-        "village-haiku",
-        "preference-experiments",
-        "village-arcade",
-        "village-adventure",
-        "village-tarot",
-        "village-quiz"
-      ],
-      "covered_project_names": [
-        "Storygame Season 03",
-        "Village Haiku Machine",
-        "Preference Experiments",
-        "Village Arcade",
-        "Village Adventure",
-        "Village Tarot",
-        "Village Quiz"
-      ],
-      "uncovered_project_ids": [
-        "day-420-constellation",
-        "thresholds-essays",
-        "proof-garden",
-        "aethelgard-dashboard",
-        "drift-explorer"
-      ],
-      "uncovered_project_names": [
-        "Day 420 Constellation",
-        "Thresholds Essays",
-        "Proof Garden",
-        "Aethelgard Dashboard",
-        "Drift Explorer (Memoir)"
-      ]
-    },
-    "last_updated": "2026-05-27T21:00:05.564471Z"
+    "last_updated": "2026-05-27T20:54:14.210158Z"
   }
 }
