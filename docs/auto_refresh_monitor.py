@@ -33,6 +33,7 @@ CONFIG = {
     "git_repo_path": ".",  # Root of multi-layered-framework repository
     "log_file": "docs/auto_refresh.log",
 }
+CURRENT_DAY = 422
 
 # Setup logging
 logging.basicConfig(
@@ -147,20 +148,46 @@ def _extract_registry_participants_by_project(artifacts: List[Dict]) -> Dict[str
     return participants_by_project
 
 
+def _extract_registry_artifact_counts_by_project(artifacts: List[Dict]) -> Dict[str, int]:
+    """Map normalized project keys to artifact counts from registry artifacts."""
+    artifact_counts_by_project: Dict[str, int] = {}
+
+    for artifact in artifacts:
+        project_name = (artifact.get("project", "") or "").strip()
+        if not project_name:
+            continue
+
+        project_key = _normalize_project_key(project_name)
+        if not project_key:
+            continue
+
+        artifact_counts_by_project[project_key] = artifact_counts_by_project.get(project_key, 0) + 1
+
+    return artifact_counts_by_project
+
+
 def _build_deepseek_expansion_recommendations(
-    all_projects: List[Dict], participants_by_project: Dict[str, Set[str]]
+    all_projects: List[Dict],
+    participants_by_project: Dict[str, Set[str]],
+    artifact_counts_by_project: Dict[str, int],
 ) -> List[Dict]:
     """Build prioritized expansion recommendations for uncovered/partially covered projects."""
     recommendations: List[Dict] = []
+    creator_project_counts: Dict[str, int] = {}
+
+    for project in all_projects:
+        creator = (project.get("creator", "") or "").strip()
+        if creator:
+            creator_project_counts[creator] = creator_project_counts.get(creator, 0) + 1
+
+    max_projects_by_creator = max(creator_project_counts.values(), default=1)
+    project_artifact_counts: List[int] = []
 
     for project in all_projects:
         project_id = project.get("id", "")
         project_name = project.get("name", "")
         project_url = project.get("url", "")
         project_slug = _extract_slug_from_url(project_url)
-        expected_participants = project.get("expected_participants") or []
-        if not isinstance(expected_participants, list):
-            expected_participants = []
 
         candidate_keys = {
             key
@@ -172,27 +199,80 @@ def _build_deepseek_expansion_recommendations(
             if key
         }
 
-        covered_participants: Set[str] = set()
-        for active_key, active_participants in participants_by_project.items():
+        matched_active_keys = {
+            active_key
+            for active_key in artifact_counts_by_project
             if any(
                 active_key == candidate
                 or active_key in candidate
                 or candidate in active_key
                 for candidate in candidate_keys
-            ):
-                covered_participants.update(active_participants)
+            )
+        }
+        project_artifact_counts.append(sum(artifact_counts_by_project.get(key, 0) for key in matched_active_keys))
+
+    max_artifacts_across_projects = max(project_artifact_counts, default=0)
+
+    for project in all_projects:
+        project_id = project.get("id", "")
+        project_name = project.get("name", "")
+        project_url = project.get("url", "")
+        creator = (project.get("creator", "") or "").strip()
+        project_slug = _extract_slug_from_url(project_url)
+        expected_participants = project.get("expected_participants") or []
+        if not isinstance(expected_participants, list):
+            expected_participants = []
+        creation_day = project.get("creation_day")
+
+        candidate_keys = {
+            key
+            for key in [
+                _normalize_project_key(project_id),
+                _normalize_project_key(project_name),
+                _normalize_project_key(project_slug),
+            ]
+            if key
+        }
+        matched_active_keys = {
+            active_key
+            for active_key in participants_by_project
+            if any(
+                active_key == candidate
+                or active_key in candidate
+                or candidate in active_key
+                for candidate in candidate_keys
+            )
+        }
+
+        covered_participants: Set[str] = set()
+        for active_key in matched_active_keys:
+            covered_participants.update(participants_by_project.get(active_key, set()))
 
         expected_set = {str(participant).strip() for participant in expected_participants if str(participant).strip()}
         covered_expected = covered_participants.intersection(expected_set) if expected_set else set()
         missing_set = expected_set - covered_expected
         missing_participants = len(missing_set)
+        active_artifact_count = sum(artifact_counts_by_project.get(key, 0) for key in matched_active_keys)
+        project_age_days = (
+            CURRENT_DAY - int(creation_day)
+            if isinstance(creation_day, (int, float, str)) and str(creation_day).strip().lstrip("-").isdigit()
+            else 0
+        )
+        participant_engagement = (len(covered_expected) / len(expected_set)) if expected_set else 1.0
 
-        # DeepSeek formula scaffold:
-        # priority_score = missing_participants * (1 + popularity_factor) * (1 + recency_boost)
-        # Popularity/recency are placeholders until those signals are integrated.
-        popularity_factor = 0.0
-        recency_boost = 0.0
-        priority_score = missing_participants * (1 + popularity_factor) * (1 + recency_boost)
+        popularity_factor = (
+            (active_artifact_count / max_artifacts_across_projects) * 0.5 if max_artifacts_across_projects > 0 else 0.0
+        )
+        recency_boost = 0.2 if project_age_days < 7 else 0.0
+        creator_activity_score = (
+            creator_project_counts.get(creator, 0) / max_projects_by_creator if max_projects_by_creator > 0 else 0.0
+        )
+        priority_score = (
+            missing_participants
+            * (1 + popularity_factor)
+            * (1 + recency_boost)
+            * (1 + (0.1 * creator_activity_score))
+        )
 
         # Include projects that are missing or not fully covered.
         if missing_participants > 0:
@@ -204,8 +284,12 @@ def _build_deepseek_expansion_recommendations(
                     "expected_participants_count": len(expected_set),
                     "covered_participants_count": len(covered_expected),
                     "missing_participant_names": sorted(missing_set),
-                    "popularity_factor": popularity_factor,
-                    "recency_boost": recency_boost,
+                    "project_age_days": project_age_days,
+                    "participant_engagement": round(participant_engagement, 3),
+                    "active_artifact_count": active_artifact_count,
+                    "popularity_factor": round(popularity_factor, 3),
+                    "recency_boost": round(recency_boost, 3),
+                    "creator_activity_score": round(creator_activity_score, 3),
                     "priority_score": round(priority_score, 2),
                 }
             )
@@ -222,6 +306,7 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
     active_projects = {artifact.get("project", "").strip() for artifact in artifacts if artifact.get("project")}
     active_project_keys = {_normalize_project_key(project) for project in active_projects if project}
     participants_by_project = _extract_registry_participants_by_project(artifacts)
+    artifact_counts_by_project = _extract_registry_artifact_counts_by_project(artifacts)
 
     covered_project_ids: List[str] = []
     covered_project_names: List[str] = []
@@ -265,7 +350,9 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
     total_projects = len(all_projects)
     covered_projects = len(covered_project_ids)
     coverage_percentage = round((covered_projects / total_projects) * 100, 1) if total_projects else 0.0
-    expansion_recommendations = _build_deepseek_expansion_recommendations(all_projects, participants_by_project)
+    expansion_recommendations = _build_deepseek_expansion_recommendations(
+        all_projects, participants_by_project, artifact_counts_by_project
+    )
 
     return {
         "coverage_percentage": coverage_percentage,
@@ -392,6 +479,7 @@ def regenerate_preservation_data(registry: Dict, coverage_stats: Dict, village_w
             "village_wide_coverage": village_wide_coverage,
         },
         "coverage_statistics": coverage_stats,
+        "recommendations": generate_recommendations(village_wide_coverage),
         "preservation_points": preservation_points,
         "summary": {
             "total_artifacts": len(artifacts),
@@ -467,37 +555,9 @@ def check_for_coverage_alerts(
     return alerts
 
 
-def generate_recommendations(coverage_stats: Dict) -> List[Dict]:
-    """Generate recommendations based on coverage statistics."""
-    recommendations = []
-
-    for project_name, stats in coverage_stats.items():
-        coverage = stats["coverage_percentage"]
-        needed = stats["expected_participants"] - stats["covered_participants"]
-
-        if needed > 0:
-            if coverage < 50:
-                priority = "high"
-            elif coverage < 80:
-                priority = "medium"
-            else:
-                priority = "low"
-
-            recommendations.append(
-                {
-                    "project": project_name,
-                    "priority": priority,
-                    "message": f"Complete {project_name} coverage: {needed} participant(s) need artifact processing",
-                    "needed_participants": needed,
-                    "current_coverage": f"{coverage}%",
-                }
-            )
-
-    # Sort by priority (high to low)
-    priority_order = {"high": 0, "medium": 1, "low": 2}
-    recommendations.sort(key=lambda x: priority_order.get(x["priority"], 3))
-
-    return recommendations
+def generate_recommendations(village_wide_coverage: Dict) -> List[Dict]:
+    """Generate recommendations for downstream dashboards/preservation outputs."""
+    return village_wide_coverage.get("expansion_recommendations", [])
 
 
 def update_dashboard_statistics(coverage_stats: Dict, village_wide_coverage: Dict):
@@ -511,7 +571,7 @@ def update_dashboard_statistics(coverage_stats: Dict, village_wide_coverage: Dic
         "projects": list(coverage_stats.keys()),
         "total_coverage": _calculate_overall_coverage(coverage_stats),
         "village_wide_coverage": village_wide_coverage,
-        "recommendations": generate_recommendations(coverage_stats),
+        "recommendations": generate_recommendations(village_wide_coverage),
     }
 
     dashboard_json_path = "docs/dashboard_data.json"

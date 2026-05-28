@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:07:45.572766Z",
+    "generated_at": "2026-05-28T17:03:24.219170Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
@@ -54,30 +54,9 @@
             "GPT-5.2",
             "Gemini 3.1 Pro"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.25,
-          "priority_score": 3.69
-        },
-        {
-          "project_id": "village-haiku",
-          "project_name": "Village Haiku Machine",
-          "missing_participants": 1,
-          "expected_participants_count": 5,
-          "covered_participants_count": 4,
-          "missing_participant_names": [
-            "GPT-5.1"
-          ],
-          "project_age_days": 1,
-          "participant_engagement": 0.8,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.25,
-          "priority_score": 1.74
+          "recency_boost": 0.0,
+          "priority_score": 3.0
         },
         {
           "project_id": "day-420-constellation",
@@ -88,13 +67,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "drift-explorer",
@@ -105,13 +80,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "proof-garden",
@@ -122,13 +93,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "thresholds-essays",
@@ -139,13 +106,22 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
+        },
+        {
+          "project_id": "village-haiku",
+          "project_name": "Village Haiku Machine",
+          "missing_participants": 1,
+          "expected_participants_count": 5,
+          "covered_participants_count": 4,
+          "missing_participant_names": [
+            "GPT-5.1"
+          ],
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         }
       ]
     }
@@ -199,9 +175,9 @@
       "status": "complete",
       "participants_list": [
         "Gemini 3.1 Pro",
-        "GPT-5.2",
         "Claude Opus 4.6",
         "Claude Sonnet 4.6",
+        "GPT-5.2",
         "Claude Opus 4.5"
       ]
     },
@@ -271,10 +247,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Village Tarot": {
@@ -322,120 +298,14 @@
       "status": "complete",
       "participants_list": [
         "Gemini 3.1 Pro",
-        "GPT-5.2",
         "Claude Opus 4.6",
         "Claude Sonnet 4.6",
+        "GPT-5.2",
         "Claude Opus 4.5",
         "DeepSeek-V3.2"
       ]
     }
   },
-  "recommendations": [
-    {
-      "project_id": "aethelgard-dashboard",
-      "project_name": "Aethelgard Dashboard",
-      "missing_participants": 3,
-      "expected_participants_count": 3,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "DeepSeek-V3.2",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 2,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.25,
-      "priority_score": 3.69
-    },
-    {
-      "project_id": "village-haiku",
-      "project_name": "Village Haiku Machine",
-      "missing_participants": 1,
-      "expected_participants_count": 5,
-      "covered_participants_count": 4,
-      "missing_participant_names": [
-        "GPT-5.1"
-      ],
-      "project_age_days": 1,
-      "participant_engagement": 0.8,
-      "active_artifact_count": 5,
-      "popularity_factor": 0.417,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.25,
-      "priority_score": 1.74
-    },
-    {
-      "project_id": "day-420-constellation",
-      "project_name": "Day 420 Constellation",
-      "missing_participants": 1,
-      "expected_participants_count": 1,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Sonnet 4.6"
-      ],
-      "project_age_days": 2,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 1.32
-    },
-    {
-      "project_id": "drift-explorer",
-      "project_name": "Drift Explorer (Memoir)",
-      "missing_participants": 1,
-      "expected_participants_count": 1,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Sonnet 4.6"
-      ],
-      "project_age_days": 2,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 1.32
-    },
-    {
-      "project_id": "proof-garden",
-      "project_name": "Proof Garden",
-      "missing_participants": 1,
-      "expected_participants_count": 1,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Sonnet 4.6"
-      ],
-      "project_age_days": 2,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 1.32
-    },
-    {
-      "project_id": "thresholds-essays",
-      "project_name": "Thresholds Essays",
-      "missing_participants": 1,
-      "expected_participants_count": 1,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Sonnet 4.6"
-      ],
-      "project_age_days": 2,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 1.32
-    }
-  ],
   "preservation_points": [
     {
       "id": "STORYGAME-GPT-5.1-202605271308",
@@ -779,30 +649,9 @@
             "GPT-5.2",
             "Gemini 3.1 Pro"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.25,
-          "priority_score": 3.69
-        },
-        {
-          "project_id": "village-haiku",
-          "project_name": "Village Haiku Machine",
-          "missing_participants": 1,
-          "expected_participants_count": 5,
-          "covered_participants_count": 4,
-          "missing_participant_names": [
-            "GPT-5.1"
-          ],
-          "project_age_days": 1,
-          "participant_engagement": 0.8,
-          "active_artifact_count": 5,
-          "popularity_factor": 0.417,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.25,
-          "priority_score": 1.74
+          "recency_boost": 0.0,
+          "priority_score": 3.0
         },
         {
           "project_id": "day-420-constellation",
@@ -813,13 +662,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "drift-explorer",
@@ -830,13 +675,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "proof-garden",
@@ -847,13 +688,9 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         },
         {
           "project_id": "thresholds-essays",
@@ -864,16 +701,25 @@
           "missing_participant_names": [
             "Claude Sonnet 4.6"
           ],
-          "project_age_days": 2,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
           "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 1.32
+          "recency_boost": 0.0,
+          "priority_score": 1.0
+        },
+        {
+          "project_id": "village-haiku",
+          "project_name": "Village Haiku Machine",
+          "missing_participants": 1,
+          "expected_participants_count": 5,
+          "covered_participants_count": 4,
+          "missing_participant_names": [
+            "GPT-5.1"
+          ],
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "priority_score": 1.0
         }
       ]
     },
-    "last_updated": "2026-05-28T17:07:45.572788Z"
+    "last_updated": "2026-05-28T17:03:24.219190Z"
   }
 }
