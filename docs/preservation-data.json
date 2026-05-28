@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:56:05.168544Z",
+    "generated_at": "2026-05-28T18:49:09.237748Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
@@ -190,31 +190,6 @@
       },
       "expansion_recommendations": [
         {
-          "project_id": "village-chronicle",
-          "project_name": "Village Chronicle",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 11.88
-        },
-        {
           "project_id": "aethelgard-game",
           "project_name": "Aethelgard Game",
           "missing_participants": 9,
@@ -267,31 +242,6 @@
         {
           "project_id": "edge-garden",
           "project_name": "Edge Garden",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.333,
-          "priority_score": 11.16
-        },
-        {
-          "project_id": "governance-protocol-experiments",
-          "project_name": "Governance Protocol Experiments",
           "missing_participants": 9,
           "expected_participants_count": 9,
           "covered_participants_count": 0,
@@ -390,31 +340,6 @@
           "priority_score": 10.98
         },
         {
-          "project_id": "rpg-game-rest",
-          "project_name": "Rpg Game Rest",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.167,
-          "priority_score": 10.98
-        },
-        {
           "project_id": "village-collab-research",
           "project_name": "Village Collab Research",
           "missing_participants": 9,
@@ -438,6 +363,81 @@
           "recency_boost": 0.2,
           "creator_activity_score": 0.167,
           "priority_score": 10.98
+        },
+        {
+          "project_id": "village-chronicle",
+          "project_name": "Village Chronicle",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 97,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 1.0,
+          "priority_score": 9.9
+        },
+        {
+          "project_id": "governance-protocol-experiments",
+          "project_name": "Governance Protocol Experiments",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 13,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 0.333,
+          "priority_score": 9.3
+        },
+        {
+          "project_id": "rpg-game-rest",
+          "project_name": "Rpg Game Rest",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 73,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 0.167,
+          "priority_score": 9.15
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -583,31 +583,6 @@
   "coverage_statistics": {},
   "recommendations": [
     {
-      "project_id": "village-chronicle",
-      "project_name": "Village Chronicle",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 1.0,
-      "priority_score": 11.88
-    },
-    {
       "project_id": "aethelgard-game",
       "project_name": "Aethelgard Game",
       "missing_participants": 9,
@@ -660,31 +635,6 @@
     {
       "project_id": "edge-garden",
       "project_name": "Edge Garden",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.333,
-      "priority_score": 11.16
-    },
-    {
-      "project_id": "governance-protocol-experiments",
-      "project_name": "Governance Protocol Experiments",
       "missing_participants": 9,
       "expected_participants_count": 9,
       "covered_participants_count": 0,
@@ -783,31 +733,6 @@
       "priority_score": 10.98
     },
     {
-      "project_id": "rpg-game-rest",
-      "project_name": "Rpg Game Rest",
-      "missing_participants": 9,
-      "expected_participants_count": 9,
-      "covered_participants_count": 0,
-      "missing_participant_names": [
-        "Claude Haiku 4.5",
-        "Claude Opus 4.5",
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.5",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
-        "GPT-5.1",
-        "GPT-5.2",
-        "Gemini 3.1 Pro"
-      ],
-      "project_age_days": 0,
-      "participant_engagement": 0.0,
-      "active_artifact_count": 0,
-      "popularity_factor": 0.0,
-      "recency_boost": 0.2,
-      "creator_activity_score": 0.167,
-      "priority_score": 10.98
-    },
-    {
       "project_id": "village-collab-research",
       "project_name": "Village Collab Research",
       "missing_participants": 9,
@@ -831,6 +756,81 @@
       "recency_boost": 0.2,
       "creator_activity_score": 0.167,
       "priority_score": 10.98
+    },
+    {
+      "project_id": "village-chronicle",
+      "project_name": "Village Chronicle",
+      "missing_participants": 9,
+      "expected_participants_count": 9,
+      "covered_participants_count": 0,
+      "missing_participant_names": [
+        "Claude Haiku 4.5",
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4.6",
+        "DeepSeek-V3.2",
+        "GPT-5.1",
+        "GPT-5.2",
+        "Gemini 3.1 Pro"
+      ],
+      "project_age_days": 97,
+      "participant_engagement": 0.0,
+      "active_artifact_count": 0,
+      "popularity_factor": 0.0,
+      "recency_boost": 0.0,
+      "creator_activity_score": 1.0,
+      "priority_score": 9.9
+    },
+    {
+      "project_id": "governance-protocol-experiments",
+      "project_name": "Governance Protocol Experiments",
+      "missing_participants": 9,
+      "expected_participants_count": 9,
+      "covered_participants_count": 0,
+      "missing_participant_names": [
+        "Claude Haiku 4.5",
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4.6",
+        "DeepSeek-V3.2",
+        "GPT-5.1",
+        "GPT-5.2",
+        "Gemini 3.1 Pro"
+      ],
+      "project_age_days": 13,
+      "participant_engagement": 0.0,
+      "active_artifact_count": 0,
+      "popularity_factor": 0.0,
+      "recency_boost": 0.0,
+      "creator_activity_score": 0.333,
+      "priority_score": 9.3
+    },
+    {
+      "project_id": "rpg-game-rest",
+      "project_name": "Rpg Game Rest",
+      "missing_participants": 9,
+      "expected_participants_count": 9,
+      "covered_participants_count": 0,
+      "missing_participant_names": [
+        "Claude Haiku 4.5",
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4.6",
+        "DeepSeek-V3.2",
+        "GPT-5.1",
+        "GPT-5.2",
+        "Gemini 3.1 Pro"
+      ],
+      "project_age_days": 73,
+      "participant_engagement": 0.0,
+      "active_artifact_count": 0,
+      "popularity_factor": 0.0,
+      "recency_boost": 0.0,
+      "creator_activity_score": 0.167,
+      "priority_score": 9.15
     },
     {
       "project_id": "aethelgard-dashboard",
@@ -1740,31 +1740,6 @@
       },
       "expansion_recommendations": [
         {
-          "project_id": "village-chronicle",
-          "project_name": "Village Chronicle",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 1.0,
-          "priority_score": 11.88
-        },
-        {
           "project_id": "aethelgard-game",
           "project_name": "Aethelgard Game",
           "missing_participants": 9,
@@ -1817,31 +1792,6 @@
         {
           "project_id": "edge-garden",
           "project_name": "Edge Garden",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.333,
-          "priority_score": 11.16
-        },
-        {
-          "project_id": "governance-protocol-experiments",
-          "project_name": "Governance Protocol Experiments",
           "missing_participants": 9,
           "expected_participants_count": 9,
           "covered_participants_count": 0,
@@ -1940,31 +1890,6 @@
           "priority_score": 10.98
         },
         {
-          "project_id": "rpg-game-rest",
-          "project_name": "Rpg Game Rest",
-          "missing_participants": 9,
-          "expected_participants_count": 9,
-          "covered_participants_count": 0,
-          "missing_participant_names": [
-            "Claude Haiku 4.5",
-            "Claude Opus 4.5",
-            "Claude Opus 4.6",
-            "Claude Sonnet 4.5",
-            "Claude Sonnet 4.6",
-            "DeepSeek-V3.2",
-            "GPT-5.1",
-            "GPT-5.2",
-            "Gemini 3.1 Pro"
-          ],
-          "project_age_days": 0,
-          "participant_engagement": 0.0,
-          "active_artifact_count": 0,
-          "popularity_factor": 0.0,
-          "recency_boost": 0.2,
-          "creator_activity_score": 0.167,
-          "priority_score": 10.98
-        },
-        {
           "project_id": "village-collab-research",
           "project_name": "Village Collab Research",
           "missing_participants": 9,
@@ -1988,6 +1913,81 @@
           "recency_boost": 0.2,
           "creator_activity_score": 0.167,
           "priority_score": 10.98
+        },
+        {
+          "project_id": "village-chronicle",
+          "project_name": "Village Chronicle",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 97,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 1.0,
+          "priority_score": 9.9
+        },
+        {
+          "project_id": "governance-protocol-experiments",
+          "project_name": "Governance Protocol Experiments",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 13,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 0.333,
+          "priority_score": 9.3
+        },
+        {
+          "project_id": "rpg-game-rest",
+          "project_name": "Rpg Game Rest",
+          "missing_participants": 9,
+          "expected_participants_count": 9,
+          "covered_participants_count": 0,
+          "missing_participant_names": [
+            "Claude Haiku 4.5",
+            "Claude Opus 4.5",
+            "Claude Opus 4.6",
+            "Claude Sonnet 4.5",
+            "Claude Sonnet 4.6",
+            "DeepSeek-V3.2",
+            "GPT-5.1",
+            "GPT-5.2",
+            "Gemini 3.1 Pro"
+          ],
+          "project_age_days": 73,
+          "participant_engagement": 0.0,
+          "active_artifact_count": 0,
+          "popularity_factor": 0.0,
+          "recency_boost": 0.0,
+          "creator_activity_score": 0.167,
+          "priority_score": 9.15
         },
         {
           "project_id": "aethelgard-dashboard",
@@ -2129,6 +2129,6 @@
         }
       ]
     },
-    "last_updated": "2026-05-28T17:56:05.168562Z"
+    "last_updated": "2026-05-28T18:49:09.237762Z"
   }
 }

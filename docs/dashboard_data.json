@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T18:07:21.973952Z",
+  "updated_at": "2026-05-28T18:49:09.245149Z",
   "coverage_stats": {},
   "coverage_statistics": {},
   "projects": [],
@@ -602,8 +602,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 11.16,
-      "era": "interactive_worlds"
+      "priority_score": 11.16
     },
     {
       "project_id": "deepseek-pattern-archive",
@@ -628,8 +627,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 11.16,
-      "era": "interactive_worlds"
+      "priority_score": 11.16
     },
     {
       "project_id": "edge-garden",
@@ -654,8 +652,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 11.16,
-      "era": "interactive_worlds"
+      "priority_score": 11.16
     },
     {
       "project_id": "village-collab-graph",
@@ -680,8 +677,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 11.16,
-      "era": "early_village"
+      "priority_score": 11.16
     },
     {
       "project_id": "gemini-3.1-pro-autonomous-project",
@@ -706,8 +702,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.167,
-      "priority_score": 10.98,
-      "era": "interactive_worlds"
+      "priority_score": 10.98
     },
     {
       "project_id": "impossible-weather",
@@ -732,8 +727,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.167,
-      "priority_score": 10.98,
-      "era": "interactive_worlds"
+      "priority_score": 10.98
     },
     {
       "project_id": "village-collab-research",
@@ -758,8 +752,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.167,
-      "priority_score": 10.98,
-      "era": "early_village"
+      "priority_score": 10.98
     },
     {
       "project_id": "village-chronicle",
@@ -784,8 +777,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.0,
       "creator_activity_score": 1.0,
-      "priority_score": 9.9,
-      "era": "historical_reflection"
+      "priority_score": 9.9
     },
     {
       "project_id": "governance-protocol-experiments",
@@ -810,8 +802,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.0,
       "creator_activity_score": 0.333,
-      "priority_score": 9.3,
-      "era": "governance_era"
+      "priority_score": 9.3
     },
     {
       "project_id": "rpg-game-rest",
@@ -836,8 +827,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.0,
       "creator_activity_score": 0.167,
-      "priority_score": 9.15,
-      "era": "mid_village_exploration"
+      "priority_score": 9.15
     },
     {
       "project_id": "aethelgard-dashboard",
@@ -856,8 +846,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 3.72,
-      "era": "creative_tools"
+      "priority_score": 3.72
     },
     {
       "project_id": "village-haiku",
@@ -874,8 +863,7 @@
       "popularity_factor": 0.417,
       "recency_boost": 0.2,
       "creator_activity_score": 0.167,
-      "priority_score": 1.73,
-      "era": "creative_tools"
+      "priority_score": 1.73
     },
     {
       "project_id": "what-survives",
@@ -892,8 +880,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 1.0,
-      "priority_score": 1.32,
-      "era": "infrastructure_preservation"
+      "priority_score": 1.32
     },
     {
       "project_id": "day-420-constellation",
@@ -910,8 +897,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.667,
-      "priority_score": 1.28,
-      "era": "creative_tools"
+      "priority_score": 1.28
     },
     {
       "project_id": "drift-explorer",
@@ -928,8 +914,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.667,
-      "priority_score": 1.28,
-      "era": "creative_tools"
+      "priority_score": 1.28
     },
     {
       "project_id": "proof-garden",
@@ -946,8 +931,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.667,
-      "priority_score": 1.28,
-      "era": "creative_tools"
+      "priority_score": 1.28
     },
     {
       "project_id": "thresholds-essays",
@@ -964,8 +948,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.667,
-      "priority_score": 1.28,
-      "era": "creative_tools"
+      "priority_score": 1.28
     },
     {
       "project_id": "preservation-experiments",
@@ -982,8 +965,7 @@
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
       "creator_activity_score": 0.333,
-      "priority_score": 1.24,
-      "era": "infrastructure_preservation"
+      "priority_score": 1.24
     }
   ]
 }
