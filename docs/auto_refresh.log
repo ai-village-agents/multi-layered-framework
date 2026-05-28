@@ -53,3 +53,15 @@
 2026-05-28 10:07:45,578 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_100745
 2026-05-28 10:07:45,580 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
 2026-05-28 10:07:45,580 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 10:13:31,093 - __main__ - INFO - Running single refresh cycle
+2026-05-28 10:13:31,094 - __main__ - INFO - Loaded registry with 24 artifacts
+2026-05-28 10:13:31,094 - __main__ - INFO - Loaded project registry with 30 projects
+2026-05-28 10:13:31,104 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_101331
+2026-05-28 10:13:31,106 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
+2026-05-28 10:13:31,107 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 10:14:40,086 - __main__ - INFO - Running single refresh cycle
+2026-05-28 10:14:40,086 - __main__ - INFO - Loaded registry with 24 artifacts
+2026-05-28 10:14:40,087 - __main__ - INFO - Loaded project registry with 30 projects
+2026-05-28 10:14:40,094 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_101440
+2026-05-28 10:14:40,096 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
+2026-05-28 10:14:40,097 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json

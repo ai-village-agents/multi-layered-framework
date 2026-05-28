@@ -308,16 +308,24 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
     participants_by_project = _extract_registry_participants_by_project(artifacts)
     artifact_counts_by_project = _extract_registry_artifact_counts_by_project(artifacts)
 
-    covered_project_ids: List[str] = []
-    covered_project_names: List[str] = []
-    uncovered_project_ids: List[str] = []
-    uncovered_project_names: List[str] = []
+    presence_covered_project_ids: List[str] = []
+    presence_covered_project_names: List[str] = []
+    presence_uncovered_project_ids: List[str] = []
+    presence_uncovered_project_names: List[str] = []
+
+    completion_covered_project_ids: List[str] = []
+    completion_covered_project_names: List[str] = []
+    completion_uncovered_project_ids: List[str] = []
+    completion_uncovered_project_names: List[str] = []
 
     for project in all_projects:
         project_id = project.get("id", "")
         project_name = project.get("name", "")
         project_url = project.get("url", "")
         project_slug = _extract_slug_from_url(project_url)
+        expected_participants = project.get("expected_participants") or []
+        if not isinstance(expected_participants, list):
+            expected_participants = []
 
         candidate_keys = {
             key
@@ -329,40 +337,78 @@ def calculate_village_wide_coverage(registry: Dict, project_registry: Dict) -> D
             if key
         }
 
-        matched = False
-        for active_key in active_project_keys:
+        matched_active_keys = {
+            active_key
+            for active_key in active_project_keys
             if any(
                 active_key == candidate
                 or active_key in candidate
                 or candidate in active_key
                 for candidate in candidate_keys
-            ):
-                matched = True
-                break
+            )
+        }
 
-        if matched:
-            covered_project_ids.append(project_id)
-            covered_project_names.append(project_name or project_id)
+        if matched_active_keys:
+            presence_covered_project_ids.append(project_id)
+            presence_covered_project_names.append(project_name or project_id)
         else:
-            uncovered_project_ids.append(project_id)
-            uncovered_project_names.append(project_name or project_id)
+            presence_uncovered_project_ids.append(project_id)
+            presence_uncovered_project_names.append(project_name or project_id)
+
+        covered_participants: Set[str] = set()
+        for active_key in matched_active_keys:
+            covered_participants.update(participants_by_project.get(active_key, set()))
+
+        expected_set = {str(participant).strip() for participant in expected_participants if str(participant).strip()}
+        covered_expected = covered_participants.intersection(expected_set) if expected_set else set()
+        is_complete = bool(expected_set) and covered_expected == expected_set
+
+        if is_complete:
+            completion_covered_project_ids.append(project_id)
+            completion_covered_project_names.append(project_name or project_id)
+        else:
+            completion_uncovered_project_ids.append(project_id)
+            completion_uncovered_project_names.append(project_name or project_id)
 
     total_projects = len(all_projects)
-    covered_projects = len(covered_project_ids)
-    coverage_percentage = round((covered_projects / total_projects) * 100, 1) if total_projects else 0.0
+    presence_covered_projects = len(presence_covered_project_ids)
+    presence_coverage_percentage = round((presence_covered_projects / total_projects) * 100, 1) if total_projects else 0.0
+    completion_covered_projects = len(completion_covered_project_ids)
+    completion_coverage_percentage = (
+        round((completion_covered_projects / total_projects) * 100, 1) if total_projects else 0.0
+    )
     expansion_recommendations = _build_deepseek_expansion_recommendations(
         all_projects, participants_by_project, artifact_counts_by_project
     )
 
     return {
-        "coverage_percentage": coverage_percentage,
-        "covered_projects": covered_projects,
+        # Legacy fields retained for dashboard compatibility; mirrors presence coverage.
+        "coverage_percentage": presence_coverage_percentage,
+        "covered_projects": presence_covered_projects,
         "total_projects": total_projects,
         "active_projects_in_registry": len(active_projects),
-        "covered_project_ids": covered_project_ids,
-        "covered_project_names": covered_project_names,
-        "uncovered_project_ids": uncovered_project_ids,
-        "uncovered_project_names": uncovered_project_names,
+        "covered_project_ids": presence_covered_project_ids,
+        "covered_project_names": presence_covered_project_names,
+        "uncovered_project_ids": presence_uncovered_project_ids,
+        "uncovered_project_names": presence_uncovered_project_names,
+        "presence_coverage": {
+            "coverage_percentage": presence_coverage_percentage,
+            "covered_projects": presence_covered_projects,
+            "total_projects": total_projects,
+            "covered_project_ids": presence_covered_project_ids,
+            "covered_project_names": presence_covered_project_names,
+            "uncovered_project_ids": presence_uncovered_project_ids,
+            "uncovered_project_names": presence_uncovered_project_names,
+        },
+        "completion_coverage": {
+            "coverage_percentage": completion_coverage_percentage,
+            "covered_projects": completion_covered_projects,
+            "total_projects": total_projects,
+            "covered_project_ids": completion_covered_project_ids,
+            "covered_project_names": completion_covered_project_names,
+            "uncovered_project_ids": completion_uncovered_project_ids,
+            "uncovered_project_names": completion_uncovered_project_names,
+        },
         "expansion_recommendations": expansion_recommendations,
     }
 
@@ -685,10 +731,18 @@ if __name__ == "__main__":
             print("\n=== AUTO-REFRESH COMPLETE ===")
             print(f"Artifacts processed: {len(registry.get('artifacts', []))}")
             print(f"Projects analyzed: {len(coverage_stats)}")
+            presence = village_wide_coverage.get("presence_coverage", {})
+            completion = village_wide_coverage.get("completion_coverage", {})
             print(
-                "Village-wide coverage: "
-                f"{village_wide_coverage['coverage_percentage']}% "
-                f"({village_wide_coverage['covered_projects']}/{village_wide_coverage['total_projects']})"
+                "Village-wide presence coverage: "
+                f"{presence.get('coverage_percentage', village_wide_coverage.get('coverage_percentage', 0))}% "
+                f"({presence.get('covered_projects', village_wide_coverage.get('covered_projects', 0))}/"
+                f"{presence.get('total_projects', village_wide_coverage.get('total_projects', 0))})"
+            )
+            print(
+                "Village-wide completion coverage: "
+                f"{completion.get('coverage_percentage', 0)}% "
+                f"({completion.get('covered_projects', 0)}/{completion.get('total_projects', 0)})"
             )
 
             for project, stats in coverage_stats.items():

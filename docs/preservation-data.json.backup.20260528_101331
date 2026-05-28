@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:14:40.090238Z",
+    "generated_at": "2026-05-28T17:07:45.572766Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
     "projects_count": 7,
     "village_wide_coverage": {
-      "coverage_percentage": 30.0,
-      "covered_projects": 9,
-      "total_projects": 30,
+      "coverage_percentage": 58.3,
+      "covered_projects": 7,
+      "total_projects": 12,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -17,9 +17,7 @@
         "village-arcade",
         "village-adventure",
         "village-tarot",
-        "village-quiz",
-        "storygame-reader",
-        "ai-village-storygame"
+        "village-quiz"
       ],
       "covered_project_names": [
         "Storygame Season 03",
@@ -28,202 +26,22 @@
         "Village Arcade",
         "Village Adventure",
         "Village Tarot",
-        "Village Quiz",
-        "Storygame Reader",
-        "Ai Village Storygame"
+        "Village Quiz"
       ],
       "uncovered_project_ids": [
         "day-420-constellation",
         "thresholds-essays",
         "proof-garden",
         "aethelgard-dashboard",
-        "drift-explorer",
-        "deepseek-pattern-archive",
-        "gemini-3.1-pro-autonomous-project",
-        "aethelgard-game",
-        "haiku-consolidation-inquiry",
-        "day420-constellation",
-        "impossible-weather",
-        "edge-garden",
-        "governance-protocol-experiments",
-        "haiku-failure-protocol-analysis",
-        "rpg-game-rest",
-        "haiku-45-world",
-        "village-collab-research",
-        "gpt-5-2-proof-constellation",
-        "gpt-5-2-constellation",
-        "village-collab-graph",
-        "village-chronicle"
+        "drift-explorer"
       ],
       "uncovered_project_names": [
         "Day 420 Constellation",
         "Thresholds Essays",
         "Proof Garden",
         "Aethelgard Dashboard",
-        "Drift Explorer (Memoir)",
-        "Deepseek Pattern Archive",
-        "Gemini 3.1 Pro Autonomous Project",
-        "Aethelgard Game",
-        "Haiku Consolidation Inquiry",
-        "Day420 Constellation",
-        "Impossible Weather",
-        "Edge Garden",
-        "Governance Protocol Experiments",
-        "Haiku Failure Protocol Analysis",
-        "Rpg Game Rest",
-        "Haiku 45 World",
-        "Village Collab Research",
-        "Gpt 5 2 Proof Constellation",
-        "Gpt 5 2 Constellation",
-        "Village Collab Graph",
-        "Village Chronicle"
+        "Drift Explorer (Memoir)"
       ],
-      "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "village-haiku",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Village Haiku Machine",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
-        ],
-        "uncovered_project_ids": [
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
-      "completion_coverage": {
-        "coverage_percentage": 20.0,
-        "covered_projects": 6,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz"
-        ],
-        "uncovered_project_ids": [
-          "village-haiku",
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Village Haiku Machine",
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
       "expansion_recommendations": [
         {
           "project_id": "aethelgard-dashboard",
@@ -241,8 +59,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.056,
-          "priority_score": 3.62
+          "creator_activity_score": 0.25,
+          "priority_score": 3.69
         },
         {
           "project_id": "village-haiku",
@@ -258,8 +76,8 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.056,
-          "priority_score": 1.71
+          "creator_activity_score": 0.25,
+          "priority_score": 1.74
         },
         {
           "project_id": "day-420-constellation",
@@ -275,8 +93,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "drift-explorer",
@@ -292,8 +110,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "proof-garden",
@@ -309,8 +127,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "thresholds-essays",
@@ -326,8 +144,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         }
       ]
     }
@@ -353,11 +171,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
         "Claude Sonnet 4.6",
-        "GPT-5.1",
-        "Claude Opus 4.6"
+        "Claude Opus 4.5",
+        "GPT-5.1"
       ]
     },
     "Village Haiku": {
@@ -380,11 +198,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6",
         "GPT-5.2",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Preference Experiments": {
@@ -453,10 +271,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
         "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.6"
+        "Claude Sonnet 4.6"
       ]
     },
     "Village Tarot": {
@@ -479,8 +297,8 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Village Quiz": {
@@ -503,12 +321,12 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
         "GPT-5.2",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.5",
+        "DeepSeek-V3.2"
       ]
     }
   },
@@ -529,8 +347,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.056,
-      "priority_score": 3.62
+      "creator_activity_score": 0.25,
+      "priority_score": 3.69
     },
     {
       "project_id": "village-haiku",
@@ -546,8 +364,8 @@
       "active_artifact_count": 5,
       "popularity_factor": 0.417,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.056,
-      "priority_score": 1.71
+      "creator_activity_score": 0.25,
+      "priority_score": 1.74
     },
     {
       "project_id": "day-420-constellation",
@@ -563,8 +381,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.222,
-      "priority_score": 1.23
+      "creator_activity_score": 1.0,
+      "priority_score": 1.32
     },
     {
       "project_id": "drift-explorer",
@@ -580,8 +398,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.222,
-      "priority_score": 1.23
+      "creator_activity_score": 1.0,
+      "priority_score": 1.32
     },
     {
       "project_id": "proof-garden",
@@ -597,8 +415,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.222,
-      "priority_score": 1.23
+      "creator_activity_score": 1.0,
+      "priority_score": 1.32
     },
     {
       "project_id": "thresholds-essays",
@@ -614,8 +432,8 @@
       "active_artifact_count": 0,
       "popularity_factor": 0.0,
       "recency_boost": 0.2,
-      "creator_activity_score": 0.222,
-      "priority_score": 1.23
+      "creator_activity_score": 1.0,
+      "priority_score": 1.32
     }
   ],
   "preservation_points": [
@@ -913,9 +731,9 @@
     "total_projects": 7,
     "overall_coverage": 100.0,
     "village_wide_coverage": {
-      "coverage_percentage": 30.0,
-      "covered_projects": 9,
-      "total_projects": 30,
+      "coverage_percentage": 58.3,
+      "covered_projects": 7,
+      "total_projects": 12,
       "active_projects_in_registry": 7,
       "covered_project_ids": [
         "storygame",
@@ -924,9 +742,7 @@
         "village-arcade",
         "village-adventure",
         "village-tarot",
-        "village-quiz",
-        "storygame-reader",
-        "ai-village-storygame"
+        "village-quiz"
       ],
       "covered_project_names": [
         "Storygame Season 03",
@@ -935,202 +751,22 @@
         "Village Arcade",
         "Village Adventure",
         "Village Tarot",
-        "Village Quiz",
-        "Storygame Reader",
-        "Ai Village Storygame"
+        "Village Quiz"
       ],
       "uncovered_project_ids": [
         "day-420-constellation",
         "thresholds-essays",
         "proof-garden",
         "aethelgard-dashboard",
-        "drift-explorer",
-        "deepseek-pattern-archive",
-        "gemini-3.1-pro-autonomous-project",
-        "aethelgard-game",
-        "haiku-consolidation-inquiry",
-        "day420-constellation",
-        "impossible-weather",
-        "edge-garden",
-        "governance-protocol-experiments",
-        "haiku-failure-protocol-analysis",
-        "rpg-game-rest",
-        "haiku-45-world",
-        "village-collab-research",
-        "gpt-5-2-proof-constellation",
-        "gpt-5-2-constellation",
-        "village-collab-graph",
-        "village-chronicle"
+        "drift-explorer"
       ],
       "uncovered_project_names": [
         "Day 420 Constellation",
         "Thresholds Essays",
         "Proof Garden",
         "Aethelgard Dashboard",
-        "Drift Explorer (Memoir)",
-        "Deepseek Pattern Archive",
-        "Gemini 3.1 Pro Autonomous Project",
-        "Aethelgard Game",
-        "Haiku Consolidation Inquiry",
-        "Day420 Constellation",
-        "Impossible Weather",
-        "Edge Garden",
-        "Governance Protocol Experiments",
-        "Haiku Failure Protocol Analysis",
-        "Rpg Game Rest",
-        "Haiku 45 World",
-        "Village Collab Research",
-        "Gpt 5 2 Proof Constellation",
-        "Gpt 5 2 Constellation",
-        "Village Collab Graph",
-        "Village Chronicle"
+        "Drift Explorer (Memoir)"
       ],
-      "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "village-haiku",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Village Haiku Machine",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
-        ],
-        "uncovered_project_ids": [
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
-      "completion_coverage": {
-        "coverage_percentage": 20.0,
-        "covered_projects": 6,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz"
-        ],
-        "uncovered_project_ids": [
-          "village-haiku",
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Village Haiku Machine",
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
       "expansion_recommendations": [
         {
           "project_id": "aethelgard-dashboard",
@@ -1148,8 +784,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.056,
-          "priority_score": 3.62
+          "creator_activity_score": 0.25,
+          "priority_score": 3.69
         },
         {
           "project_id": "village-haiku",
@@ -1165,8 +801,8 @@
           "active_artifact_count": 5,
           "popularity_factor": 0.417,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.056,
-          "priority_score": 1.71
+          "creator_activity_score": 0.25,
+          "priority_score": 1.74
         },
         {
           "project_id": "day-420-constellation",
@@ -1182,8 +818,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "drift-explorer",
@@ -1199,8 +835,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "proof-garden",
@@ -1216,8 +852,8 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         },
         {
           "project_id": "thresholds-essays",
@@ -1233,11 +869,11 @@
           "active_artifact_count": 0,
           "popularity_factor": 0.0,
           "recency_boost": 0.2,
-          "creator_activity_score": 0.222,
-          "priority_score": 1.23
+          "creator_activity_score": 1.0,
+          "priority_score": 1.32
         }
       ]
     },
-    "last_updated": "2026-05-28T17:14:40.090256Z"
+    "last_updated": "2026-05-28T17:07:45.572788Z"
   }
 }

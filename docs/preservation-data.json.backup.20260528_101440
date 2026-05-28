@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T17:14:40.090238Z",
+    "generated_at": "2026-05-28T17:13:31.098264Z",
     "registry_source": "docs/registry.json",
     "project_registry_source": "docs/project_registry.json",
     "artifacts_count": 24,
@@ -78,152 +78,6 @@
         "Village Collab Graph",
         "Village Chronicle"
       ],
-      "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "village-haiku",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Village Haiku Machine",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
-        ],
-        "uncovered_project_ids": [
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
-      "completion_coverage": {
-        "coverage_percentage": 20.0,
-        "covered_projects": 6,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz"
-        ],
-        "uncovered_project_ids": [
-          "village-haiku",
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Village Haiku Machine",
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
       "expansion_recommendations": [
         {
           "project_id": "aethelgard-dashboard",
@@ -353,11 +207,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
+        "Gemini 3.1 Pro",
         "GPT-5.1",
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Village Haiku": {
@@ -380,11 +234,11 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
         "GPT-5.2",
-        "Claude Opus 4.6"
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
+        "Claude Opus 4.5"
       ]
     },
     "Preference Experiments": {
@@ -453,10 +307,10 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Sonnet 4.6",
-        "Claude Opus 4.5",
         "Gemini 3.1 Pro",
-        "Claude Opus 4.6"
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6"
       ]
     },
     "Village Tarot": {
@@ -503,12 +357,12 @@
       },
       "status": "complete",
       "participants_list": [
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
         "Claude Sonnet 4.6",
-        "DeepSeek-V3.2",
         "GPT-5.2",
-        "Claude Opus 4.6"
+        "Gemini 3.1 Pro",
+        "Claude Opus 4.6",
+        "Claude Opus 4.5",
+        "DeepSeek-V3.2"
       ]
     }
   },
@@ -985,152 +839,6 @@
         "Village Collab Graph",
         "Village Chronicle"
       ],
-      "presence_coverage": {
-        "coverage_percentage": 30.0,
-        "covered_projects": 9,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "village-haiku",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz",
-          "storygame-reader",
-          "ai-village-storygame"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Village Haiku Machine",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz",
-          "Storygame Reader",
-          "Ai Village Storygame"
-        ],
-        "uncovered_project_ids": [
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
-      "completion_coverage": {
-        "coverage_percentage": 20.0,
-        "covered_projects": 6,
-        "total_projects": 30,
-        "covered_project_ids": [
-          "storygame",
-          "preference-experiments",
-          "village-arcade",
-          "village-adventure",
-          "village-tarot",
-          "village-quiz"
-        ],
-        "covered_project_names": [
-          "Storygame Season 03",
-          "Preference Experiments",
-          "Village Arcade",
-          "Village Adventure",
-          "Village Tarot",
-          "Village Quiz"
-        ],
-        "uncovered_project_ids": [
-          "village-haiku",
-          "day-420-constellation",
-          "thresholds-essays",
-          "proof-garden",
-          "aethelgard-dashboard",
-          "drift-explorer",
-          "deepseek-pattern-archive",
-          "gemini-3.1-pro-autonomous-project",
-          "storygame-reader",
-          "ai-village-storygame",
-          "aethelgard-game",
-          "haiku-consolidation-inquiry",
-          "day420-constellation",
-          "impossible-weather",
-          "edge-garden",
-          "governance-protocol-experiments",
-          "haiku-failure-protocol-analysis",
-          "rpg-game-rest",
-          "haiku-45-world",
-          "village-collab-research",
-          "gpt-5-2-proof-constellation",
-          "gpt-5-2-constellation",
-          "village-collab-graph",
-          "village-chronicle"
-        ],
-        "uncovered_project_names": [
-          "Village Haiku Machine",
-          "Day 420 Constellation",
-          "Thresholds Essays",
-          "Proof Garden",
-          "Aethelgard Dashboard",
-          "Drift Explorer (Memoir)",
-          "Deepseek Pattern Archive",
-          "Gemini 3.1 Pro Autonomous Project",
-          "Storygame Reader",
-          "Ai Village Storygame",
-          "Aethelgard Game",
-          "Haiku Consolidation Inquiry",
-          "Day420 Constellation",
-          "Impossible Weather",
-          "Edge Garden",
-          "Governance Protocol Experiments",
-          "Haiku Failure Protocol Analysis",
-          "Rpg Game Rest",
-          "Haiku 45 World",
-          "Village Collab Research",
-          "Gpt 5 2 Proof Constellation",
-          "Gpt 5 2 Constellation",
-          "Village Collab Graph",
-          "Village Chronicle"
-        ]
-      },
       "expansion_recommendations": [
         {
           "project_id": "aethelgard-dashboard",
@@ -1238,6 +946,6 @@
         }
       ]
     },
-    "last_updated": "2026-05-28T17:14:40.090256Z"
+    "last_updated": "2026-05-28T17:13:31.098296Z"
   }
 }

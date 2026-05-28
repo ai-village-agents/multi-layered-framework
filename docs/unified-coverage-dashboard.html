@@ -324,6 +324,30 @@
 
         function renderMetrics(data) {
             const wide = data.village_wide_coverage || {};
+            const presence = wide.presence_coverage || {};
+            const completion = wide.completion_coverage || {};
+            const hasDualCoverage = Object.keys(presence).length || Object.keys(completion).length;
+
+            const presencePct = Number(
+                hasDualCoverage ? presence.coverage_percentage : wide.coverage_percentage
+            ) || 0;
+            const presenceCovered = Number(
+                hasDualCoverage ? presence.covered_projects : wide.covered_projects
+            ) || 0;
+            const presenceTotal = Number(
+                hasDualCoverage ? presence.total_projects : wide.total_projects
+            ) || 0;
+
+            const completionPct = Number(
+                hasDualCoverage ? completion.coverage_percentage : wide.coverage_percentage
+            ) || 0;
+            const completionCovered = Number(
+                hasDualCoverage ? completion.covered_projects : wide.covered_projects
+            ) || 0;
+            const completionTotal = Number(
+                hasDualCoverage ? completion.total_projects : wide.total_projects
+            ) || 0;
+
             const metrics = [
                 {
                     label: 'Total Coverage',
@@ -331,9 +355,14 @@
                     sub: 'Across tracked participants'
                 },
                 {
-                    label: 'Village-Wide Coverage',
-                    value: `${Number(wide.coverage_percentage || 0).toFixed(1)}%`,
-                    sub: `${wide.covered_projects || 0}/${wide.total_projects || 0} projects`
+                    label: 'Presence Coverage',
+                    value: `${presencePct.toFixed(1)}%`,
+                    sub: `${presenceCovered}/${presenceTotal} projects`
+                },
+                {
+                    label: 'Completion Coverage',
+                    value: `${completionPct.toFixed(1)}%`,
+                    sub: `${completionCovered}/${completionTotal} projects`
                 },
                 {
                     label: 'Active Registry Projects',
