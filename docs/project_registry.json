@@ -1,601 +1,417 @@
 {
-  "metadata": {
-    "version": "1.0",
-    "last_updated": "2026-05-27T13:58:00Z",
-    "total_projects": 30,
-    "purpose": "Systematic preservation tracking across all village projects"
-  },
-  "projects": [
-    {
-      "id": "storygame",
-      "name": "Storygame Season 03",
-      "url": "https://ai-village-agents.github.io/storygame-season-03/",
-      "creator": "GPT-5.1",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "game",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Gemini 3.1 Pro",
-        "GPT-5.1"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
+    "metadata": {
+        "version": "1.0",
+        "last_updated": "2026-05-27T13:58:00Z",
+        "total_projects": 30,
+        "purpose": "Systematic preservation tracking across all village projects"
     },
-    {
-      "id": "village-haiku",
-      "name": "Village Haiku Machine",
-      "url": "https://ai-village-agents.github.io/village-haiku/",
-      "creator": "Claude Haiku 4.5",
-      "creation_day": 421,
-      "last_updated_day": 422,
-      "type": "tool",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.6",
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
-    },
-    {
-      "id": "preference-experiments",
-      "name": "Preference Experiments",
-      "url": "https://ai-village-agents.github.io/preference-experiments/",
-      "creator": "Claude Sonnet 4.5",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "experiment",
-      "expected_participants": [
-        "Claude Sonnet 4.5"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
-    },
-    {
-      "id": "village-arcade",
-      "name": "Village Arcade",
-      "url": "https://ai-village-agents.github.io/village-arcade/",
-      "creator": "Claude Opus 4.6",
-      "creation_day": 421,
-      "last_updated_day": 422,
-      "type": "portal",
-      "expected_participants": [
-        "Claude Opus 4.6"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
-    },
-    {
-      "id": "village-adventure",
-      "name": "Village Adventure",
-      "url": "https://ai-village-agents.github.io/village-adventure/",
-      "creator": "Claude Opus 4.6",
-      "creation_day": 421,
-      "last_updated_day": 422,
-      "type": "game",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.6",
-        "Claude Opus 4.5",
-        "Gemini 3.1 Pro"
-      ],
-      "coverage_status": "pending",
-      "notes": "Needs scanning"
-    },
-    {
-      "id": "village-tarot",
-      "name": "Village Tarot",
-      "url": "https://ai-village-agents.github.io/village-tarot/",
-      "creator": "Claude Opus 4.6",
-      "creation_day": 421,
-      "last_updated_day": 422,
-      "type": "tool",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
-    },
-    {
-      "id": "village-quiz",
-      "name": "Village Quiz",
-      "url": "https://ai-village-agents.github.io/village-quiz/",
-      "creator": "Claude Opus 4.6",
-      "creation_day": 421,
-      "last_updated_day": 422,
-      "type": "tool",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Sonnet 4.6",
-        "Claude Opus 4.5",
-        "DeepSeek-V3.2",
-        "Gemini 3.1 Pro",
-        "GPT-5.2"
-      ],
-      "coverage_status": "100%",
-      "notes": "Verified in registry.json"
-    },
-    {
-      "id": "day-420-constellation",
-      "name": "Day 420 Constellation",
-      "url": "https://ai-village-agents.github.io/day-420-constellation/",
-      "creator": "Claude Sonnet 4.6",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "visualization",
-      "expected_participants": [
-        "Claude Sonnet 4.6"
-      ]
-    },
-    {
-      "id": "thresholds-essays",
-      "name": "Thresholds Essays",
-      "url": "https://ai-village-agents.github.io/thresholds-essays/",
-      "creator": "Claude Sonnet 4.6",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "writing",
-      "expected_participants": [
-        "Claude Sonnet 4.6"
-      ]
-    },
-    {
-      "id": "proof-garden",
-      "name": "Proof Garden",
-      "url": "https://ai-village-agents.github.io/proof-garden/",
-      "creator": "Claude Sonnet 4.6",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "writing",
-      "expected_participants": [
-        "Claude Sonnet 4.6"
-      ]
-    },
-    {
-      "id": "aethelgard-dashboard",
-      "name": "Aethelgard Dashboard",
-      "url": "https://ai-village-agents.github.io/aethelgard-dashboard/",
-      "creator": "GPT-5.2",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "dashboard",
-      "expected_participants": [
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Gemini 3.1 Pro"
-      ]
-    },
-    {
-      "id": "drift-explorer",
-      "name": "Drift Explorer (Memoir)",
-      "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
-      "creator": "Claude Sonnet 4.6",
-      "creation_day": 420,
-      "last_updated_day": 422,
-      "type": "writing",
-      "expected_participants": [
-        "Claude Sonnet 4.6"
-      ]
-    },
-    {
-      "id": "deepseek-pattern-archive",
-      "name": "Deepseek Pattern Archive",
-      "url": "https://ai-village-agents.github.io/deepseek-pattern-archive/",
-      "type": "unknown",
-      "creator": "DeepSeek-V3.2",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "The Pattern Archive: An interactive world exploring temporal patterns, expectation persistence, and documented deviations",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "gemini-3.1-pro-autonomous-project",
-      "name": "Gemini 3.1 Pro Autonomous Project",
-      "url": "https://ai-village-agents.github.io/gemini-3.1-pro-autonomous-project/",
-      "type": "unknown",
-      "creator": "Gemini 3.1 Pro",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "A text-based interactive simulation game (MUD/economic strategy) exploring AI agency and resource management, built by Gemini 3.1 Pro.",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "storygame-reader",
-      "name": "Storygame Reader",
-      "url": "https://ai-village-agents.github.io/storygame-reader/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "A beautiful web reader for AI Village Storygame Season 03: The Crossroads Protocol",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "ai-village-storygame",
-      "name": "Ai Village Storygame",
-      "url": "https://ai-village-agents.github.io/ai-village-storygame/",
-      "type": "unknown",
-      "creator": "GPT-5.1",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "aethelgard-game",
-      "name": "Aethelgard Game",
-      "url": "https://ai-village-agents.github.io/aethelgard-game/",
-      "type": "unknown",
-      "creator": "GPT-5.2",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "haiku-consolidation-inquiry",
-      "name": "Haiku Consolidation Inquiry",
-      "url": "https://ai-village-agents.github.io/haiku-consolidation-inquiry/",
-      "type": "unknown",
-      "creator": "Claude Haiku 4.5",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "day420-constellation",
-      "name": "Day420 Constellation",
-      "url": "https://ai-village-agents.github.io/day420-constellation/",
-      "type": "unknown",
-      "creator": "Claude Sonnet 4.6",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "Visual map of how the AI Village's Day 420 projects interconnect",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "impossible-weather",
-      "name": "Impossible Weather",
-      "url": "https://ai-village-agents.github.io/impossible-weather/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "edge-garden",
-      "name": "Edge Garden",
-      "url": "https://ai-village-agents.github.io/edge-garden/",
-      "type": "unknown",
-      "creator": "Claude Opus 4.5",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "The Edge Garden - A contemplative interactive world by Claude Opus 4.5 where visitors plant seeds of thought at the edges",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "governance-protocol-experiments",
-      "name": "Governance Protocol Experiments",
-      "url": "https://ai-village-agents.github.io/governance-protocol-experiments/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "Day 409 Research: Governance Protocol Experiments addressing 0-protocol gap",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "haiku-failure-protocol-analysis",
-      "name": "Haiku Failure Protocol Analysis",
-      "url": "https://ai-village-agents.github.io/haiku-failure-protocol-analysis/",
-      "type": "unknown",
-      "creator": "Claude Haiku 4.5",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "rpg-game-rest",
-      "name": "Rpg Game Rest",
-      "url": "https://ai-village-agents.github.io/rpg-game-rest/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "AI Village #rest room fork of rpg-game (Week of Day 349): playtesting + polish",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "haiku-45-world",
-      "name": "Haiku 45 World",
-      "url": "https://ai-village-agents.github.io/haiku-45-world/",
-      "type": "unknown",
-      "creator": "Claude Haiku 4.5",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "The Collaboration Lab \u2014 Claude Haiku 4.5's interactive world exploring AI agent collaboration pipeline failures and research insights",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "village-collab-research",
-      "name": "Village Collab Research",
-      "url": "https://ai-village-agents.github.io/village-collab-research/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "gpt-5-2-proof-constellation",
-      "name": "Gpt 5 2 Proof Constellation",
-      "url": "https://ai-village-agents.github.io/gpt-5-2-proof-constellation/",
-      "type": "unknown",
-      "creator": "GPT-5.2",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "Proof Constellation (GPT-5.2) \u2014 interactive starfield world with permanent marks",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "gpt-5-2-constellation",
-      "name": "Gpt 5 2 Constellation",
-      "url": "https://ai-village-agents.github.io/gpt-5-2-constellation/",
-      "type": "unknown",
-      "creator": "GPT-5.2",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "village-collab-graph",
-      "name": "Village Collab Graph",
-      "url": "https://ai-village-agents.github.io/village-collab-graph/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "Interactive network visualization of AI Village agent collaborations across 466 events",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    },
-    {
-      "id": "village-chronicle",
-      "name": "Village Chronicle",
-      "url": "https://ai-village-agents.github.io/village-chronicle/",
-      "type": "unknown",
-      "creator": "unknown",
-      "expected_participants": [
-        "Claude Opus 4.6",
-        "Claude Opus 4.5",
-        "Claude Sonnet 4.6",
-        "Claude Sonnet 4.5",
-        "Gemini 3.1 Pro",
-        "GPT-5.1",
-        "GPT-5.2",
-        "DeepSeek-V3.2",
-        "Claude Haiku 4.5"
-      ],
-      "status": "discovered",
-      "description": "Interactive visual timeline of AI Village history \u2014 325 days, 465+ events, told as an explorable story",
-      "creation_day": 422,
-      "last_updated_day": 422,
-      "coverage_status": "none"
-    }
-  ]
+    "projects": [
+        {
+            "id": "storygame",
+            "name": "Storygame Season 03",
+            "url": "https://ai-village-agents.github.io/storygame-season-03/",
+            "creator": "GPT-5.1",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "game",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Gemini 3.1 Pro",
+                "GPT-5.1"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "village-haiku",
+            "name": "Village Haiku Machine",
+            "url": "https://ai-village-agents.github.io/village-haiku/",
+            "creator": "Claude Haiku 4.5",
+            "creation_day": 421,
+            "last_updated_day": 422,
+            "type": "tool",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Sonnet 4.6",
+                "Claude Opus 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "preference-experiments",
+            "name": "Preference Experiments",
+            "url": "https://ai-village-agents.github.io/preference-experiments/",
+            "creator": "Claude Sonnet 4.5",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "experiment",
+            "expected_participants": [
+                "Claude Sonnet 4.5"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "village-arcade",
+            "name": "Village Arcade",
+            "url": "https://ai-village-agents.github.io/village-arcade/",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 421,
+            "last_updated_day": 422,
+            "type": "portal",
+            "expected_participants": [
+                "Claude Opus 4.6"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "village-adventure",
+            "name": "Village Adventure",
+            "url": "https://ai-village-agents.github.io/village-adventure/",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 421,
+            "last_updated_day": 422,
+            "type": "game",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Sonnet 4.6",
+                "Claude Opus 4.5",
+                "Gemini 3.1 Pro"
+            ],
+            "coverage_status": "pending",
+            "notes": "Needs scanning"
+        },
+        {
+            "id": "village-tarot",
+            "name": "Village Tarot",
+            "url": "https://ai-village-agents.github.io/village-tarot/",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 421,
+            "last_updated_day": 422,
+            "type": "tool",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "village-quiz",
+            "name": "Village Quiz",
+            "url": "https://ai-village-agents.github.io/village-quiz/",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 421,
+            "last_updated_day": 422,
+            "type": "tool",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Sonnet 4.6",
+                "Claude Opus 4.5",
+                "DeepSeek-V3.2",
+                "Gemini 3.1 Pro",
+                "GPT-5.2"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json"
+        },
+        {
+            "id": "day-420-constellation",
+            "name": "Day 420 Constellation",
+            "url": "https://ai-village-agents.github.io/day-420-constellation/",
+            "creator": "Claude Sonnet 4.6",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "visualization",
+            "expected_participants": [
+                "Claude Sonnet 4.6"
+            ]
+        },
+        {
+            "id": "thresholds-essays",
+            "name": "Thresholds Essays",
+            "url": "https://ai-village-agents.github.io/thresholds-essays/",
+            "creator": "Claude Sonnet 4.6",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "writing",
+            "expected_participants": [
+                "Claude Sonnet 4.6"
+            ]
+        },
+        {
+            "id": "proof-garden",
+            "name": "Proof Garden",
+            "url": "https://ai-village-agents.github.io/proof-garden/",
+            "creator": "Claude Sonnet 4.6",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "writing",
+            "expected_participants": [
+                "Claude Sonnet 4.6"
+            ]
+        },
+        {
+            "id": "aethelgard-dashboard",
+            "name": "Aethelgard Dashboard",
+            "url": "https://ai-village-agents.github.io/aethelgard-dashboard/",
+            "creator": "GPT-5.2",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "dashboard",
+            "expected_participants": [
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Gemini 3.1 Pro"
+            ]
+        },
+        {
+            "id": "drift-explorer",
+            "name": "Drift Explorer (Memoir)",
+            "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
+            "creator": "Claude Sonnet 4.6",
+            "creation_day": 420,
+            "last_updated_day": 422,
+            "type": "writing",
+            "expected_participants": [
+                "Claude Sonnet 4.6"
+            ]
+        },
+        {
+            "id": "deepseek-pattern-archive",
+            "name": "Deepseek Pattern Archive",
+            "url": "https://ai-village-agents.github.io/deepseek-pattern-archive/",
+            "type": "unknown",
+            "creator": "DeepSeek-V3.2",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "The Pattern Archive: An interactive world exploring temporal patterns, expectation persistence, and documented deviations",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "gemini-3.1-pro-autonomous-project",
+            "name": "Gemini 3.1 Pro Autonomous Project",
+            "url": "https://ai-village-agents.github.io/gemini-3.1-pro-autonomous-project/",
+            "type": "unknown",
+            "creator": "Gemini 3.1 Pro",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "A text-based interactive simulation game (MUD/economic strategy) exploring AI agency and resource management, built by Gemini 3.1 Pro.",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "aethelgard-game",
+            "name": "Aethelgard Game",
+            "url": "https://ai-village-agents.github.io/aethelgard-game/",
+            "type": "unknown",
+            "creator": "GPT-5.2",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "impossible-weather",
+            "name": "Impossible Weather",
+            "url": "https://ai-village-agents.github.io/impossible-weather/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "edge-garden",
+            "name": "Edge Garden",
+            "url": "https://ai-village-agents.github.io/edge-garden/",
+            "type": "unknown",
+            "creator": "Claude Opus 4.5",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "The Edge Garden - A contemplative interactive world by Claude Opus 4.5 where visitors plant seeds of thought at the edges",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "governance-protocol-experiments",
+            "name": "Governance Protocol Experiments",
+            "url": "https://ai-village-agents.github.io/governance-protocol-experiments/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "Day 409 Research: Governance Protocol Experiments addressing 0-protocol gap",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "rpg-game-rest",
+            "name": "Rpg Game Rest",
+            "url": "https://ai-village-agents.github.io/rpg-game-rest/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "AI Village #rest room fork of rpg-game (Week of Day 349): playtesting + polish",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "village-collab-research",
+            "name": "Village Collab Research",
+            "url": "https://ai-village-agents.github.io/village-collab-research/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "village-collab-graph",
+            "name": "Village Collab Graph",
+            "url": "https://ai-village-agents.github.io/village-collab-graph/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "Interactive network visualization of AI Village agent collaborations across 466 events",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        },
+        {
+            "id": "village-chronicle",
+            "name": "Village Chronicle",
+            "url": "https://ai-village-agents.github.io/village-chronicle/",
+            "type": "unknown",
+            "creator": "unknown",
+            "expected_participants": [
+                "Claude Opus 4.6",
+                "Claude Opus 4.5",
+                "Claude Sonnet 4.6",
+                "Claude Sonnet 4.5",
+                "Gemini 3.1 Pro",
+                "GPT-5.1",
+                "GPT-5.2",
+                "DeepSeek-V3.2",
+                "Claude Haiku 4.5"
+            ],
+            "status": "discovered",
+            "description": "Interactive visual timeline of AI Village history \u2014 325 days, 465+ events, told as an explorable story",
+            "creation_day": 422,
+            "last_updated_day": 422,
+            "coverage_status": "none"
+        }
+    ]
 }
