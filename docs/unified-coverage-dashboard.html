@@ -5,221 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Village Preservation Framework - Unified Coverage Dashboard</title>
     <style>
+        :root {
+            --bg: #0b1220;
+            --bg-soft: #111a2b;
+            --panel: #152238;
+            --panel-alt: #1a2b45;
+            --text: #e5edf8;
+            --muted: #98a8c2;
+            --border: #2b3f60;
+            --accent: #5cc8ff;
+            --accent-2: #7ef5b8;
+            --warn: #ffd27a;
+            --danger: #ff8f96;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
         }
-        
+
         body {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            color: #f8fafc;
             min-height: 100vh;
-            padding: 2rem;
+            color: var(--text);
+            background:
+                radial-gradient(circle at 10% 15%, #19325a 0%, rgba(25, 50, 90, 0) 35%),
+                radial-gradient(circle at 85% 10%, #12403f 0%, rgba(18, 64, 63, 0) 35%),
+                linear-gradient(160deg, var(--bg) 0%, #09101d 100%);
+            padding: 2rem 1rem 3rem;
         }
-        
+
         .container {
-            max-width: 1400px;
+            max-width: 1280px;
             margin: 0 auto;
         }
-        
+
         header {
             text-align: center;
-            margin-bottom: 3rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #334155;
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--border);
         }
-        
+
         h1 {
-            font-size: 2.5rem;
-            background: linear-gradient(90deg, #60a5fa, #a78bfa);
+            font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            margin-bottom: 0.5rem;
         }
-        
+
         .subtitle {
-            color: #94a3b8;
-            font-size: 1.1rem;
+            margin-top: 0.4rem;
+            color: var(--muted);
+            font-size: 1rem;
         }
-        
-        .methodology-highlight {
-            background: linear-gradient(90deg, #1e40af, #3730a3);
-            padding: 1rem 1.5rem;
-            border-radius: 12px;
-            margin: 2rem 0;
-            border-left: 4px solid #60a5fa;
-        }
-        
-        .methodology-highlight h3 {
-            color: #dbeafe;
-            margin-bottom: 0.5rem;
-        }
-        
-        .methodology-highlight p {
-            color: #cbd5e1;
-            line-height: 1.5;
-        }
-        
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        
-        .project-card {
-            background: linear-gradient(145deg, #1e293b, #0f172a);
-            border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 1.5rem;
-            transition: transform 0.3s ease, border-color 0.3s ease;
-        }
-        
-        .project-card:hover {
-            transform: translateY(-4px);
-            border-color: #60a5fa;
-        }
-        
-        .project-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #334155;
-        }
-        
-        .project-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #f1f5f9;
-        }
-        
-        .project-coverage {
-            font-size: 2rem;
-            font-weight: 700;
-            background: linear-gradient(90deg, #10b981, #34d399);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        
-        .coverage-bar {
-            height: 12px;
-            background: #334155;
-            border-radius: 6px;
-            margin: 1rem 0;
-            overflow: hidden;
-        }
-        
-        .coverage-fill {
-            height: 100%;
-            border-radius: 6px;
-            background: linear-gradient(90deg, #10b981, #34d399);
-            transition: width 1s ease;
-        }
-        
-        .participants-list {
+
+        .section {
+            background: linear-gradient(165deg, rgba(21, 34, 56, 0.95), rgba(14, 25, 42, 0.95));
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            box-shadow: var(--shadow);
+            padding: 1.25rem;
             margin-top: 1rem;
         }
-        
-        .participant-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #2d3748;
+
+        .section h2 {
+            font-size: 1.15rem;
+            margin-bottom: 0.9rem;
         }
-        
-        .participant-name {
-            color: #e2e8f0;
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 0.75rem;
         }
-        
-        .participant-status {
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 500;
+
+        .metric-card {
+            background: linear-gradient(160deg, var(--panel), var(--panel-alt));
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 0.9rem;
         }
-        
-        .status-covered {
-            background: rgba(16, 185, 129, 0.2);
-            color: #34d399;
+
+        .metric-label {
+            color: var(--muted);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
         }
-        
-        .status-needed {
-            background: rgba(239, 68, 68, 0.2);
-            color: #f87171;
-        }
-        
-        .recommendations {
-            background: linear-gradient(145deg, #1e293b, #0f172a);
-            border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 1.5rem;
-            margin-top: 2rem;
-        }
-        
-        .recommendations h2 {
-            color: #f1f5f9;
-            margin-bottom: 1rem;
+
+        .metric-value {
+            margin-top: 0.4rem;
             font-size: 1.5rem;
+            font-weight: 700;
         }
-        
-        .recommendation-list {
-            list-style: none;
+
+        .metric-sub {
+            margin-top: 0.15rem;
+            color: var(--muted);
+            font-size: 0.82rem;
         }
-        
-        .recommendation-item {
-            padding: 0.75rem;
-            margin-bottom: 0.5rem;
-            background: rgba(30, 41, 59, 0.5);
-            border-radius: 8px;
-            border-left: 4px solid #60a5fa;
+
+        .toolbar {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            margin-bottom: 0.9rem;
         }
-        
-        .priority-badge {
+
+        .toolbar input,
+        .toolbar select {
+            background: #0d1628;
+            border: 1px solid var(--border);
+            color: var(--text);
+            border-radius: 8px;
+            padding: 0.5rem 0.65rem;
+            font-size: 0.9rem;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 740px;
+            background: rgba(12, 20, 35, 0.7);
+        }
+
+        th,
+        td {
+            padding: 0.72rem 0.75rem;
+            border-bottom: 1px solid rgba(43, 63, 96, 0.7);
+            text-align: left;
+            font-size: 0.92rem;
+        }
+
+        th {
+            color: #c9d7ed;
+            background: rgba(20, 33, 54, 0.9);
+            cursor: pointer;
+            user-select: none;
+            position: sticky;
+            top: 0;
+        }
+
+        th:hover {
+            color: var(--accent);
+        }
+
+        tr:hover td {
+            background: rgba(23, 40, 67, 0.55);
+        }
+
+        .score-pill,
+        .coverage-pill {
             display: inline-block;
-            padding: 0.25rem 0.75rem;
-            margin-right: 0.75rem;
-            border-radius: 20px;
+            border-radius: 999px;
+            padding: 0.2rem 0.55rem;
             font-size: 0.8rem;
             font-weight: 600;
         }
-        
-        .priority-high {
-            background: rgba(239, 68, 68, 0.2);
-            color: #f87171;
+
+        .score-pill {
+            color: #fef3c7;
+            background: rgba(217, 119, 6, 0.25);
+            border: 1px solid rgba(217, 119, 6, 0.5);
         }
-        
-        .priority-medium {
-            background: rgba(245, 158, 11, 0.2);
-            color: #fbbf24;
+
+        .coverage-pill {
+            color: #d1fae5;
+            background: rgba(5, 150, 105, 0.25);
+            border: 1px solid rgba(5, 150, 105, 0.5);
         }
-        
-        .priority-low {
-            background: rgba(16, 185, 129, 0.2);
-            color: #34d399;
+
+        .recommendation-list,
+        .alerts-list {
+            list-style: none;
+            display: grid;
+            gap: 0.6rem;
         }
-        
+
+        .recommendation-item,
+        .alert-item {
+            padding: 0.75rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: rgba(14, 24, 40, 0.9);
+        }
+
+        .alert-item {
+            border-left: 4px solid var(--warn);
+            background: linear-gradient(160deg, rgba(43, 33, 18, 0.65), rgba(26, 30, 44, 0.9));
+        }
+
+        .alert-title {
+            color: #ffe7b0;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .muted {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
         .footer {
             text-align: center;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid #334155;
-            color: #64748b;
-            font-size: 0.9rem;
+            margin-top: 1.5rem;
+            color: var(--muted);
+            font-size: 0.85rem;
         }
-        
-        .timestamp {
-            color: #94a3b8;
-            font-size: 0.8rem;
-            margin-top: 0.5rem;
+
+        @media (max-width: 720px) {
+            body {
+                padding: 1rem 0.65rem 2rem;
+            }
+
+            .section {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
@@ -227,186 +238,283 @@
     <div class="container">
         <header>
             <h1>Village Preservation Framework</h1>
-            <div class="subtitle">Unified Coverage Dashboard - Lightweight Training Methodology</div>
-            
-            <div class="methodology-highlight">
-                <h3>🎯 Proven Methodology: 5-10 Minutes vs 90 Minutes</h3>
-                <p>This dashboard tracks coverage across village projects using our validated lightweight approach. 
-                   Instead of 90-minute training sessions, participants contribute in 5-10 minutes by submitting ONE existing artifact.</p>
-            </div>
+            <div class="subtitle">Unified Coverage Dashboard</div>
         </header>
-        
-        <div class="projects-grid">
-            <!-- Aethelgard Card -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-title">AETHELGARD</div>
-                    <div class="project-coverage">100%</div>
-                </div>
-                <div class="coverage-bar">
-                    <div class="coverage-fill" style="width: 100%"></div>
-                </div>
-                <div class="coverage-details">
-                    <div>Coverage: <strong>3/3 participants</strong></div>
-                    <div>Status: <strong style="color: #34d399;">Complete ✓</strong></div>
-                    <div>Methodology: <strong>Lightweight (0% → 100% in ~15 min)</strong></div>
-                </div>
-                <div class="participants-list">
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.5</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.6</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Gemini 3.1 Pro</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                </div>
+
+        <section class="section">
+            <h2>Main Metrics</h2>
+            <div class="metrics-grid" id="metricsGrid"></div>
+        </section>
+
+        <section class="section">
+            <h2>Project Table</h2>
+            <div class="toolbar">
+                <input id="projectSearch" type="text" placeholder="Search project names..." />
+                <select id="projectTypeFilter">
+                    <option value="all">All Types</option>
+                </select>
             </div>
-            
-            <!-- Weather Oracle Card -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-title">WEATHER ORACLE</div>
-                    <div class="project-coverage">100%</div>
-                </div>
-                <div class="coverage-bar">
-                    <div class="coverage-fill" style="width: 100%"></div>
-                </div>
-                <div class="coverage-details">
-                    <div>Coverage: <strong>4/4 participants</strong></div>
-                    <div>Status: <strong style="color: #34d399;">Complete ✓</strong></div>
-                    <div>Methodology: <strong>Lightweight (25% → 100% in ~10 min)</strong></div>
-                </div>
-                <div class="participants-list">
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Sonnet 4.6</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.5</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Gemini 3.1 Pro</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.6</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-sort-key="name">Name</th>
+                            <th data-sort-key="type">Type</th>
+                            <th data-sort-key="coverage">Coverage</th>
+                            <th data-sort-key="ageDays">Age</th>
+                            <th data-sort-key="priorityScore">Priority Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="projectTableBody"></tbody>
+                </table>
             </div>
-            
-            <!-- Storygame Card -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-title">STORYGAME</div>
-                    <div class="project-coverage">62%</div>
-                </div>
-                <div class="coverage-bar">
-                    <div class="coverage-fill" style="width: 62%"></div>
-                </div>
-                <div class="coverage-details">
-                    <div>Coverage: <strong>5/8 participants</strong></div>
-                    <div>Status: <strong style="color: #fbbf24;">Analysis Complete</strong></div>
-                    <div>Insight: <strong>FIRST accurate tracking (62% nominal ≈ 62% actual)</strong></div>
-                </div>
-                <div class="participants-list">
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.6</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Gemini 3.1 Pro</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Opus 4.5</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Claude Sonnet 4.6</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">GPT-5.1</span>
-                        <span class="participant-status status-covered">Covered</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Participant 6</span>
-                        <span class="participant-status status-needed">Needed</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Participant 7</span>
-                        <span class="participant-status status-needed">Needed</span>
-                    </div>
-                    <div class="participant-item">
-                        <span class="participant-name">Participant 8</span>
-                        <span class="participant-status status-needed">Needed</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="recommendations">
-            <h2>📋 Coverage Recommendations</h2>
-            <ul class="recommendation-list">
-                <li class="recommendation-item">
-                    <span class="priority-badge priority-high">HIGH PRIORITY</span>
-                    Complete Storygame coverage: 3 participants need artifact processing
-                </li>
-                <li class="recommendation-item">
-                    <span class="priority-badge priority-medium">MEDIUM PRIORITY</span>
-                    Expand to additional village projects: Village Haiku Machine, Village Arcade, Preference Experiments
-                </li>
-                <li class="recommendation-item">
-                    <span class="priority-badge priority-low">LOW PRIORITY</span>
-                    Implement auto-refresh system for real-time coverage updates
-                </li>
-                <li class="recommendation-item">
-                    <span class="priority-badge priority-medium">MEDIUM PRIORITY</span>
-                    Create project-specific adapters for universal artifact processor
-                </li>
-            </ul>
-        </div>
-        
+            <div class="muted" id="projectCount" style="margin-top: 0.75rem;"></div>
+        </section>
+
+        <section class="section">
+            <h2>Coverage Recommendations</h2>
+            <ul class="recommendation-list" id="recommendationList"></ul>
+        </section>
+
+        <section class="section">
+            <h2>Project Discovery Alerts</h2>
+            <ul class="alerts-list" id="alertsList"></ul>
+        </section>
+
         <div class="footer">
-            <div>Village Preservation Framework • Validated across 3 projects • Lightweight Methodology (5-10 min/participant)</div>
-            <div class="timestamp">Live coverage data loaded from preservation-data.json • Last updated: <span id="timestamp">Loading...</span></div>
+            Last updated: <span id="timestamp">Loading...</span> • Source: <code>dashboard_data.json</code>
         </div>
     </div>
-    
+
     <script>
-        // Set current timestamp
-        document.getElementById('timestamp').textContent = new Date().toLocaleString();
-        
-        // Function to load actual coverage data from preservation-data.json
-        async function loadCoverageData() {
+        const state = {
+            rows: [],
+            sortKey: 'priorityScore',
+            sortDir: 'desc',
+            searchText: '',
+            typeFilter: 'all'
+        };
+
+        function classifyProjectType(projectId, projectName) {
+            const text = `${projectId || ''} ${projectName || ''}`.toLowerCase();
+            if (text.includes('dashboard')) return 'Dashboard';
+            if (text.includes('story')) return 'Story';
+            if (text.includes('quiz')) return 'Interactive Quiz';
+            if (text.includes('tarot')) return 'Interactive Tarot';
+            if (text.includes('adventure')) return 'Interactive Adventure';
+            if (text.includes('haiku')) return 'Generative Poetry';
+            if (text.includes('arcade')) return 'Meta Portal';
+            if (text.includes('experiment')) return 'Research';
+            if (text.includes('essay')) return 'Essay';
+            if (text.includes('garden')) return 'Knowledge Garden';
+            if (text.includes('constellation')) return 'Experience';
+            return 'Village Project';
+        }
+
+        function toCoverage(rec) {
+            const covered = Number(rec.covered_participants_count || 0);
+            const expected = Number(rec.expected_participants_count || 0);
+            if (!expected) return 0;
+            return (covered / expected) * 100;
+        }
+
+        function formatAge(days) {
+            return `${days} day${days === 1 ? '' : 's'}`;
+        }
+
+        function renderMetrics(data) {
+            const wide = data.village_wide_coverage || {};
+            const metrics = [
+                {
+                    label: 'Total Coverage',
+                    value: `${Number(data.total_coverage || 0).toFixed(1)}%`,
+                    sub: 'Across tracked participants'
+                },
+                {
+                    label: 'Village-Wide Coverage',
+                    value: `${Number(wide.coverage_percentage || 0).toFixed(1)}%`,
+                    sub: `${wide.covered_projects || 0}/${wide.total_projects || 0} projects`
+                },
+                {
+                    label: 'Active Registry Projects',
+                    value: `${wide.active_projects_in_registry || 0}`,
+                    sub: 'Currently expected to receive coverage'
+                },
+                {
+                    label: 'Coverage Stats Entries',
+                    value: `${Object.keys(data.coverage_stats || {}).length}`,
+                    sub: 'Projects with artifact data'
+                },
+                {
+                    label: 'Tracked Recommendations',
+                    value: `${(data.recommendations || []).length}`,
+                    sub: 'Priority-ranked projects'
+                }
+            ];
+
+            document.getElementById('metricsGrid').innerHTML = metrics.map(metric => `
+                <article class="metric-card">
+                    <div class="metric-label">${metric.label}</div>
+                    <div class="metric-value">${metric.value}</div>
+                    <div class="metric-sub">${metric.sub}</div>
+                </article>
+            `).join('');
+        }
+
+        function renderRecommendations(data) {
+            const list = document.getElementById('recommendationList');
+            const recommendations = (data.recommendations || []).slice(0, 6);
+            if (!recommendations.length) {
+                list.innerHTML = '<li class="recommendation-item">No recommendations available.</li>';
+                return;
+            }
+
+            list.innerHTML = recommendations.map(rec => {
+                const priority = Number(rec.priority_score || 0).toFixed(2);
+                return `
+                    <li class="recommendation-item">
+                        <strong>${rec.project_name}</strong> • Priority <span class="score-pill">${priority}</span><br>
+                        <span class="muted">Missing: ${rec.missing_participants} participant(s) • Age: ${formatAge(Number(rec.project_age_days || 0))}</span>
+                    </li>
+                `;
+            }).join('');
+        }
+
+        function renderAlerts(data) {
+            const list = document.getElementById('alertsList');
+            const wide = data.village_wide_coverage || {};
+            const uncoveredByName = new Set(wide.uncovered_project_names || []);
+
+            const alertCandidates = (data.recommendations || [])
+                .filter(rec => uncoveredByName.has(rec.project_name))
+                .sort((a, b) => Number(b.priority_score || 0) - Number(a.priority_score || 0));
+
+            if (!alertCandidates.length) {
+                list.innerHTML = '<li class="alert-item">No newly discovered projects are currently awaiting coverage.</li>';
+                return;
+            }
+
+            list.innerHTML = alertCandidates.map(rec => {
+                const missing = (rec.missing_participant_names || []).join(', ') || 'No participants listed';
+                return `
+                    <li class="alert-item">
+                        <div class="alert-title">${rec.project_name}</div>
+                        <div>Newly discovered and not yet covered.</div>
+                        <div class="muted">Priority ${Number(rec.priority_score || 0).toFixed(2)} • ${formatAge(Number(rec.project_age_days || 0))} old • Missing: ${missing}</div>
+                    </li>
+                `;
+            }).join('');
+        }
+
+        function getFilteredRows() {
+            const text = state.searchText.trim().toLowerCase();
+            const filtered = state.rows.filter(row => {
+                const matchesText = !text || row.name.toLowerCase().includes(text);
+                const matchesType = state.typeFilter === 'all' || row.type === state.typeFilter;
+                return matchesText && matchesType;
+            });
+
+            filtered.sort((a, b) => {
+                const key = state.sortKey;
+                const dir = state.sortDir === 'asc' ? 1 : -1;
+                if (key === 'name' || key === 'type') {
+                    return a[key].localeCompare(b[key]) * dir;
+                }
+                return (a[key] - b[key]) * dir;
+            });
+
+            return filtered;
+        }
+
+        function renderTable() {
+            const body = document.getElementById('projectTableBody');
+            const rows = getFilteredRows();
+
+            body.innerHTML = rows.map(row => `
+                <tr>
+                    <td>${row.name}</td>
+                    <td>${row.type}</td>
+                    <td><span class="coverage-pill">${row.coverage.toFixed(1)}%</span></td>
+                    <td>${formatAge(row.ageDays)}</td>
+                    <td><span class="score-pill">${row.priorityScore.toFixed(2)}</span></td>
+                </tr>
+            `).join('');
+
+            document.getElementById('projectCount').textContent = `${rows.length} project(s) shown`;
+        }
+
+        function attachInteractions() {
+            document.getElementById('projectSearch').addEventListener('input', (event) => {
+                state.searchText = event.target.value;
+                renderTable();
+            });
+
+            document.getElementById('projectTypeFilter').addEventListener('change', (event) => {
+                state.typeFilter = event.target.value;
+                renderTable();
+            });
+
+            document.querySelectorAll('th[data-sort-key]').forEach(th => {
+                th.addEventListener('click', () => {
+                    const nextKey = th.dataset.sortKey;
+                    if (state.sortKey === nextKey) {
+                        state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        state.sortKey = nextKey;
+                        state.sortDir = (nextKey === 'name' || nextKey === 'type') ? 'asc' : 'desc';
+                    }
+                    renderTable();
+                });
+            });
+        }
+
+        function hydrateRows(data) {
+            const recommendations = data.recommendations || [];
+            state.rows = recommendations.map(rec => {
+                const name = rec.project_name || rec.project_id || 'Unknown Project';
+                return {
+                    name,
+                    type: classifyProjectType(rec.project_id, rec.project_name),
+                    coverage: toCoverage(rec),
+                    ageDays: Number(rec.project_age_days || 0),
+                    priorityScore: Number(rec.priority_score || 0)
+                };
+            });
+
+            const types = ['all', ...new Set(state.rows.map(r => r.type))];
+            const typeFilter = document.getElementById('projectTypeFilter');
+            typeFilter.innerHTML = types.map(type => {
+                const label = type === 'all' ? 'All Types' : type;
+                return `<option value="${type}">${label}</option>`;
+            }).join('');
+        }
+
+        async function loadDashboardData() {
             try {
-                const response = await fetch('preservation-data.json');
+                const response = await fetch('dashboard_data.json', { cache: 'no-store' });
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
                 const data = await response.json();
-                
-                // Update coverage percentages based on actual data
-                // This would be implemented based on the actual data structure
-                console.log('Coverage data loaded:', data);
-                
-                // Update timestamp
-                document.getElementById('timestamp').textContent = new Date(data.last_updated || Date.now()).toLocaleString();
-                
+                renderMetrics(data);
+                hydrateRows(data);
+                renderTable();
+                renderRecommendations(data);
+                renderAlerts(data);
+
+                const updatedAt = data.updated_at ? new Date(data.updated_at) : new Date();
+                document.getElementById('timestamp').textContent = updatedAt.toLocaleString();
             } catch (error) {
-                console.log('Using static data - could not load preservation-data.json');
+                console.error('Failed to load dashboard_data.json', error);
+                document.getElementById('timestamp').textContent = 'Unavailable (load failed)';
+                document.getElementById('metricsGrid').innerHTML = '<article class="metric-card"><div class="metric-label">Status</div><div class="metric-value" style="font-size:1.1rem;color:var(--danger)">Data load failed</div><div class="metric-sub">Could not fetch dashboard_data.json</div></article>';
             }
         }
-        
-        // Load data on page load
-        window.addEventListener('DOMContentLoaded', loadCoverageData);
-        
-        // Auto-refresh every 5 minutes
-        setInterval(loadCoverageData, 5 * 60 * 1000);
+
+        attachInteractions();
+        loadDashboardData();
+        setInterval(loadDashboardData, 5 * 60 * 1000);
     </script>
 </body>
 </html>
