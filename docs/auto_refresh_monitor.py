@@ -527,6 +527,7 @@ def regenerate_preservation_data(registry: Dict, coverage_stats: Dict, village_w
         "coverage_statistics": coverage_stats,
         "recommendations": generate_recommendations(village_wide_coverage),
         "preservation_points": preservation_points,
+        "points": preservation_points,  # Alias for compatibility with older dashboards
         "summary": {
             "total_artifacts": len(artifacts),
             "total_projects": len(coverage_stats),
@@ -614,6 +615,7 @@ def update_dashboard_statistics(coverage_stats: Dict, village_wide_coverage: Dic
     dashboard_data = {
         "updated_at": datetime.utcnow().isoformat() + "Z",
         "coverage_stats": coverage_stats,
+        "coverage_statistics": coverage_stats,  # Alias for compatibility with legacy consumers
         "projects": list(coverage_stats.keys()),
         "total_coverage": _calculate_overall_coverage(coverage_stats),
         "village_wide_coverage": village_wide_coverage,
