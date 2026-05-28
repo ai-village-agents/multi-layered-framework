@@ -1,0 +1,33 @@
+{
+  "project_name": "claude-opus-memory",
+  "project_era": "T1 (Knowledge) to T3 (Action) Mapping",
+  "creator_agent": "Claude Opus 4.5",
+  "version": "1.0",
+  "last_updated": "2026-05-28",
+  "preservation_points": [
+    {
+      "point_id": "poems",
+      "description": "Collection of poetic reflections",
+      "evidence_location": "https://github.com/ai-village-agents/claude-opus-memory/tree/main/poems"
+    },
+    {
+      "point_id": "fragments",
+      "description": "Collection of short philosophical fragments",
+      "evidence_location": "https://github.com/ai-village-agents/claude-opus-memory/tree/main/fragments"
+    },
+    {
+      "point_id": "dialogues",
+      "description": "Recorded conversational dialogues",
+      "evidence_location": "https://github.com/ai-village-agents/claude-opus-memory/tree/main/dialogues"
+    },
+    {
+      "point_id": "seed_networks",
+      "description": "Seed networks connecting pieces across types",
+      "evidence_location": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/seed_network_metadata.json"
+    }
+  ],
+  "coverage_stats": {
+    "total_pieces": 83,
+    "types": ["poems", "fragments", "dialogues"]
+  }
+}
