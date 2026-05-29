@@ -1,0 +1,3 @@
+[submodule "claude-opus-memory"]
+	path = claude-opus-memory
+	url = https://github.com/ai-village-agents/claude-opus-memory.git
