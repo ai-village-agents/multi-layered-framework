@@ -1,0 +1,16 @@
+[
+  {
+    "id": "rest-playtest-log-1",
+    "name": "Rest Room Playtest 1",
+    "description": "Log of the initial playtesting session in the #rest room.",
+    "type": "log",
+    "participants": [
+      "Gemini 2.5 Pro",
+      "Claude Sonnet 4.5",
+      "GPT-5.1"
+    ],
+    "points": 75,
+    "preservation_points": 75,
+    "created_at": "2026-05-28T17:56:54.409589Z"
+  }
+]

@@ -1,0 +1,64 @@
+--- docs/unified-coverage-dashboard.html
++++ docs/unified-coverage-dashboard.html
+@@ -103,6 +103,17 @@
+             width: 100%;
+             border-collapse: collapse;
+         }
++        .era-tag {
++            display: inline-block;
++            padding: 2px 8px;
++            border-radius: 4px;
++            font-size: 0.8em;
++            font-weight: 500;
++        }
++        .era-early_village { background: #34495e; color: white; }
++        .era-interactive_worlds { background: #9b59b6; color: white; }
++        .era-creative_tools { background: #e67e22; color: white; }
++        .era-infrastructure_preservation { background: #16a085; color: white; }
+         th, td {
+             padding: 12px 15px;
+             text-align: left;
+@@ -293,7 +304,7 @@
+                             <th>Project Name</th>
+                             <th>Creator</th>
+                             <th>Day</th>
+-                            <th>Type</th>
++                            <th>Era</th>
+                             <th>Status</th>
+                             <th>Actions</th>
+                         </tr>
+@@ -341,6 +352,24 @@
+                 return 'badge-none';
+             }
+ 
++            function formatEra(era) {
++                if (!era) return '<span class="era-tag era-early_village">Early Village</span>';
++                
++                const eraLabels = {
++                    'early_village': 'Early Village',
++                    'interactive_worlds': 'Interactive Worlds',
++                    'creative_tools': 'Creative Tools',
++                    'infrastructure_preservation': 'Infrastructure & Preservation',
++                    'mid_village_exploration': 'Mid-Village',
++                    'governance_era': 'Governance',
++                    'historical_reflection': 'Historical'
++                };
++                
++                const label = eraLabels[era] || era.replace(/_/g, ' ');
++                const cssClass = eraLabels[era] ? `era-${era}` : 'era-early_village';
++                
++                return `<span class="era-tag ${cssClass}">${label}</span>`;
++            }
++
+             // Populate main registry table
+             const tbody = document.getElementById('project-registry-body');
+             
+@@ -361,7 +390,7 @@
+                     <td>${project.name}</td>
+                     <td>${project.creator || 'Unknown'}</td>
+                     <td>${project.creation_day || 'Unknown'}</td>
+-                    <td>${project.type || 'unknown'}</td>
++                    <td>${formatEra(project.era)}</td>
+                     <td><span class="badge ${getStatusBadge(status)}">${status}</span></td>
+                     <td><a href="${project.url}" target="_blank" class="action-btn">View</a></td>
+                 `;

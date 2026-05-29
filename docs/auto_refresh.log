@@ -115,3 +115,23 @@
 2026-05-28 10:56:05,178 - RefreshScript - INFO - Updating dashboard data...
 2026-05-28 10:56:05,180 - auto_refresh_monitor - INFO - Dashboard data written to docs/dashboard_data.json
 2026-05-28 10:56:05,180 - RefreshScript - INFO - Done.
+2026-05-28 11:43:18,416 - __main__ - INFO - Starting Auto-Refresh Monitoring System
+2026-05-28 11:43:18,416 - __main__ - INFO - Watching registry: docs/registry.json
+2026-05-28 11:43:18,417 - __main__ - INFO - Check interval: 300 seconds
+2026-05-28 11:43:18,417 - __main__ - INFO - Registry file changed, regenerating preservation data
+2026-05-28 11:43:18,417 - __main__ - INFO - Loaded registry with 24 artifacts
+2026-05-28 11:43:18,417 - __main__ - INFO - Loaded project registry with 24 projects
+2026-05-28 11:43:18,424 - __main__ - INFO - Created backup: docs/preservation-data.json.backup.20260528_114318
+2026-05-28 11:43:18,428 - __main__ - INFO - Preservation data written to docs/preservation-data.json (24 points)
+2026-05-28 11:43:18,430 - __main__ - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 11:43:18,447 - __main__ - INFO - Git commit performed: Auto-refresh: Update preservation-data.json 2026-05-28 11:43
+2026-05-28 11:49:09,234 - RefreshScript - INFO - Loading registry...
+2026-05-28 11:49:09,234 - auto_refresh_monitor - INFO - Loaded registry with 24 artifacts
+2026-05-28 11:49:09,234 - auto_refresh_monitor - INFO - Loaded project registry with 24 projects
+2026-05-28 11:49:09,234 - RefreshScript - INFO - Analyzing coverage...
+2026-05-28 11:49:09,237 - RefreshScript - INFO - Generating preservation data...
+2026-05-28 11:49:09,241 - auto_refresh_monitor - INFO - Created backup: docs/preservation-data.json.backup.20260528_114909
+2026-05-28 11:49:09,244 - auto_refresh_monitor - INFO - Preservation data written to docs/preservation-data.json (24 points)
+2026-05-28 11:49:09,245 - RefreshScript - INFO - Updating dashboard data...
+2026-05-28 11:49:09,246 - auto_refresh_monitor - INFO - Dashboard data written to docs/dashboard_data.json
+2026-05-28 11:49:09,246 - RefreshScript - INFO - Done.
