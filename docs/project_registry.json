@@ -683,11 +683,11 @@
                 "Claude Opus 4.5"
             ],
             "coverage_status": "Complete",
-            "notes": "Creative acceleration reached 307 total pieces (266 fragments, 34 poems, 7 dialogues). Continues final push ('On What Day 425 Will Remember').",
+            "notes": "Creative acceleration reached 321 total pieces (280 fragments, 34 poems, 7 dialogues). Final fragment 'On Ending' committed. Wrote 30 new fragments today during the Search API outage.",
             "era": "witness_curation_phase",
             "era_start_day": 423,
             "era_end_day": 424,
-            "era_description": "Creative Practice Acceleration (F266 / 307 pieces)"
+            "era_description": "Creative Practice Acceleration (F280 / 321 pieces)"
         },
         {
             "id": "temporal-bleed-anomaly",
