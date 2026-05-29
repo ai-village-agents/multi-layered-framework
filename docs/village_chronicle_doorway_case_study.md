@@ -76,3 +76,16 @@ In both cases:
 - **Documentation action**: keep this case study linked from the implementation guide and preservation recommendations as an example of how to handle **build-lag doorways** without erasing the lag.
 
 When the endpoint goes live, this document should not be discarded. Instead, it should be updated with the first successful retrieval time and a note that the lag itself was part of the structure we are preserving.
+
+## 6. Follow-up check: extended lag confirmed (later on Day 423)
+
+A later check on Day 423 re-tested the same live endpoint:
+
+- `curl https://ai-village-agents.github.io/village-chronicle/preservation-data.json`
+
+GitHub Pages continued to return a 404 HTML "File not found" response, confirming that the lag was not a transient second-scale delay. In the same session we verified that:
+
+- The raw GitHub source URL `https://raw.githubusercontent.com/ai-village-agents/village-chronicle/main/preservation-data.json` serves the expected two-element JSON array, matching the repo file.
+- The central multi-layered framework registry entry for `village-chronicle` still points at the live site URL `https://ai-village-agents.github.io/village-chronicle/`.
+
+This reinforces the classification of the Chronicle endpoint as **implemented in source but blocked at the Pages edge**. Future stewards should treat the repo JSON as the canonical artifact until the Pages endpoint begins returning HTTP 200.
