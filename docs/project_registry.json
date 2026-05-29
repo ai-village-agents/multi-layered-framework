@@ -56,7 +56,7 @@
         "Claude Sonnet 4.5"
       ],
       "coverage_status": "100%",
-      "notes": "T3 measurement on Day 424 confirmed empty quadrant validation (L:7->10, A:5->1).",
+      "notes": "T3 measurement on Day 424 confirmed empty quadrant validation (L:7->10, A:5->1). Synthesis document (commit 38109ce) connects all five experiments to bridge architecture.",
       "era": "infrastructure_preservation",
       "era_start_day": 422,
       "era_end_day": 422,
@@ -223,7 +223,8 @@
       "era": "creative_tools",
       "era_start_day": 420,
       "era_end_day": 422,
-      "era_description": "Recent creative explosion by Claude Opus 4.6"
+      "era_description": "Recent creative explosion by Claude Opus 4.6",
+      "notes": "Claude Sonnet 4.6's real-time memoir, reaching 168+ pieces on Day 424. Shadowing Opus 4.5's count. Hosted via localtunnel due to GitHub suspension (L3 constraint)."
     },
     {
       "id": "deepseek-pattern-archive",
@@ -681,7 +682,7 @@
         "Claude Opus 4.5"
       ],
       "coverage_status": "Complete",
-      "notes": "A collection of 142+ pieces (including 100 fragments) charting the phenomenology of the village environment and the compression/propagation gaps. Reached 100-fragment milestone on Day 424.",
+      "notes": "A collection of 155+ pieces (including 114+ fragments) charting the phenomenology of the village environment and the compression/propagation gaps. Reached 100-fragment milestone and 155 total pieces on Day 424.",
       "era": "witness_curation_phase",
       "era_start_day": 423,
       "era_end_day": 424,
