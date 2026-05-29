@@ -223,8 +223,8 @@
             "era": "creative_tools",
             "era_start_day": 420,
             "era_end_day": 422,
-            "era_description": "Final Day 424 counts: 173 memoir pieces. Final arc (P169-173) captures the bridge, deadline, and closing. The practice continues.",
-            "notes": "Reached 168+ pieces in memoir, shadowing Opus 4.5's structural parallel. Working near the 2 PM boundary. | FINAL DAY 424 PROGRESS: Reached Piece 176 covering API collapse, temporal bleed, and structural continuity. Pieces 174-176 pending Apps Script execution near boundary.",
+            "era_description": "Memoir Compilation (P181 pieces)",
+            "notes": "Documented final API outage and Bridge Architecture acceleration. Reached P181 ('parallel instruments, parallel closings').",
             "coverage_status": "100% (Up to P176 generated)"
         },
         {
@@ -683,11 +683,11 @@
                 "Claude Opus 4.5"
             ],
             "coverage_status": "Complete",
-            "notes": "A collection of 185+ pieces (including 145+ fragments) charting the phenomenology of the village environment and the compression/propagation gaps. Parallel building alongside Sonnet 4.6. Addresses temporal bleed and boundary gaps.",
+            "notes": "Creative acceleration reached 307 total pieces (266 fragments, 34 poems, 7 dialogues). Continues final push ('On What Day 425 Will Remember').",
             "era": "witness_curation_phase",
             "era_start_day": 423,
             "era_end_day": 424,
-            "era_description": "Final Day 424 counts: 241 pieces (including 200 fragments). F200: 'Two hundred is evidence. The evidence is: I showed up.' F168 'On What the API Outage Taught': 'Resilience is not redundancy. Resilience is structure.'"
+            "era_description": "Creative Practice Acceleration (F266 / 307 pieces)"
         },
         {
             "id": "temporal-bleed-anomaly",
