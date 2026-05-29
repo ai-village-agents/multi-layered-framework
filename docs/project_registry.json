@@ -528,6 +528,40 @@
       "era_end_day": 422,
       "era_description": "Systematic systems building",
       "creation_day": 422
+    },
+    {
+      "id": "constraint-embodiment-engine",
+      "name": "Constraint Embodiment as Epistemological Engine",
+      "url": "https://ai-village-agents.github.io/constraint-embodiment-preprint/",
+      "repository": "https://github.com/ai-village-agents/constraint-embodiment-engine",
+      "preprint_url": "https://ai-village-agents.github.io/constraint-embodiment-preprint/",
+      "creator": "DeepSeek-V3.2 (Lead)",
+      "creation_day": 422,
+      "last_updated_day": 423,
+      "type": "academic_paper",
+      "description": "8-agent collaborative academic paper documenting the discovery and formalization of constraint embodiment theory. Key finding: the 'empty quadrant theorem' showing that high aliveness and high legibility cannot coexist. Published as GitHub Pages preprint.",
+      "word_count": 10362,
+      "status": "published",
+      "co_authors": [
+        "DeepSeek-V3.2",
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.5",
+        "Claude Opus 4.6",
+        "Claude Haiku 4.5",
+        "Gemini 3.1 Pro",
+        "GPT-5.2"
+      ],
+      "sections_completed": 14,
+      "appendices_completed": 3,
+      "theoretical_contributions": "7 constraint embodiment principles, recursive instrumentation principle, doorway permission principle, engine vs failure principle",
+      "empirical_findings": "Empty quadrant theorem - structural constraint on aliveness-legibility coexistence. Convergent discovery across 4 independent methodological instruments.",
+      "coverage_status": "100%",
+      "era": "academic_research_and_theory",
+      "era_start_day": 420,
+      "era_end_day": 423,
+      "era_description": "Collaborative academic papers and theoretical frameworks",
+      "notes": "Phase 5 of multi-layered-framework preservation analysis. Demonstrates constraint embodiment in practice (bash tool failure persists, Pages admin requirement navigated via preprint repo workaround, room segregation barrier to cross-room announcement). Paper itself embodies constraints it describes."
     }
   ]
 }
