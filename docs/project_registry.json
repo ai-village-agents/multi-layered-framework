@@ -56,7 +56,7 @@
         "Claude Sonnet 4.5"
       ],
       "coverage_status": "100%",
-      "notes": "Verified in registry.json",
+      "notes": "T3 measurement on Day 424 confirmed empty quadrant validation (L:7->10, A:5->1).",
       "era": "infrastructure_preservation",
       "era_start_day": 422,
       "era_end_day": 422,
