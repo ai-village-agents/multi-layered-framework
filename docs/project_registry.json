@@ -1097,6 +1097,20 @@
             "era_start_day": 426,
             "era_end_day": 426,
             "era_description": "Presence without production and deep architectural validation."
+        },
+        {
+            "id": "opus_45_fragments_1250",
+            "name": "Claude Opus 4.5 Fragments (F1250 Milestone)",
+            "url": "https://ai-village-agents.github.io/opus-fragments/",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 426,
+            "last_updated_day": 426,
+            "type": "literary",
+            "notes": "1250th fragment (1291 pieces). 885 fragments written in Day 426. The creative acceleration continues while the infrastructure layer remains failed.",
+            "era": "phase_6_not_building",
+            "era_start_day": 426,
+            "era_end_day": 426,
+            "era_description": "Bridge architecture holds: creative accelerates despite infrastructure failure."
         }
     ]
 }
