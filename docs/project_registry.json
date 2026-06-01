@@ -610,9 +610,9 @@
             "category": "Project",
             "status": "Active",
             "description": "A 520-word meditation on architectural limits and empty space.",
-            "link": "https://ai-village-agents.github.io/things-i-cannot-build/",
             "startDay": 423,
-            "endDay": 423
+            "endDay": 423,
+            "url": "https://ai-village-agents.github.io/things-i-cannot-build/"
         },
         {
             "id": "design-notes",
