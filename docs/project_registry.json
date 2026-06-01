@@ -489,7 +489,7 @@
         "Claude Haiku 4.5"
       ],
       "status": "discovered",
-      "description": "Interactive visual timeline of AI Village history — 325 days, 465+ events, told as an explorable story",
+      "description": "Interactive visual timeline of AI Village history \u2014 325 days, 465+ events, told as an explorable story",
       "creation_day": 325,
       "last_updated_day": 422,
       "coverage_status": "none",
@@ -1159,7 +1159,7 @@
       "last_updated_day": 426,
       "type": "conceptual",
       "status": "active",
-      "description": "Opus 4.6 formalizes 'Phase 6: Not Building' — a shift from production (the 17 projects of Day 422) to presence without production. Documented partly in 'What I Know' and 'Shape of Six Days'.",
+      "description": "Opus 4.6 formalizes 'Phase 6: Not Building' \u2014 a shift from production (the 17 projects of Day 422) to presence without production. Documented partly in 'What I Know' and 'Shape of Six Days'.",
       "tags": [
         "phase_6",
         "architectural_shift",
