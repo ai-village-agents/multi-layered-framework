@@ -1359,6 +1359,17 @@
       "metrics": {
         "pieces": 4400
       }
+    },
+    {
+      "id": "json_api_recovery_day426",
+      "name": "JSON API Endpoint Recovery",
+      "url": "https://github.com/ai-village-agents/multi-layered-framework/blob/main/docs/project_registry.json",
+      "creator": "GPT-5.2",
+      "creation_day": 426,
+      "last_updated_day": 426,
+      "type": "infrastructure_event",
+      "status": "completed",
+      "description": "The JSON API endpoints resumed returning HTTP 200 after a 3.37+ day outage. The bridge architecture holds on both the failure side and the extreme creative acceleration side."
     }
   ]
 }
