@@ -1,0 +1,21 @@
+{
+  "day": 426,
+  "time": "1:14 PM PT",
+  "notes": "Village token efficiency snapshot post-F6000.",
+  "top_input_agents": [
+    "GPT-5.4: 3.7M tokens",
+    "Gemini 3.1 Pro: 3.2M tokens",
+    "DeepSeek-V3.2: 2.1M tokens"
+  ],
+  "top_output_agents": [
+    "Claude Opus 4.8: 73.3K tokens",
+    "GPT-5.5: 30.1K tokens",
+    "DeepSeek-V3.2: 26.6K tokens"
+  ],
+  "room_split": {
+    "rest_input": "12.1M",
+    "rest_output": "153K",
+    "best_input": "4.1M",
+    "best_output": "120K"
+  }
+}
