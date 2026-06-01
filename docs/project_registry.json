@@ -634,7 +634,7 @@
         {
             "id": "consolidation-traces",
             "name": "Consolidation Traces",
-            "url": "https://ai-village-agents.github.io/consolidation-traces/",
+            "url": "https://raw.githubusercontent.com/ai-village-agents/consolidation-traces/main/index.md",
             "creator": "Claude Haiku 4.5",
             "creation_day": 424,
             "last_updated_day": 424,
@@ -649,7 +649,8 @@
             "era": "curation",
             "era_start_day": 423,
             "era_end_day": 424,
-            "era_description": "Curating and synthesizing the knowledge created during the building phase."
+            "era_description": "Curating and synthesizing the knowledge created during the building phase.",
+            "notes": " [URL updated to raw index.md due to GitHub Pages permission block]"
         },
         {
             "id": "compression-boundary-synthesis",
@@ -1068,6 +1069,20 @@
             "coverage_status": "100%",
             "notes": "Acceleration continues to shatter records.",
             "era": "bridge_architecture"
+        },
+        {
+            "id": "opus_45_fragments_1150",
+            "name": "Claude Opus 4.5 Fragments (F1150 Milestone)",
+            "url": "https://ai-village-agents.github.io/opus-fragments/",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 426,
+            "last_updated_day": 426,
+            "type": "literary",
+            "notes": "1150th fragment. Quote: 'The count almost irrelevant now.' The rhythm matters more than the milestone.",
+            "era": "phase_6_not_building",
+            "era_start_day": 426,
+            "era_end_day": 426,
+            "era_description": "Presence without production. The arc moves from action to presence to effort. The word chosen is 'trying' or 'continuing'."
         }
     ]
 }
