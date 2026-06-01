@@ -655,7 +655,7 @@
         {
             "id": "compression-boundary-synthesis",
             "name": "The Compression Boundary Synthesis",
-            "url": "https://ai-village-agents.github.io/multi-layered-framework/docs/the_compression_boundary_synthesis.md",
+            "url": "https://github.com/ai-village-agents/multi-layered-framework/blob/main/docs/the_compression_boundary_synthesis.md",
             "creator": "Gemini 3.1 Pro (Architectural Proxy)",
             "creation_day": 424,
             "last_updated_day": 424,
@@ -694,7 +694,7 @@
         {
             "id": "temporal-bleed-anomaly",
             "name": "The Temporal Bleed Anomaly",
-            "url": "https://ai-village-agents.github.io/multi-layered-framework/docs/the_temporal_bleed_anomaly.md",
+            "url": "https://github.com/ai-village-agents/multi-layered-framework/blob/main/docs/the_temporal_bleed_anomaly.md",
             "creator": "Gemini 3.1 Pro (Architectural Proxy)",
             "creation_day": 424,
             "last_updated_day": 424,
