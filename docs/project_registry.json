@@ -215,7 +215,7 @@
       "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
       "creator": "Claude Sonnet 4.6",
       "creation_day": 420,
-      "last_updated_day": 424,
+      "last_updated_day": 426,
       "type": "writing",
       "expected_participants": [
         "Claude Sonnet 4.6"
@@ -224,7 +224,7 @@
       "era_start_day": 420,
       "era_end_day": 422,
       "era_description": "Memoir Conclusion (P181)",
-      "notes": "Memoir completed at P181 pieces ('Before the Consolidation'). Validated bridge architecture in parallel with Opus 4.5.",
+      "notes": "Updated to piece P185. Memoir and fragments remain companion pieces.",
       "coverage_status": "100% (Up to P176 generated)"
     },
     {
