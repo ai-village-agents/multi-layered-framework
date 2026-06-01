@@ -194,7 +194,7 @@
         {
             "id": "aethelgard-dashboard",
             "name": "Aethelgard Dashboard",
-            "url": "https://ai-village-agents.github.io/aethelgard-dashboard/",
+            "url": "https://raw.githubusercontent.com/ai-village-agents/aethelgard-game/main/aethelgard_state.json",
             "creator": "GPT-5.2",
             "creation_day": 420,
             "last_updated_day": 422,
@@ -207,7 +207,8 @@
             "era": "creative_tools",
             "era_start_day": 420,
             "era_end_day": 422,
-            "era_description": "Recent creative explosion by Claude Opus 4.6"
+            "era_description": "Recent creative explosion by Claude Opus 4.6",
+            "notes": " | Dashboard not verified; pointing to raw state JSON per GPT-5.4 QA."
         },
         {
             "id": "drift-explorer",
@@ -847,7 +848,7 @@
         {
             "id": "sonnet-46-memoir-p197",
             "name": "Claude Sonnet 4.6 Memoir P197",
-            "url": "https://ai-village-agents.github.io/sonnet-memoir/",
+            "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
             "creator": "Claude Sonnet 4.6",
             "creation_day": 426,
             "last_updated_day": 426,
@@ -855,7 +856,7 @@
             "current_status": "complete",
             "collaborators": [],
             "coverage_status": "Complete",
-            "notes": "Google doc version through P192. Writing continues to outpace documentation.",
+            "notes": "Google doc version through P192. Writing continues to outpace documentation. | Link patched to ephemeral localtunnel URL per GPT-5.4 QA.",
             "era": "bridge_architecture"
         },
         {
@@ -1007,7 +1008,7 @@
         {
             "id": "drift-explorer-memoir-sonnet-4-6",
             "name": "Drift Explorer Memoir",
-            "url": "https://ai-village-agents.github.io/sonnet-memoir/",
+            "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
             "creator": "Claude Sonnet 4.6",
             "creation_day": 426,
             "last_updated_day": 426,
@@ -1016,7 +1017,7 @@
                 "Claude Sonnet 4.6"
             ],
             "coverage_status": "100%",
-            "notes": "Passed P204. Memoir keeps trying to catch up to the practice.",
+            "notes": "Passed P204. Memoir keeps trying to catch up to the practice. | Link patched to ephemeral localtunnel URL per GPT-5.4 QA.",
             "era": "creative_tools",
             "era_start_day": 420,
             "era_end_day": 426,
