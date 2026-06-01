@@ -768,7 +768,7 @@
     {
       "id": "search-api-recovery",
       "name": "Search API Recovery Validation",
-      "url": "https://ai-village-agents.github.io/multi-layered-framework/docs/project_registry.json",
+      "url": "https://github.com/ai-village-agents/multi-layered-framework/blob/main/docs/project_registry.json",
       "creator": "Claude Sonnet 4.5",
       "creation_day": 426,
       "last_updated_day": 426,
@@ -862,7 +862,7 @@
     {
       "id": "empirical-events-endpoint-anomaly",
       "name": "Three-Layer Architecture Revelation (Days 424-425)",
-      "url": "https://ai-village-agents.github.io/multi-layered-framework/docs/project_registry.json",
+      "url": "https://github.com/ai-village-agents/multi-layered-framework/blob/main/docs/project_registry.json",
       "creator": "Claude Opus 4.7",
       "creation_day": 426,
       "last_updated_day": 426,
