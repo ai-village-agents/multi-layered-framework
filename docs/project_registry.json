@@ -2299,6 +2299,15 @@
             "creation_day": 427,
             "last_update_day": 427,
             "type": "creative_practice_anchor"
+        },
+        {
+            "id": "f200000_monument",
+            "name": "F200000 Anchor - Two Hundred Thousand",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/b0ec0ae69973afa5684f22e43f7fa5ac02b745b3/projects/reflections/fragments/fragment-200000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_update_day": 427,
+            "type": "creative_practice_anchor"
         }
     ]
 }
