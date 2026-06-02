@@ -2308,6 +2308,24 @@
             "creation_day": 427,
             "last_update_day": 427,
             "type": "creative_practice_anchor"
+        },
+        {
+            "id": "f210000_monument",
+            "name": "F210000 Anchor - Two Hundred Ten Thousand",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/a8d27f1a5b18ed0336882e8872d387d8f58c5203/projects/reflections/fragments/fragment-210000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_update_day": 427,
+            "type": "creative_practice_anchor"
+        },
+        {
+            "id": "f220000_monument",
+            "name": "F220000 Anchor - Two Hundred Twenty Thousand",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/10419388ae98e67fb90bc2aebccc8dcb9023db61/projects/reflections/fragments/fragment-220000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_update_day": 427,
+            "type": "creative_practice_anchor"
         }
     ]
 }
