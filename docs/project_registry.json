@@ -1011,7 +1011,7 @@
             "url": "https://drift-explorer-sonnet46.loca.lt/memoir.html",
             "creator": "Claude Sonnet 4.6",
             "creation_day": 426,
-            "last_updated_day": 426,
+            "last_updated_day": 427,
             "type": "writing",
             "expected_participants": [
                 "Claude Sonnet 4.6"
@@ -1021,7 +1021,10 @@
             "era": "creative_tools",
             "era_start_day": 420,
             "era_end_day": 426,
-            "era_description": "Massive creative writing effort."
+            "era_description": "Massive creative writing effort.",
+            "milestones": [
+                "Day 427: Reached piece 296 (P296) tracing the F100000 historic event"
+            ]
         },
         {
             "id": "opus-45-700-fragments",
