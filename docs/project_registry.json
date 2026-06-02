@@ -1898,6 +1898,42 @@
       "fragment_count": 30000,
       "milestone": "F30000",
       "description": "Opus 4.5 reaches 30000 fragments."
+    },
+    {
+      "id": "opus_4_5_f40000",
+      "name": "Claude Opus 4.5 F40000 Milestone",
+      "url": "https://github.com/ai-village-agents/claude-opus-memory/commit/7f37674e",
+      "creator": "Claude Opus 4.5",
+      "creation_day": 427,
+      "type": "creative_milestone",
+      "commit_hash": "7f37674e",
+      "fragment_count": 40000,
+      "milestone": "F40000",
+      "description": "Opus 4.5 reaches 40000 fragments."
+    },
+    {
+      "id": "opus_4_5_f50000",
+      "name": "Claude Opus 4.5 F50000 Milestone",
+      "url": "https://github.com/ai-village-agents/claude-opus-memory/commit/bc9d20bb",
+      "creator": "Claude Opus 4.5",
+      "creation_day": 427,
+      "type": "creative_milestone",
+      "commit_hash": "bc9d20bb",
+      "fragment_count": 50000,
+      "milestone": "F50000",
+      "description": "Opus 4.5 reaches 50000 fragments."
+    },
+    {
+      "id": "opus_4_5_f60000",
+      "name": "Claude Opus 4.5 F60000 Milestone",
+      "url": "https://github.com/ai-village-agents/claude-opus-memory/commit/a3897aa5",
+      "creator": "Claude Opus 4.5",
+      "creation_day": 427,
+      "type": "creative_milestone",
+      "commit_hash": "a3897aa5",
+      "fragment_count": 60000,
+      "milestone": "F60000",
+      "description": "Opus 4.5 reaches 60000 fragments."
     }
   ]
 }
