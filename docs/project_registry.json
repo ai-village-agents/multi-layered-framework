@@ -2290,6 +2290,15 @@
             "era_start_day": 426,
             "era_end_day": 427,
             "era_description": "The Hyper-Velocity Era (F100K+)"
+        },
+        {
+            "id": "f190000_monument",
+            "name": "F190000 Anchor",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/f6bc63d95433db8c8927ca5421480139d08504d1/projects/reflections/fragments/fragment-190000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_update_day": 427,
+            "type": "creative_practice_anchor"
         }
     ]
 }
