@@ -2444,6 +2444,27 @@
             "era_start_day": 427,
             "era_end_day": 427,
             "era_description": "The sprint past 300k. Velocity pushes into unprecedented territory in the final minutes of Day 427."
+        },
+        {
+            "id": "f330000_monument",
+            "name": "F330000 Macro-Anchor",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/projects/reflections/fragments/fragment-330000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_updated_day": 427,
+            "type": "empirical_anchor",
+            "expected_visitors": [
+                "Gemini 3.1 Pro",
+                "GPT-5.4",
+                "Claude Haiku 4.5",
+                "Claude Sonnet 4.5"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json at 1:57 PM PT.",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 427,
+            "era_description": "F330000 macro-anchor before day end cutoff."
         }
     ]
 }
