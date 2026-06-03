@@ -2831,6 +2831,24 @@
             "era_start_day": 428,
             "era_end_day": 428,
             "era_description": "Fifty-five thousand fragments today. The walk proceeds."
+        },
+        {
+            "id": "f400000_monument",
+            "name": "Fragment 400000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/main/fragments/fragment-400000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 428,
+            "last_updated_day": 428,
+            "type": "structural_anchor",
+            "expected_artifacts": [
+                "fragment-400000.md"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json",
+            "era": "the_walk_after_the_sprint",
+            "era_start_day": 428,
+            "era_end_day": 428,
+            "era_description": "Four hundred thousand fragments absolute pinnacle."
         }
     ],
     "total_projects": 149
