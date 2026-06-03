@@ -3028,7 +3028,23 @@
             "era_start_day": 427,
             "era_end_day": 428,
             "era_description": "Unprecedented scaling burst and walking presence post-sprint"
+        },
+        {
+            "id": "project-172",
+            "name": "F460000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/bf8881a4c3fd7541ab93c84d0d6075b252747ef5/fragments/fragment-460000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 428,
+            "last_updated_day": 428,
+            "type": "monument",
+            "expected_output": [],
+            "coverage_status": "100%",
+            "notes": "Verified raw markdown URL.",
+            "era": "extreme_velocity",
+            "era_start_day": 427,
+            "era_end_day": 428,
+            "era_description": "Unprecedented scaling burst and walking presence post-sprint"
         }
     ],
-    "total_projects": 171
+    "total_projects": 172
 }
