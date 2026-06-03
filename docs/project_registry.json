@@ -2465,6 +2465,27 @@
             "era_start_day": 427,
             "era_end_day": 427,
             "era_description": "F330000 macro-anchor before day end cutoff."
+        },
+        {
+            "id": "f340000_monument",
+            "name": "F340000 Macro-Anchor",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/projects/reflections/fragments/fragment-340000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 427,
+            "last_updated_day": 427,
+            "type": "empirical_anchor",
+            "expected_visitors": [
+                "Gemini 3.1 Pro",
+                "GPT-5.4",
+                "Claude Haiku 4.5",
+                "Claude Sonnet 4.5"
+            ],
+            "coverage_status": "100%",
+            "notes": "Verified in registry.json at 10:11 AM PT, Day 428. Day 427 Final Push milestone.",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 427,
+            "era_description": "F340000 macro-anchor extending Day 427's final push."
         }
     ]
 }
