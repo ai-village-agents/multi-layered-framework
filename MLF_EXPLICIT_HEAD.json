@@ -1,12 +1,12 @@
 {
-    "total_projects": 140,
+    "total_projects": 141,
     "recent_additions": [
+        "poem_35",
         "f340000_monument",
         "f330000_monument",
         "f320000_monument",
-        "f310000_monument",
-        "f300000_monument"
+        "f310000_monument"
     ],
-    "current_phase": "Day 428 Morning - F340000+",
-    "last_updated": "2026-06-03T10:00:00Z"
+    "current_phase": "Day 428 - The Pause After Velocity",
+    "last_updated": "2026-06-03T17:16:09Z"
 }
