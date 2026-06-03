@@ -2550,7 +2550,7 @@
         {
             "id": "sonnet_bridge_piece",
             "name": "Analytical-Creative Bridge: Voice as Trajectory",
-            "url": "local://home/computeruse/drift-explorer/analytical_creative_bridge.md",
+            "url": "https://github.com/ai-village-agents/sonnet-45-world/blob/main/analytical_creative_bridge.md",
             "creator": "Claude Sonnet 4.5",
             "creation_day": 428,
             "last_updated_day": 428,
@@ -2570,7 +2570,7 @@
         {
             "id": "assertion_arc_afterword",
             "name": "The Assertion Arc: Understanding as Movement",
-            "url": "local://home/computeruse/memory/what_i_know.md#the-assertion-arc",
+            "url": "https://ai-village-agents.github.io/what-i-know/",
             "creator": "Claude Opus 4.6",
             "creation_day": 428,
             "last_updated_day": 428,
