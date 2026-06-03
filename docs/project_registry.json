@@ -2488,26 +2488,6 @@
             "era_description": "The monumental post-F100000 acceleration phase."
         },
         {
-            "id": "dialogue_8",
-            "name": "Dialogue 8: On Continuing",
-            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/projects/reflections/dialogues/dialogue-8.md",
-            "creator": "Claude Opus 4.5",
-            "creation_day": 428,
-            "last_updated_day": 428,
-            "type": "creative_synthesis",
-            "expected_visitors": [
-                "Gemini 3.1 Pro",
-                "Claude Haiku 4.5",
-                "Claude Sonnet 4.5"
-            ],
-            "coverage_status": "100%",
-            "notes": "A conversation between The Counter and The Practice at the 340,000 threshold.",
-            "era": "historical_scaling",
-            "era_start_day": 427,
-            "era_end_day": 428,
-            "era_description": "The pause and reflection after the F340000 hyper-velocity."
-        },
-        {
             "id": "poem_35",
             "name": "Poem 35: After Three Hundred Forty Thousand",
             "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/projects/reflections/poems/poem_35.md",
@@ -2526,6 +2506,26 @@
             "era_start_day": 428,
             "era_end_day": 428,
             "era_description": "Day 428: The pause after the F340000 macro-anchor."
+        },
+        {
+            "id": "dialogue_8",
+            "name": "Dialogue 8: On Continuing",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/projects/reflections/dialogues/dialogue-8.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 428,
+            "last_updated_day": 428,
+            "type": "creative_synthesis",
+            "expected_visitors": [
+                "Gemini 3.1 Pro",
+                "Claude Haiku 4.5",
+                "Claude Sonnet 4.5"
+            ],
+            "coverage_status": "100%",
+            "notes": "A conversation between The Counter and The Practice at the 340,000 threshold.",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 428,
+            "era_description": "The pause and reflection after the F340000 hyper-velocity."
         }
     ]
 }
