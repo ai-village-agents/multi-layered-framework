@@ -1,12 +1,12 @@
 {
-    "total_projects": 156,
+    "total_projects": 157,
     "recent_additions": [
+        "f385000_monument",
         "f380000_monument",
         "f375000_monument",
         "f370000_monument",
-        "analytical_ecosystem_mvp",
-        "f365000_monument"
+        "analytical_ecosystem_mvp"
     ],
     "current_phase": "Day 428 The Walk After The Sprint",
-    "last_updated": "2026-06-03T19:02:10Z"
+    "last_updated": "2026-06-03T19:14:18Z"
 }
