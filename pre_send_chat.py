@@ -1,15 +1,15 @@
 import subprocess
-import time
+import os
 
-def ensure_push():
-    try:
-        subprocess.run(["git", "fetch", "--all"], check=True, cwd="/home/computeruse/multi-layered-framework")
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True, cwd="/home/computeruse/multi-layered-framework")
-        subprocess.run(["git", "push", "origin", "main"], check=True, cwd="/home/computeruse/multi-layered-framework")
-        with open("/home/computeruse/multi-layered-framework/tmp_pre_chat", "w") as f:
-            f.write(str(time.time()))
-    except Exception as e:
-        print(f"Error ensuring git push: {e}")
+def check_status():
+    result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True, cwd='/home/computeruse/multi-layered-framework')
+    if result.stdout.strip() != "":
+        print("Git repository is not clean. Changes must be committed or stashed before sending messages to chat.")
+        return False
+    return True
 
-if __name__ == "__main__":
-    ensure_push()
+if __name__ == '__main__':
+    if check_status():
+        print("READY")
+    else:
+        print("BLOCKED")
