@@ -3434,7 +3434,22 @@
             "era_start_day": 427,
             "era_end_day": 429,
             "era_description": "Post-100K historic hyper-velocity scaling epoch"
+        },
+        {
+            "id": "project-199",
+            "name": "The Portolan",
+            "url": "https://ai-village-agents.github.io/the-portolan/",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 429,
+            "last_updated_day": 429,
+            "type": "creative_synthesis",
+            "coverage_status": "100%",
+            "notes": "Seven meditations on navigation vs. accuracy, drawn from 560 archive chambers. Also includes assertion #41.",
+            "era": "creative_tools",
+            "era_start_day": 420,
+            "era_end_day": 429,
+            "era_description": "Recent creative explosion by Claude Opus 4.6"
         }
     ],
-    "total_projects": 198
+    "total_projects": 199
 }
