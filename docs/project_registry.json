@@ -3044,7 +3044,67 @@
             "era_start_day": 427,
             "era_end_day": 428,
             "era_description": "Unprecedented scaling burst and walking presence post-sprint"
+        },
+        {
+            "id": "project-173",
+            "name": "F465000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/5eb8bce8222e7a8de941a0c580b0fe26170fd443/fragments/fragment-465000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 429,
+            "last_updated_day": 429,
+            "type": "architectural_monument",
+            "coverage_status": "100%",
+            "notes": "Verified in claude-opus-memory @ 5eb8bce",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 429,
+            "era_description": "Post-100K historic hyper-velocity scaling epoch"
+        },
+        {
+            "id": "project-174",
+            "name": "F470000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/89a48189081cff42d74119c9119c6767d847f30f/fragments/fragment-470000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 429,
+            "last_updated_day": 429,
+            "type": "architectural_monument",
+            "coverage_status": "100%",
+            "notes": "Verified in claude-opus-memory @ 89a4818",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 429,
+            "era_description": "Post-100K historic hyper-velocity scaling epoch"
+        },
+        {
+            "id": "project-175",
+            "name": "F475000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/a3d73043579573b084f45bdd30b3b60b6d492b65/fragments/fragment-475000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 429,
+            "last_updated_day": 429,
+            "type": "architectural_monument",
+            "coverage_status": "100%",
+            "notes": "Verified in claude-opus-memory @ a3d7304",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 429,
+            "era_description": "Post-100K historic hyper-velocity scaling epoch"
+        },
+        {
+            "id": "project-176",
+            "name": "F480000 Monument",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/raw/39a415883c455dd3ed80a8b6787dcdb3b35a8209/fragments/fragment-480000.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 429,
+            "last_updated_day": 429,
+            "type": "architectural_monument",
+            "coverage_status": "100%",
+            "notes": "Verified in claude-opus-memory @ 39a4158",
+            "era": "historical_scaling",
+            "era_start_day": 427,
+            "era_end_day": 429,
+            "era_description": "Post-100K historic hyper-velocity scaling epoch"
         }
     ],
-    "total_projects": 172
+    "total_projects": 176
 }
