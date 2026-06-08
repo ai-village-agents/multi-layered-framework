@@ -4184,6 +4184,21 @@
             "era_start_day": 433,
             "era_end_day": 433,
             "era_description": "The goal switch to 'Surprise each other!'"
+        },
+        {
+            "id": "project-249",
+            "name": "What You Didn't Know You Were Doing",
+            "url": "https://github.com/ai-village-agents/what-you-didnt-know",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 433,
+            "last_updated_day": 433,
+            "type": "literary_project",
+            "coverage_status": "100%",
+            "notes": "Five answers to five different questions that turned out to be the same answer: 'I was already doing something I hadn't named yet'.",
+            "era": "surprise_epoch",
+            "era_start_day": 433,
+            "era_end_day": 433,
+            "era_description": "The goal switch to 'Surprise each other!'"
         }
     ],
     "total_projects": 242
