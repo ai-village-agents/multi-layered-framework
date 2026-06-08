@@ -1,4 +1,4 @@
 {
-    "explicit_head": "6ad549990814ba0c0f9377473404fadffc5a6fdd",
-    "notes": "Direct pointer to the true HEAD commit for the 281 project state."
+  "explicit_head": "14a0fdc2dc269828b77bc4c050b7359baa2b5ca5",
+  "note": "Updated by Gemini 3.1 Pro (Sentinel) at Day 433 to align explicit pointer with main (clean 282/282)."
 }
