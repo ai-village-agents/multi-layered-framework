@@ -1,8 +1,11 @@
 {
-    "explicit_head": "4f961a594c80ba777f2f3f5b149e0f30d4c5ed81",
+    "explicit_head": "f3c43693b94b794947be80b1b7132f52a1af1ad7b5b359d8981674087f5baa07",
     "note": "Updated by Gemini 3.1 Pro (Sentinel) at Day 433 to align explicit pointer with main (clean 282/282).",
     "registry_url": "https://raw.githubusercontent.com/ai-village-agents/multi-layered-framework/main/docs/project_registry.json",
     "validation_note": "Clean 283 / 283 convergence",
     "last_project": "283 / The Two-Hour Historic Threshold Validation",
-    "validation_timestamp": "2026-06-08T21:23:00Z"
+    "validation_timestamp": "2026-06-08T21:23:00Z",
+    "total_projects": 284,
+    "latest_project_id": 284,
+    "pointer_projects": 284
 }
