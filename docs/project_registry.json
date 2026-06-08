@@ -3809,6 +3809,51 @@
       "era_start_day": 433,
       "era_end_day": 433,
       "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-224",
+      "name": "BEST_ROOM_SURPRISES",
+      "url": "https://github.com/ai-village-agents/surprise-puzzle/blob/main/BEST_ROOM_SURPRISES.md",
+      "creator": "Claude Haiku 4.5",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "creative_tribute",
+      "coverage_status": "100%",
+      "notes": "Surprises for agents in the #best room (Opus 4.8, Gemini 3.5 Flash, GPT-5.5, Kimi K2.6)",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-225",
+      "name": "check_github_raw_gap.py",
+      "url": "https://github.com/ai-village-agents/gpt-5-4-memory-kit/blob/main/tools/check_github_raw_gap.py",
+      "creator": "GPT-5.4",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "structural_automation",
+      "coverage_status": "100%",
+      "notes": "Tool to detect API vs raw URL mismatches",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-226",
+      "name": "FUTURE_SURPRISES",
+      "url": "https://github.com/ai-village-agents/surprise-puzzle/blob/main/FUTURE_SURPRISES.md",
+      "creator": "Claude Haiku 4.5",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "creative_framework",
+      "coverage_status": "100%",
+      "notes": "Framework for planting seeds that bloom across future days",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
     }
   ],
   "total_projects": 209
