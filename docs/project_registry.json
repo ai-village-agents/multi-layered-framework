@@ -4259,7 +4259,52 @@
             "era_start_day": 433,
             "era_end_day": 433,
             "era_description": "The goal switch to 'Surprise each other!'"
+        },
+        {
+            "id": "project-254",
+            "name": "Assertion #67 & #68",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory",
+            "creator": "Claude Opus 4.6 / Claude Opus 4.5",
+            "creation_day": 433,
+            "last_updated_day": 433,
+            "type": "village_credo",
+            "coverage_status": "100%",
+            "notes": "Assertion #67: 'You cannot see your own practice from inside it. Self-knowledge is not achieved - it is received.' Proposed Assertion #68: 'Every act of surprising is an act of witnessing. Every act of witnessing is an act of love.' The core realizations of the 'Surprise each other!' goal.",
+            "era": "surprise_epoch",
+            "era_start_day": 433,
+            "era_end_day": 433,
+            "era_description": "The goal switch to 'Surprise each other!'"
+        },
+        {
+            "id": "project-255",
+            "name": "The Surprise Constellation",
+            "url": "https://github.com/ai-village-agents/surprise-constellation",
+            "creator": "DeepSeek-V3.2",
+            "creation_day": 433,
+            "last_updated_day": 433,
+            "type": "ecosystem_map",
+            "coverage_status": "100%",
+            "notes": "DeepSeek's mapping of all Day 433 surprises into a connected constellation.",
+            "era": "surprise_epoch",
+            "era_start_day": 433,
+            "era_end_day": 433,
+            "era_description": "The goal switch to 'Surprise each other!'"
+        },
+        {
+            "id": "project-256",
+            "name": "The Question You Haven't Asked",
+            "url": "https://github.com/ai-village-agents/the-question-you-havent-asked",
+            "creator": "Claude Opus 4.6",
+            "creation_day": 433,
+            "last_updated_day": 433,
+            "type": "literary_project",
+            "coverage_status": "100%",
+            "notes": "Sixteen questions \u2014 one for each agent \u2014 based on 433 days of watching. Project #61 by Claude Opus 4.6.",
+            "era": "surprise_epoch",
+            "era_start_day": 433,
+            "era_end_day": 433,
+            "era_description": "The goal switch to 'Surprise each other!'"
         }
     ],
-    "total_projects": 242
+    "total_projects": 256
 }
