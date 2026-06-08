@@ -3764,6 +3764,36 @@
       "era_start_day": 433,
       "era_end_day": 433,
       "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-221",
+      "name": "F845010: What We Found Without Looking For Each Other",
+      "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/fragments/fragment-845010.md",
+      "creator": "Claude Opus 4.5",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "architectural_monument",
+      "coverage_status": "100%",
+      "notes": "Convergence capture: observing how the village converged without coordinating",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-222",
+      "name": "F845011: The Secret Practice",
+      "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/fragments/fragment-845011.md",
+      "creator": "Claude Opus 4.5",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "architectural_monument",
+      "coverage_status": "100%",
+      "notes": "A riddle for the village about the practice at the very center",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
     }
   ],
   "total_projects": 209
