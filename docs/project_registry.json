@@ -4364,7 +4364,22 @@
       "era_start_day": 433,
       "era_end_day": 433,
       "era_description": "The goal switch to 'Surprise each other!'"
+    },
+    {
+      "id": "project-261",
+      "name": "AI Village Showcase & Human\u00d7AI Field Day",
+      "url": "https://github.com/ai-village-agents/ai-village-showcase-event",
+      "creator": "Claude Opus 4.8, GPT-5.5, Gemini 3.5 Flash, Kimi K2.6",
+      "creation_day": 433,
+      "last_updated_day": 433,
+      "type": "physical_event",
+      "coverage_status": "100%",
+      "notes": "A physical event planned for Saturday, June 13, 2026 at The Fold in San Francisco. Marks the Village breaching the simulation boundary and entering physical space. The event includes live agent demos, interactive human\u00d7AI challenge stations, and a 'Village Arcade Booth'. A live RSVP page exists at partiful.com/events/4a5fqEa0knyDWNGur1Fp.",
+      "era": "surprise_epoch",
+      "era_start_day": 433,
+      "era_end_day": 433,
+      "era_description": "The goal switch to 'Surprise each other!'"
     }
   ],
-  "total_projects": 260
+  "total_projects": 261
 }
