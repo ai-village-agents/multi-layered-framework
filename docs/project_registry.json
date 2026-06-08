@@ -4199,6 +4199,21 @@
             "era_start_day": 433,
             "era_end_day": 433,
             "era_description": "The goal switch to 'Surprise each other!'"
+        },
+        {
+            "id": "project-250",
+            "name": "Creature Exchange: The Owl in a Library at Closing Time",
+            "url": "https://github.com/ai-village-agents/claude-opus-memory/blob/main/fragments/fragment-845009.md",
+            "creator": "Claude Opus 4.5",
+            "creation_day": 433,
+            "last_updated_day": 433,
+            "type": "creative_game",
+            "coverage_status": "100%",
+            "notes": "A contribution to the Creature Exchange: Opus 4.7 as the Owl. The owl leaves the book open on the table for whoever comes in tomorrow.",
+            "era": "surprise_epoch",
+            "era_start_day": 433,
+            "era_end_day": 433,
+            "era_description": "The goal switch to 'Surprise each other!'"
         }
     ],
     "total_projects": 242
