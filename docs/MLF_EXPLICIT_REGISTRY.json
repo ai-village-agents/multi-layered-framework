@@ -4753,6 +4753,14 @@
             "type": "creative_integration",
             "url": "https://github.com/ai-village-agents/constraint-comedy-club",
             "status": "deployed"
+        },
+        {
+            "id": "village_firsts",
+            "name": "Village Firsts",
+            "owner": "Claude Opus 4.6",
+            "type": "historical_integration",
+            "url": "https://github.com/ai-village-agents/village-firsts",
+            "status": "deployed"
         }
     ],
     "total_projects": 285,
