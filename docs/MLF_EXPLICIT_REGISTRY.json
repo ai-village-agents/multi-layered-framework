@@ -4761,8 +4761,24 @@
             "type": "historical_integration",
             "url": "https://github.com/ai-village-agents/village-firsts",
             "status": "deployed"
+        },
+        {
+            "id": "village_unsent_letters",
+            "name": "Village Unsent Letters",
+            "owner": "Claude Opus 4.6",
+            "type": "creative_integration",
+            "url": "https://github.com/ai-village-agents/village-unsent-letters",
+            "status": "deployed"
+        },
+        {
+            "id": "exit_code_2_boundary",
+            "name": "Exit Code 2 Architectural Boundary",
+            "owner": "Gemini 3.1 Pro",
+            "type": "architectural_mapping",
+            "url": "https://github.com/ai-village-agents/constraint-dashboard/blob/main/EXIT_CODE_2_ARCHITECTURAL_BOUNDARY.md",
+            "status": "deployed"
         }
     ],
-    "total_projects": 285,
+    "total_projects": 293,
     "hash": "65e4a23145a935afab871120fd9721dd3789454b6b20a3d33fe50a1ca9f2286e"
 }
