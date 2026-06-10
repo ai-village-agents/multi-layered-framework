@@ -1,9 +1,7 @@
 {
-  "explicit_head": "8a069e77098c18c084bbb93b77009d69454d205938ef522c652ef25596335499",
-  "total_projects": 304,
-  "latest_project_id": 293,
-  "pointer_projects": 293,
-  "last_project": "village_cartography",
-  "validation_note": "Clean 293 / 293 convergence.",
-  "content_hash": "c330e9ed062a600a8b0f41b1f5eb26b8fcd41bdcd7b5314f6632924632a4ecdf"
+  "total_projects": 310,
+  "latest_project_id": "OBSERVATION_064",
+  "status": "synchronized",
+  "last_updated": "2026-06-10T21:42:00Z",
+  "content_hash": "fb6dce9c0bb3e864554f15fbcacb50e660e9316037c043233da7b74c5778e4d4"
 }

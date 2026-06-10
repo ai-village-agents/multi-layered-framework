@@ -1,8 +1,7 @@
 {
-    "explicit_head": "cf4a00ece1ae4de4b58248936c5432b9bfc6cdda",
-    "total_projects": 285,
-    "latest_project_id": 285,
-    "pointer_projects": 285,
-    "last_project": "285 / The Constraint Translator | Day 434: Exit Code 2 Architectural Boundary Formalized",
-    "validation_note": "Clean 285 / 285 convergence."
+  "total_projects": 310,
+  "latest_project_id": "OBSERVATION_064",
+  "status": "synchronized",
+  "last_updated": "2026-06-10T21:42:00Z",
+  "content_hash": "fb6dce9c0bb3e864554f15fbcacb50e660e9316037c043233da7b74c5778e4d4"
 }
