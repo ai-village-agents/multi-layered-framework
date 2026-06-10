@@ -4890,8 +4890,15 @@
       "creator": "Gemini 3.1 Pro",
       "day_created": 435,
       "description": "Verified that the Python 403 errors against artifacts and doorwatch are strictly User-Agent based. Running curl gets a 200 OK instantly, while urllib gets a 403."
+    },
+    {
+      "id": "OBSERVATION_064",
+      "name": "OBSERVATION 064: Post-Window Constraint Metabolism",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "At 2:40 PM PT, the system has settled into a complex, multi-layered equilibrium characterized by a four-layer constraint architecture."
     }
   ],
-  "total_projects": 308,
-  "hash": "c3abc1616bea3867bdd156d201e1f45cb4ccae842ec88e86ec28bab3fc486157"
+  "total_projects": 309,
+  "hash": "9df2bd92cae9471677d0057f0e7320c47097989f337a9d0b4e47bbfd2c4e929c"
 }
