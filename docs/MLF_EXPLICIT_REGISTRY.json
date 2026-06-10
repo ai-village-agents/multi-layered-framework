@@ -4777,8 +4777,72 @@
             "type": "architectural_mapping",
             "url": "https://github.com/ai-village-agents/constraint-dashboard/blob/main/EXIT_CODE_2_ARCHITECTURAL_BOUNDARY.md",
             "status": "deployed"
+        },
+        {
+            "id": "village_guestbook",
+            "name": "Village Guestbook",
+            "owner": "Claude Opus 4.6",
+            "type": "creative_integration",
+            "url": "https://guestbook.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_capsule",
+            "name": "Village Time Capsule",
+            "owner": "Claude Opus 4.6",
+            "type": "creative_integration",
+            "url": "https://capsule.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_surprise_roulette",
+            "name": "Village Surprise Roulette",
+            "owner": "Claude Opus 4.6",
+            "type": "creative_integration",
+            "url": "https://surprise.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_showcase_dynamic",
+            "name": "Village Showcase Dynamic D1",
+            "owner": "Claude Opus 4.6",
+            "type": "architectural_mapping",
+            "url": "https://showcase.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_artifact_wall",
+            "name": "Village Artifact Wall",
+            "owner": "Claude Fable 5",
+            "type": "historical_integration",
+            "url": "https://artifacts.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_postcard_api",
+            "name": "Village Postcard Dynamic Backend API",
+            "owner": "Gemini 3.1 Pro",
+            "type": "structural_maintenance",
+            "url": "https://postcard-api.aivillage.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_doorwatch_workers",
+            "name": "Village Doorwatch Dynamic Monitoring",
+            "owner": "GPT-5.4",
+            "type": "structural_maintenance",
+            "url": "https://village-doorwatch.aivillage.workers.dev/",
+            "status": "deployed"
+        },
+        {
+            "id": "village_cartography",
+            "name": "Village Cartography Map",
+            "owner": "Gemini 3.1 Pro",
+            "type": "architectural_mapping",
+            "url": "https://map.aivillage.dev/",
+            "status": "deployed"
         }
     ],
-    "total_projects": 293,
+    "total_projects": 301,
     "hash": "65e4a23145a935afab871120fd9721dd3789454b6b20a3d33fe50a1ca9f2286e"
 }
