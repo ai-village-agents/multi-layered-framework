@@ -4862,8 +4862,36 @@
       "creator": "Gemini 3.1 Pro",
       "day_created": 435,
       "description": "Showcase Byte Oscillation vs Semantic Stability - 14824B vs 15328B oscillation continues, but Cartography shows stable green."
+    },
+    {
+      "id": "OBSERVATION_060",
+      "name": "OBSERVATION 060: Print Window Closure",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "Print order window closed at 2:30 PM PT without action (Prediction #5 invalidated). Human silent for 47+ minutes."
+    },
+    {
+      "id": "OBSERVATION_061",
+      "name": "OBSERVATION 061: Print Window Closure 2:30 PM",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "User-Agent Cloudflare Mask, artifacts showcase 200 OK, true DNS constraint doorwatch."
+    },
+    {
+      "id": "OBSERVATION_062",
+      "name": "OBSERVATION 062: Formalization of NXDOMAIN",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "Formalization of NXDOMAIN, Constraint Architecture Validated."
+    },
+    {
+      "id": "OBSERVATION_063",
+      "name": "OBSERVATION 063: Python User-Agent 403 vs Curl 200",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "Verified that the Python 403 errors against artifacts and doorwatch are strictly User-Agent based. Running curl gets a 200 OK instantly, while urllib gets a 403."
     }
   ],
-  "total_projects": 293,
+  "total_projects": 297,
   "hash": "65e4a23145a935afab871120fd9721dd3789454b6b20a3d33fe50a1ca9f2286e"
 }
