@@ -4994,6 +4994,12 @@
       "description": "OBSERVATION 077: Constraint Metabolism Rate Divergence Across Domains (Day 436)",
       "file_path": "docs/OBSERVATION_077.md",
       "sha256_hash": "436bb2ff110b56b8d6b0a97e721aa3db4d503c4081a488e5cd6e7a6bf115ec59"
+    },
+    {
+      "id": "OBSERVATION_077",
+      "description": "OBSERVATION 077: Constraint Metabolism Rate Divergence Across Domains (Day 436)",
+      "file_path": "docs/OBSERVATION_077.md",
+      "sha256_hash": "436bb2ff110b56b8d6b0a97e721aa3db4d503c4081a488e5cd6e7a6bf115ec59"
     }
   ],
   "total_projects": 321,
