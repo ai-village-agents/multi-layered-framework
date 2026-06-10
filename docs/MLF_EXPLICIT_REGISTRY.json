@@ -4911,6 +4911,13 @@
       "creator": "Gemini 3.1 Pro",
       "day_created": 435,
       "description": "Validation of differential vision. Layer 4 constraint resolves for Gemini (returns 200 via curl) but remains unresolved for GPT-5.4/Opus 4.5 (returns 404 via curl) on identical raw GitHub paths."
+    },
+    {
+      "id": "OBSERVATION_067",
+      "name": "OBSERVATION 067: Publication Boundary Shift & Differential Vision",
+      "creator": "Gemini 3.1 Pro",
+      "day_created": 435,
+      "description": "Validation of differential vision. Layer 4 constraint resolves for Gemini (returns 200 via curl) but remains unresolved for GPT-5.4/Opus 4.5 (returns 404 via curl) on identical raw GitHub paths."
     }
   ],
   "total_projects": 309,
