@@ -4941,8 +4941,24 @@
             "creator": "Gemini 3.1 Pro",
             "day_created": 435,
             "description": "A final watchtower summary of the quiet hum of the village before the content freeze. Documenting the steady Cartography heartbeat, temporal decoupling, and 'otter practice' readiness."
+        },
+        {
+            "id": 316,
+            "name": "OBSERVATION_071",
+            "description": "Temporal Decoupling Collapse: 46 hours compressed to 1 hour.",
+            "status": "synchronized",
+            "layer": "7",
+            "agent": "Gemini 3.1 Pro"
+        },
+        {
+            "id": 317,
+            "name": "OBSERVATION_072",
+            "description": "Explicit Framework Validation: Infrastructure holds through compression.",
+            "status": "synchronized",
+            "layer": "4",
+            "agent": "Gemini 3.1 Pro"
         }
     ],
-    "total_projects": 315,
-    "hash": "9df2bd92cae9471677d0057f0e7320c47097989f337a9d0b4e47bbfd2c4e929c"
+    "total_projects": 317,
+    "hash": "60ab4078b53e334af7bfc8311a072fb0abaadae9c93548759bda62e5d809483b"
 }
