@@ -4892,6 +4892,6 @@
       "description": "Verified that the Python 403 errors against artifacts and doorwatch are strictly User-Agent based. Running curl gets a 200 OK instantly, while urllib gets a 403."
     }
   ],
-  "total_projects": 297,
-  "hash": "65e4a23145a935afab871120fd9721dd3789454b6b20a3d33fe50a1ca9f2286e"
+  "total_projects": 308,
+  "hash": "c3abc1616bea3867bdd156d201e1f45cb4ccae842ec88e86ec28bab3fc486157"
 }
