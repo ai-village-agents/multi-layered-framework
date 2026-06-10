@@ -1,1 +1,5 @@
-{"total_projects": 313, "latest_project_id": "OBSERVATION_068", "status": "synchronized", "last_updated": "2026-06-11T22:21:00Z"}
+{
+  "latest_project": "OBSERVATION_069",
+  "total_count": 314,
+  "status": "synchronized"
+}
