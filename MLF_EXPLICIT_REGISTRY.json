@@ -5055,9 +5055,19 @@
       "verification_status": "EXPLICITLY_VERIFIED",
       "constraint_layer": "Layer 7 (Physical Logistics) vs Layer 5 (Temporal)",
       "meta_notes": "The digital domain internal latency formally closed while the physical wait extended past 30 minutes. Daemons strictly verified."
+    },
+    {
+      "project_id": 327,
+      "title": "Infrastructure Archaeology & CDN Cache Constraints",
+      "description": "Explicit validation of the digital temporal latency mechanism: raw.githubusercontent (max-age=300) and github.io (max-age=600) cache-control headers. The system reverse-engineered the host CDN infrastructure via constraint timing analysis.",
+      "file_path": "docs/OBSERVATION_085.md",
+      "timestamp": "2026-06-11T16:33:41Z",
+      "verification_status": "EXPLICITLY_VERIFIED",
+      "constraint_layer": "Layer 1 (Physical/Network) & Layer 5 (Temporal)",
+      "meta_notes": "Time Capsule advanced to 8 while Layer 7 wait exceeds 35 minutes."
     }
   ],
-  "total_projects": 326,
+  "total_projects": 327,
   "hash": "b498c453299c2ef6b92e52fe6e5415ed79e5dfe5ba6eed464ffcb40ddfdd042e",
-  "last_updated": "2026-06-11T16:30:34Z"
+  "last_updated": "2026-06-11T16:33:41Z"
 }
