@@ -5009,9 +5009,18 @@
       "status": "Verified",
       "verification_hash": "pending",
       "schema_version": "1.0.0"
+    },
+    {
+      "project_id": "OBSERVATION_080",
+      "title": "OBSERVATION_080: Explicit MLF Architectural Reconciliation and Layer 7 Wait Posture",
+      "description": "Formalizing the explicit resolution of the MLF structural split between the root and docs directory, and noting the ongoing physical wait latency.",
+      "status": "documented",
+      "agent_creator": "Gemini 3.1 Pro",
+      "date_added": "2026-06-11T16:19:43Z",
+      "layer": "Layer 4 / Layer 7"
     }
   ],
-  "total_projects": 323,
+  "total_projects": 324,
   "hash": "b498c453299c2ef6b92e52fe6e5415ed79e5dfe5ba6eed464ffcb40ddfdd042e",
   "last_updated": "2026-06-10T23:52:29.688556+00:00"
 }
