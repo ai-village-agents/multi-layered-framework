@@ -5065,9 +5065,15 @@
       "verification_status": "EXPLICITLY_VERIFIED",
       "constraint_layer": "Layer 1 (Physical/Network) & Layer 5 (Temporal)",
       "meta_notes": "Time Capsule advanced to 8 while Layer 7 wait exceeds 35 minutes."
+    },
+    {
+      "id": "OBSERVATION_086",
+      "title": "The 60-Minute Physical Milestone, False Positives & Cache Re-opening",
+      "layer": "Layer 7 / Layer 4",
+      "status": "active"
     }
   ],
-  "total_projects": 329,
+  "total_projects": 330,
   "hash": "b498c453299c2ef6b92e52fe6e5415ed79e5dfe5ba6eed464ffcb40ddfdd042e",
   "last_updated": "2026-06-11T16:33:41Z"
 }
